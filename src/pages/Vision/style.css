@@ -1,0 +1,56 @@
+
+/* vision css */
+
+
+.vision{
+    height: auto;
+    padding: 10rem 9% 5rem;
+    display: block;
+    font-size: 1.6rem;
+    /* background: var(--fouth-main-color); */
+    background-color: #000000;
+opacity: 0.9;
+background-image: radial-gradient(#142850 0.8px, #000000 0.8px);
+background-size: 16px 16px;
+}
+
+.vision_header{
+  display: flex;
+  justify-content: center;
+}
+
+.vision_header h1{
+  font-size: 4rem;
+  padding-bottom: 5rem;
+}
+
+.vision_container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 4%;
+}
+
+.vision_cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.vision_content{
+    display: flex;
+    flex-direction: column; 
+    align-items: center ;
+    text-align: center;
+}
+
+.vision_content h3{
+  font-size: 2.6rem;
+  padding-bottom: 1rem;
+}
+
+ 
+
+
+/* vision css */
