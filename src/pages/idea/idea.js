@@ -1,6 +1,6 @@
 import { Email } from "./smtp";   
 
-const IdeaJs = () => {
+const IdeaJs = () => { 
 
 const form = document.querySelector("form");
 const fullName = document.getElementById("name");

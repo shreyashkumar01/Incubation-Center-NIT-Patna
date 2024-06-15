@@ -1,6 +1,6 @@
 import React from 'react';
 import "./styles.css";
-
+import Notice from '../Notice'
 const Footer = () => {
   var currentTime = new Date();
   var year = currentTime.getFullYear();
@@ -16,6 +16,7 @@ const Footer = () => {
             <li><a href="#">our services</a></li>
             <li><a href="#">privacy policy</a></li>
             <li><a href="#">affiliate program</a></li>
+            <li><a href="http://localhost:3000/Notice/index.js">Admin Notice</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -43,7 +44,7 @@ const Footer = () => {
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
       </div>
