@@ -1,5 +1,8 @@
  // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import {useNavigate } from "react-router-dom";
+import React from 'react';
+import Pag from './page/card.js';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -11,6 +14,7 @@ import 'swiper/css/scrollbar';
 import "./style.css";
 
 const Incubations = () => {
+  const navigate = useNavigate();
   return (
    <div>
       <section className='incubations' id='incubations'>
@@ -282,7 +286,8 @@ const Incubations = () => {
       <div class="swiper-pagination"></div>
      
     <div class="events_btn">
-      <a href="events timeline/index.html" class="btn">View More</a>
+      <button className='btn' onClick={ () =>  navigate('/Pag')}> 
+      Litsen More</button>
     </div>
       </section>
      

@@ -2,12 +2,10 @@
 
 import {  Routes, Route } from 'react-router-dom';
 import './App.css';
-import Login from './pages/login/login.js'
-import Register from './pages/register/register.js'
 // import Home from './pages/Home'; 
 import Navbar from './pages/Navbarse';
 // import Director from './pages/Directors';  
-import Notice from './pages/Notice';
+// import About from './pages/about';
 // import Vision from './pages/Vision';
 // import Incubations from './pages/incubations';
 // import Incubationsoo from './pages/swiper';
@@ -19,6 +17,8 @@ import Notice from './pages/Notice';
 import Footer from './pages/footer';
 import Talks_LitsenMore from './pages/talks_LitsenMore';
 import Homes from './Homes.js';
+
+import Pag from './pages/incubations/page/card.js';
 
 
 
@@ -37,12 +37,10 @@ function App() {
           <Route  path="talks_LitsenMore/index.js" element={<Talks_LitsenMore/>}/> 
           <Route  path="/" element={<Homes />}/> 
           <Route index element={<Homes />}/>
-          <Route  path="Notice/index.js" element={<Notice/>}/> 
-          <Route path="/login" element={<Login/>}/>
-          <Route  path="Notice" element={<Notice/>}/> 
-     < Route path="/register" element={<Register/>}/>
+          <Route path="/pag" element={<Pag/>}/>
         </Routes>
-       
+        {/* <Gallery/> */}
+        <Footer/>
         
         
         
