@@ -99,6 +99,7 @@ section {
     overflow: hidden;
     width: 22vw;  
     animation: floatImage 4s ease-in-out infinite; 
+    font-size: 10px;
     /* animation-delay: 4s ; */
     /* animation: bringImage 2s ease-in-out 1 ; */
   }

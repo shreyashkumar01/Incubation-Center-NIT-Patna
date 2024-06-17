@@ -1,6 +1,7 @@
 import React from "react";
 // import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "./style.css";
+import { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
 
 // import { Button } from 'primereact/button';
@@ -12,6 +13,18 @@ const Home = () => {
   //   typeSpeed: 120,
   //   deleteSpeed: 50,
   // });
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    // Retrieve the JSON string from localStorage
+    const storedData = localStorage.getItem("data");
+    
+    // Parse the JSON string to convert it back into an array
+    if (storedData) {
+      setData(JSON.parse(storedData));
+    }
+  }, []); 
+ 
   return (
     <div>
       <section class="home" id="home">
@@ -59,26 +72,9 @@ const Home = () => {
             </div>
             <div>
               <ul class="notice-content">
-                <li>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Molestias obcaecati  adipisicing elit.
-                  Molestias obcaecati 
-                </li>
-                <li>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Molestias obcaecati  adipisicing elit.
-                  Molestias obcaecati 
-                </li>
-                <li>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Molestias obcaecati adipisicing elit.
-                  Molestias obcaecati 
-                </li>
-                <li>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Molestias obcaecati  adipisicing elit.
-                  Molestias obcaecati 
-                </li>
+              {data.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))} 
               </ul>
             </div> 
         </div>
@@ -90,4 +86,7 @@ const Home = () => {
   );
 };
 
+
 export default Home;
+
+  
