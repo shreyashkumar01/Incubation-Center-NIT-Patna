@@ -37,7 +37,7 @@ const Login=()=>{
                     ...input,[e.target.name]: e.target.value,
                 })} placeholder="Password" id="password" />
 
-                <button type="submit">Signin</button>
+                <button type="submit">SignIn</button>
                 <div className="social">
                    
                 </div>

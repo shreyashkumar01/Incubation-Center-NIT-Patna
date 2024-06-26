@@ -12,7 +12,11 @@ const Login=()=>{
         e.preventDefault();
         console.log("hello")
             const loggeduser=JSON.parse(localStorage.getItem("user"));
-       if(input.email===loggeduser.email && input.password === loggeduser.password){
+         console.log("loggeduser:",loggeduser);
+         if(loggeduser===null){
+            alert("Register first");
+         }
+       else if(input.email===loggeduser.email && input.password === loggeduser.password){
            navigate("/Notice");
          localStorage.setItem("loggedin",true)
        }
