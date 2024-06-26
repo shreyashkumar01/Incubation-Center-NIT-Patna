@@ -4,10 +4,13 @@ import {  Routes, Route } from 'react-router-dom';
 import './App.css';
 // import Home from './pages/Home'; 
 import Navbar from './pages/Navbarse';
+import Login from './pages/login/login.js'
+import Register from './pages/register/register.js'
 // import Director from './pages/Directors';  
 // import About from './pages/about';
 // import Vision from './pages/Vision';
 // import Incubations from './pages/incubations';
+import Notice from './pages/Notice';
 // import Incubationsoo from './pages/swiper';
 // import Talks from './pages/talks';
 // import Events from './pages/events';
@@ -38,9 +41,13 @@ function App() {
           <Route  path="/" element={<Homes />}/> 
           <Route index element={<Homes />}/>
           <Route path="/pag" element={<Pag/>}/>
+          <Route  path="Notice/index.js" element={<Notice/>}/> 
+          <Route path="/login" element={<Login/>}/>
+          <Route  path="Notice" element={<Notice/>}/> 
+     < Route path="/register" element={<Register/>}/>
         </Routes>
         {/* <Gallery/> */}
-        <Footer/>
+        {/* <Footer/> */}
         
         
         

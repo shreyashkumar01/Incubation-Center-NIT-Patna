@@ -100,6 +100,7 @@ section {
     width: 22vw;  
     animation: floatImage 4s ease-in-out infinite; 
     /* animation-delay: 4s ; */
+    font-size: 10px;
     /* animation: bringImage 2s ease-in-out 1 ; */
   }
 

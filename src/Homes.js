@@ -40,6 +40,7 @@ function Homes() {
         <Gallery/>
         <Idea/>
         {/* <Faqs/> */} 
+        <Footer/>
     </div>
   );
 }
