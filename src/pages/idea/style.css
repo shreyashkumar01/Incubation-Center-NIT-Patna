@@ -21,9 +21,6 @@
 .idea form{
     width: 600px;
     text-align: center;
-    position: relative;
-    margin-left: -64%;
-    margin-top: 300px;
 }
 
 .idea .input-box{

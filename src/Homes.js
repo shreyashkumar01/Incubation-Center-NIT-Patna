@@ -16,7 +16,7 @@ import Idea from './pages/idea';
 // import Faqs from './pages/faqs';
 import Footer from './pages/footer';
 // import Talks_LitsenMore from './pages/talks_LitsenMore';
-
+import Gallery from './pages/gallery/index.js';
 
 function Homes() {
 
@@ -37,10 +37,9 @@ function Homes() {
         <Talks  />
         {/* <Talks_LitsenMore/> */}
         <Events/>
-        {/* <Gallery/> */}
+        <Gallery/>
         <Idea/>
         {/* <Faqs/> */} 
-       <Footer/>
     </div>
   );
 }
