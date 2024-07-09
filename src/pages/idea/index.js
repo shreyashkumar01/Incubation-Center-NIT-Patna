@@ -1,6 +1,7 @@
 import React from 'react'; 
 import "./style.css"; 
 import IdeaJs from './idea.js'; 
+import Form from '../faqs/index.js'
 
 const Idea = () => {
 
@@ -42,6 +43,8 @@ const Idea = () => {
 
       <button type="submit"  onClick={IdeaJs} >Submit</button>
     </form>
+
+    <Form/>
   </section> 
   
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
