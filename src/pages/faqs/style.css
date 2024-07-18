@@ -1,4 +1,4 @@
-*{
+.faqs{
   background-color: transparent;
   color: black;
 }
@@ -14,7 +14,7 @@
   max-width: 270px;
   font-size: 40px;
   color: white;
-  font-weight: bold;
+  font-weight: bold; 
 }
 
 .outer{
@@ -31,6 +31,7 @@
   display: block;
   width:100%;
   cursor: pointer;
+  color: black;
 }
 /*Answer*/
 .answers {
@@ -59,6 +60,7 @@
 /*FAQ Toggle*/
 .plus {
   position: absolute;
+  color: black;
   margin-left: 10px;
   z-index: 5;
   font-size: 2em;
