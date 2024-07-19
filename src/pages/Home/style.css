@@ -40,7 +40,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(img/background_img/IMG20230921194023.jpg);
   }
-  /* 20% {
+  20% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(img/background_img/bicycle-1280x720.jpg);
   }
@@ -48,7 +48,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(img/background_img/dubai.jpg);
   }
-  60% {
+  /* 60% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(img/background_img/517669.jpg);
   }
