@@ -22,7 +22,7 @@ return (
         <a href="#about">About</a>
         <a href="#incubations">Incubations</a>
         <a href="#events">Events</a>
-        <a href="#gallery">Gallery</a>
+        <a href="/gallery">Gallery</a>
         <a href="#footer">Contact</a>
         <Link to="/team">Team</Link>
       </nav>
