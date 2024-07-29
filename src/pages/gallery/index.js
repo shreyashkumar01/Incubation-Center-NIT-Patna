@@ -23,6 +23,7 @@ const photos = [
 const Gallery = () => {
   return (
     <>
+    <div id="gallery">
     <h1>Gallery</h1>
     <div className="gallery">
     {photos.map((photo, index) => (
@@ -32,6 +33,7 @@ const Gallery = () => {
     ))}
   </div>
   <Link to="/gallery" className="bttnn">View More</Link>
+  </div>
   </>
   );
 };

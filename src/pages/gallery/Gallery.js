@@ -2,7 +2,7 @@
 import './style.css';
 import img from "./sell_bg.png"
 
-function Gallery() {
+function Gallery1() {
   return (
     <>
     <div className='hhar'>
@@ -204,4 +204,4 @@ function Gallery() {
   );
 }
 
-export default Gallery;
+export default Gallery1;

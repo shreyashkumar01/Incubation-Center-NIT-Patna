@@ -19,10 +19,10 @@ return (
       <a href="https://www.nitp.ac.in/" class="logo1"><img src="  img/download-removebg-preview.png " alt="NITP_logo" /></a>
       <nav class="navbar">
         <a href="http://localhost:3000/">Home</a>
-        <a href="#about">About</a>
+        <a href="#about">About</a> 
         <a href="#incubations">Incubations</a>
         <a href="#events">Events</a>
-        <a href="/gallery">Gallery</a>
+        <a href="#gallery">Gallery</a>
         <a href="#footer">Contact</a>
         <Link to="/team">Team</Link>
       </nav>

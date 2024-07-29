@@ -23,7 +23,7 @@ import Homes from './Homes.js';
 
 import Pag from './pages/incubations/page/card.js';
 import Team from './pages/team/team.js';
-import Gallery from './pages/gallery/Gallery.js';
+import Gallery1 from './pages/gallery/Gallery.js';
 
 
 
@@ -47,7 +47,8 @@ function App() {
           <Route path="/login" element={<Login/>}/>
           <Route  path="Notice" element={<Notice/>}/> 
           <Route path='/team' element={<Team />} />
-          <Route path="/gallery" element={<Gallery/>}/>
+          <Route path="/gallery" element={<Gallery1/>}/>
+          
 
      < Route path="/register" element={<Register/>}/>
         </Routes>
