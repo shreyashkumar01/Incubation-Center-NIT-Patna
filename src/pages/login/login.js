@@ -32,6 +32,7 @@ const Login=()=>{
     //    }
     if(data){
           console.log("user find")
+         localStorage.setItem('loggedin','true');
           navigate("/Notice")
     }
        else{
