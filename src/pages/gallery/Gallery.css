@@ -11,7 +11,7 @@
   margin: 4px 2px;
   cursor: pointer;
   position:relative;
-  left:1300px;
+  left: 1200px;
   border-radius: 5px;
 
 }
@@ -46,4 +46,13 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s;
+}
+@media screen and (max-width: 768px){
+  .gallerydiv{
+    width: 100%;
+  }
+  .bttnn{
+    left:500px;
+  }
+  
 }
