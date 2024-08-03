@@ -36,7 +36,6 @@ function App() {
   // }
   return (
     <div className="App"> 
-    
     < Navbar/>
     <Routes>
           <Route  path="talks_LitsenMore/index.js" element={<Talks_LitsenMore/>}/> 
