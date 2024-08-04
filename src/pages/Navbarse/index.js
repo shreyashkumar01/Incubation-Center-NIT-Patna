@@ -1,21 +1,47 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "./style.css";
 import { Link } from 'react-router-dom';
 // import Scroll from './scroll.js';
 
 const Navbar = () => {
+  const [scrolled,setScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
   // window.addEventListener("scroll", function () {
   //   var header = this.document.querySelector("header");
   //   header.classList.toggle("sticky", this.window.scrollY > 0);
   // })
 
-  const [isOpen, setIsOpen] = useState(false)
+  useEffect(() => {
+
+    const handleScroll = () => {
+      let scrollVal = window.scrollY;
+      // console.log(scrollVal);
+      if(scrollVal > 150) {
+        // console.log("yes");
+        setScrolled(true)
+      }else{
+        setScrolled(false)
+      }
+      
+    }
+    window.addEventListener('scroll', handleScroll)
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    };
+
+  },[])
+
+  const navbarStyle = {
+    padding: scrolled ? '0 10px' : '0 9%',  // Adjust these values as needed
+    transition: 'all 0.3s ease',  // Optional: adds a smooth transition effect
+  };
+
   return (
 
     <div className='headerContainer'>
       {/* <!-- header  --> */}
 
-      <header className="header">
+      <header className="header" style={navbarStyle}>
         <a href="https://www.nitp.ac.in/" className="logo1"><img src="  img/download-removebg-preview.png " alt="NITP_logo" /></a>
         <nav className="navbar">
           <a className='link' href="http://localhost:3000/">Home</a>
