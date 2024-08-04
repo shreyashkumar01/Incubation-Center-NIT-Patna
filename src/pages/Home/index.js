@@ -49,7 +49,7 @@ const Home = () => {
           
           {/* <h3>we <span class="multiple-text">{text} <Cursor cursorStyle = "|" /></span></h3> */}
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
+            Lorem ipsudm dolorw, sit amet consectetur adipisicing elit. Molestias
             obcaecati repudiandae quod reprehenderit abm quam error aspernatur
           </p>
           {/* <!-- <div class="social-media">
