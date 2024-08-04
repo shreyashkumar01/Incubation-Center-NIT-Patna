@@ -35,7 +35,7 @@ const Home = () => {
           <h3>Welcome to,</h3>
           <h1> <span>I</span>ncubation <span>C</span>enter</h1>
          <div className="h3-2">
-        <h3  >of NIT Patna.</h3>
+        <h3>of NIT Patna.</h3>
         </div>
           <div className="typewriter">
           <p>  <Typewriter
