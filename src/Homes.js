@@ -18,6 +18,7 @@ import Footer from './pages/footer';
 // import Talks_LitsenMore from './pages/talks_LitsenMore';
 import Gallery from './pages/gallery/index.js';
 import GoogleSlider from './pages/googleSlider/GoogleSlider.jsx';
+import React from 'react';
 
 function Homes() {
 

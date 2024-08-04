@@ -24,6 +24,7 @@ import Homes from './Homes.js';
 import Pag from './pages/incubations/page/card.js';
 import Team from './pages/team/team.js';
 import Gallery1 from './pages/gallery/Gallery.js';
+import React from 'react';
 
 
 
