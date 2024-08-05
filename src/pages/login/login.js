@@ -32,6 +32,7 @@ const Login=()=>{
     //    }
     if(data){
           console.log("user find")
+          localStorage.setItem('loggedin','true');
           navigate("/Notice")
     }
        else{
@@ -41,9 +42,7 @@ const Login=()=>{
     return (
        <>
           <div className="background">
-              
-            </div>
-            <form onSubmit={handleLogin}>
+          <form onSubmit={handleLogin}>
                 <h3>Login Here</h3>
 
                 <label htmlFor="username">Username</label>
@@ -56,17 +55,12 @@ const Login=()=>{
                  ...input, [e.target.name]: e.target.value
                 })} placeholder="Password" id="password" />
 
-                <button type="submit">Log In</button>
-                <div className="social">
-                    <div className="go">
-                        <FaGoogle /> Google
-                    </div>
-                    <div className="fb">
-                        <FaFacebook /> Facebook
-                    </div>
-                </div>
+                <button className="login" type="submit">Log In</button>
+             
                 
             </form>
+            </div>
+           
        </>
       
     )

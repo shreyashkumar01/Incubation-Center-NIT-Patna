@@ -14,7 +14,8 @@ const About = () => {
   </div>
 
   <div class="about-content " >
-    <h1 data-animation="slideInUp" data-animation-delay=".3s">About Us</h1>
+    <div className='heading'><h1 data-animation="slideInUp" data-animation-delay=".3s">About Us</h1></div>
+    
     <h3 data-animation="slideInUp" data-animation-delay=".3s">What we do ?</h3>
     <p data-animation="slideInUp" data-animation-delay=".3s"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum mollitia quae, voluptatibus eligendi libero et
       fugit omnis. Quasi culpa non, facere quidem quia, blanditiis ex dicta ea adipisci quod consectetur? Lorem

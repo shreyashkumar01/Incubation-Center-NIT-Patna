@@ -11,50 +11,80 @@
         background-image: radial-gradient(#142850 0.8px, #000000 0.8px);
         background-size: 16px 16px;
     position: relative;  
-    padding: 10rem 9% 4rem;
+    padding: 5rem 9% 4rem;
     height: auto;
+    /* margin-top: -30px; */
   }
   
   .aboutdiv{
     display: flex;
     flex-wrap: nowrap;
+    margin-top: 6vh;
   }
   
   .building-img{   
-    justify-content: center;  
+
     width: 200%;
     margin: 0 10%;
     display: flex;
+    justify-content: center;  
     align-items: center;
   }
   
   .building-img img{
-    width: 100%; 
+    width: 300px; 
+    height:auto;
   }
   
   .about-content{ 
+  
     display: flex; 
     flex-direction: column;
     flex-wrap: nowrap; 
     gap: 2rem;
+    color:white;
   }
   
   .about-content ul li{ 
     font-size:1.6rem ;
     row-gap: 1rem;
     list-style: initial;
+    color:white;
   }
-  
+  .about-content h3{
+    color:white;
+  }
   .about-content h1{
     font-size: 5rem; 
     display: flex;
     justify-content: flex-start;
+    color:white;
   }
   
   .about-content p{ 
     font-size:1.6rem ;
+    color:white;
   }
   
   
-  
+  @media screen and (max-width:988px){
+   .aboutdiv{
+    flex-direction: column;
+   
+   }
+   .building-img{
+    width:80%;
+   }
+   .about-content{
+    margin-top:30px;
+   }
+   .about-content h1{
+    text-align: center;
+    width:250px;
+    margin: auto;
+   }
+   .heading{
+    
+   }
+  }
   /* about css */

@@ -2,7 +2,9 @@
   background-color: transparent;
   color: black;
 }
-
+.faq{
+  margin-top: 60px;
+}
 .content {
   width: 80%;
   padding: 0;
@@ -10,11 +12,12 @@
 }
 
 .centerplease {
-  margin: 0 auto;
+  margin: auto;
   max-width: 270px;
   font-size: 40px;
   color: white;
   font-weight: bold;
+  text-align: center;
 }
 
 .outer{

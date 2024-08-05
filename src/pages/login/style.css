@@ -21,30 +21,14 @@ body{
     position: absolute;
     border-radius: 50%;
 }
-.shape:first-child{
-    background: linear-gradient(
-        #1845ad,
-        #000000
-    );
-    left: -80px;
-    top: -80px;
-}
-.shape:last-child{
-    background: linear-gradient(
-        to right,
-        #000000,
-        #f09819
-    );
-    right: -30px;
-    bottom: -80px;
-}
-form{
-    height: 520px;
+
+.background .form{
+    height: 500px;
     width: 400px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 50%;
+    /* top: 50%; */
     left: 50%;
     border-radius: 10px;
     backdrop-filter: blur(10px);
@@ -90,8 +74,8 @@ input{
 ::placeholder{
     color: #e5e5e5;
 }
-button{
-    margin-top: 50px;
+.login{
+    margin-top:60px;
     width: 100%;
     background-color: #ffffff;
     color: #080710;
@@ -122,4 +106,21 @@ button{
 }
 .social i{
   margin-right: 4px;
+}
+@media screen and (max-width:548px){
+   .background form{
+        width:300px;
+        height:auto;
+      
+     margin:100px auto;
+    }
+    .background{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+    }
+    .login{
+        margin-top: 20px;
+    }
 }

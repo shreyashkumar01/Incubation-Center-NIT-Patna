@@ -1,41 +1,69 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { TfiMenuAlt } from "react-icons/tfi";
+import { TiDelete } from "react-icons/ti";
 import "./style.css";
 import { Link } from 'react-router-dom';
-// import Scroll from './scroll.js';
 
 const Navbar = () => {
+  const [menu, setmenu] = useState(false);
+  const [link, setlink] = useState(false);
 
-  // window.addEventListener("scroll", function () {
-  //   var header = this.document.querySelector("header");
-  //   header.classList.toggle("sticky", this.window.scrollY > 0);
-  // })
+  const windowset = () => {
+    if (window.innerWidth <= 957) {
+      setmenu(true);
+    } else {
+      setmenu(false);
+    }
+  }
 
+  useEffect(() => {
+    window.addEventListener('resize', windowset);
 
-return (
-  <div>
-    {/* <!-- header  --> */}
+    return () => {
+      window.removeEventListener('resize', windowset);
+    };
+  }, []);
 
-    <header class="header">
-      <a href="https://www.nitp.ac.in/" class="logo1"><img src="  img/download-removebg-preview.png " alt="NITP_logo" /></a>
-      <nav class="navbar">
-        <a href="http://localhost:3000/">Home</a>
-        <a href="#about">About</a>
-        <a href="#incubations">Incubations</a>
-        <a href="#events">Events</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#footer">Contact</a>
-        <Link to="/team">Team</Link>
-      </nav>
-      <a class="logo2" href="#home"><img src="img/IC LOGO (1).png" alt="Incubation Centre logo" />
-      </a>
-    </header>
+  const handleMenuClick = () => {
+    setlink(!link);
+  }
 
-    {/* <script><Scroll/></script> */}
-
-    {/* <!-- header --> */}
-  </div>
-)
+  return (
+    <div>
+      {/* <!-- header  --> */}
+      <div className={`menu-link ${link ? '' : 'hidden'}`}>
+        <div className='one'>
+          <Link to='/'>Home</Link>
+          <a href="#about">About</a>
+          <a href="#incubations">Incubations</a>
+        </div>
+        <div className='two'>
+          <a href="#events">Events</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#footer">Contact</a>
+          <Link to="/team">Team</Link>
+        </div>
+        <TiDelete className={`out `} onClick={handleMenuClick} />
+      </div>
+      <header className="header">
+        <a href="https://www.nitp.ac.in/" className="logo1"><img src="img/download-removebg-preview.png" alt="NITP_logo" /></a>
+        <div className='menu'>
+          <TfiMenuAlt className={`color ${menu ? '': 'hidden'}`} onClick={handleMenuClick} />
+        </div>
+        <nav className={`navbar ${menu ? 'hidden' : ''}`}>
+          <Link to='/'>Home</Link>
+          <a href="#about">About</a>
+          <a href="#incubations">Incubations</a>
+          <a href="#events">Events</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#footer">Contact</a>
+          <Link to="/team">Team</Link>
+        </nav>
+        <a className="logo2" href="#home"><img src="img/IC LOGO (1).png" alt="Incubation Centre logo" />
+        </a>
+      </header>
+    </div>
+  );
 }
 
 export default Navbar;
-

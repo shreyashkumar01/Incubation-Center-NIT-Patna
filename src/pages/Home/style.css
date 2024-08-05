@@ -23,44 +23,15 @@
   --fouth-main-color:#142850;
 } 
 body {
-  background: var(--third-main-color);
-  color: var(--text-color);
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
-    url(img/background_img/IMG20230921194023.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  animation: change 40s ease-in-out infinite;
-  transition-duration: 2s;
+  /* background: var(--third-main-color); */
+  /* color: var(--text-color); */
+  /* background: linear-gradient(rgba(52, 52, 52, 0), rgba(0, 0, 0, 0)),
+    url(img/background_img/IMG20230921194023.jpg); */
+
+
 }
 
-@keyframes change {
-  0% {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
-      url(img/background_img/IMG20230921194023.jpg);
-  }
-  20% {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
-      url(img/background_img/bicycle-1280x720.jpg);
-  }
-  40% {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
-      url(img/background_img/dubai.jpg);
-  }
-  60% {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
-      url(img/background_img/517669.jpg);
-  }
-  80% {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
-      url(img/background_img/5487146.jpg);
-  }
-  100% {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
-      url(img/background_img/6895209.webp);
-  }
-}
+
 
 html {
   font-size: 62.5%;
@@ -68,8 +39,9 @@ html {
 }
 
 section {
-  height: auto;
+  height: 600px;
   /* padding: 10rem 9% 2rem; */
+  
 }
 
 
@@ -81,14 +53,41 @@ section {
     grid-template-rows: auto;
     justify-self: center;
     align-items: center;
-    height: 110vh;
-    padding: 10rem 9% 2rem;
+    height: 900px;
+    padding: 10rem 2% 2rem;
+
+  }
+  @keyframes change {
+    0% {
+      background-image: linear-gradient(rgba(244, 238, 238, 0.511), rgba(0, 0, 0, 0.062)),
+        url(img/background_img/IMG20230921194023.jpg);
+    }
+    20% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.312), rgba(0, 0, 0, 0.4)),
+        url(img/background_img/bicycle-1280x720.jpg);
+    }
+    40% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.122)),
+        url(img/background_img/dubai.jpg);
+    }
+    60% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.155), rgba(0, 0, 0, 0.4)),
+        url(img/background_img/517669.jpg);
+    }
+    80% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.188), rgba(0, 0, 0, 0.4)),
+        url(img/background_img/5487146.jpg);
+    }
+    100% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.197), rgba(0, 0, 0, 0.4)),
+        url(img/background_img/6895209.webp);
+    }
   }
 
   .grid-2{
     width: 100%;
   }
-
+ 
   .notice { 
     /* height: 380px; */
     /* box-shadow: 3px 3px 15px black; */
@@ -102,12 +101,16 @@ section {
     /* animation-delay: 4s ; */
     font-size: 10px;
     /* animation: bringImage 2s ease-in-out 1 ; */
+    backdrop-filter:blur(13px);
+    color:white;
   }
 
   .notice h1 {
     padding: 1rem;
     text-align: center;
     font-size: 3rem;
+    color:white;
+
   }
 
   .notice hr{
@@ -121,7 +124,7 @@ section {
   }
 
   .notice-content{
-    font-size: 1.3rem; 
+    font-size: 1.8rem; 
     display: flex; 
     flex-direction: column;
     justify-content: center;
@@ -130,7 +133,11 @@ section {
     margin-right: 5%;
     margin-bottom: 5%;
     list-style: initial;
+      color:white;
   } 
+  .notice-content li{
+    color:white;
+  }
 
   .notice:hover{
     animation-play-state: paused;
@@ -170,8 +177,9 @@ section {
   }
 
   .home-content h3 {
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 1.9rem;
+    font-weight: 500;
+    color:white;
   } 
 
   .h3-2 h3{
@@ -182,15 +190,17 @@ section {
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1;
+    color:white;
   }
 
   .home-content p {
     font-size: 1.3rem; 
     width: 35%; 
+    color:white;
   }
  
   .Typewriter{
-    width: 100% ;
+    width: 300px;
   }
 
   .Typewriter__wrapper{
@@ -259,13 +269,31 @@ section {
     .notice {  
       height: 45vh; 
     }
+    .grid-1{
+      margin-top:70px;
+    }
   }
-
+  @media screen and (max-width: 1179px) {
+       a.btn{
+         margin-top: 10px;
+       }
+       .grid-2{
+        height:300px;
+        width:80%;
+      }
+      .notice{
+        width:100%;
+        height:100%;
+      }
+  }
   @media screen and (max-width: 1024px) {
     .notice-content{ 
     font-size: 1.3rem; 
     }
     .notice {   
+    }
+    .grid-2{
+      width:230px;
     }
   }
 
@@ -273,18 +301,98 @@ section {
     .home{ 
     grid-template-columns:   1fr;
     grid-template-rows: 1fr 1fr;
+    margin-top: 20px;
+    height:auto;
+   
     }
     .notice {   
       width: 50vw;
+      margin: auto;
+  
+    }
+    .home-content{
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+    
+    }
+   .btn{
+         width:20%;
+      text-align: center;
+    }
+    a.btn{
+      margin-bottom: 20px;
+    }
+    .grid-1{
+      margin-top:70px;
+    }
+    .grid-2{
+      margin-top: 20px;
+      width:80%;
+      margin: auto;
+    }
+    .typewritter{
+      display: flex;
+      align-items: center;
+      /* margin-left: -12px; */
+    }
+   
+    .Typewriter{
+      margin-left: -30px;
+    }
+    p{
+  margin: auto;
+  text-align: center;
+  
     }
   }
 
-  @media screen and (max-width: 480px){
-    
+  @media screen and (max-width: 600px){
+       a.btn{
+        padding:4px;
+        font-size: small;
+        margin-top: 10px;
+       }
+       .grid-1{
+        margin:auto;
+       }
+       .home{
+        margin-top: 20px;
+       }
+       .home-content p{
+        width:auto;
+       }
+       .grid-2{
+        margin-top: 40px;
+        width:80%;
+      }
+      .notice{
+        width:100%;
+      }
+      .Typewriter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
   }
 
-  @media screen and (max-width: 320px){
-    
+  @media screen and (max-width: 433px){
+    .Typewriter{
+      margin-left:-23px;
+      width:220px;
+     margin:auto;
+     display: flex;
+     align-items: center;
+  
+    }
+    .grid-2{
+      margin-top: 40px;
+      width:80%;
+    }
+    .notice{
+      width:100%;
+    }
   }
 
   
