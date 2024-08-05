@@ -21,6 +21,7 @@ import Footer from './pages/footer';
 import Talks_LitsenMore from './pages/talks_LitsenMore';
 import Homes from './Homes.js';
 
+import Timeline from './pages/events/events_timeLine/index.js'
 import Pag from './pages/incubations/page/card.js';
 import Team from './pages/team/team.js';
 import Gallery1 from './pages/gallery/Gallery.js';
@@ -43,6 +44,7 @@ function App() {
           <Route  path="/" element={<Homes />}/> 
           <Route index element={<Homes />}/>
           <Route path="/pag" element={<Pag/>}/>
+          <Route path="/timeline" element={<Timeline/>}/>
           <Route  path="Notice/index.js" element={<Notice/>}/> 
           <Route path="/login" element={<Login/>}/>
           <Route  path="Notice" element={<Notice/>}/> 

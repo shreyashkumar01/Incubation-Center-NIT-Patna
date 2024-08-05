@@ -33,13 +33,13 @@ function Homes() {
         <Home />
         <About/>
         <Vision/>
+        <GoogleSlider />
         <Director/>
         <Incubations/>
         {/* <Incubationsoo/> */}
         <Talks  />
         {/* <Talks_LitsenMore/> */}
         <Events/>
-        <GoogleSlider />
         <Gallery/>
         <Idea/>
         {/* <Faqs/> */} 
