@@ -1,10 +1,10 @@
-*:before,
-*:after{
+.background *:before,
+.background *:after{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+.background body{
     background-color: #080710;
 }
 .background{
@@ -21,7 +21,7 @@ body{
     position: absolute;
     border-radius: 50%;
 }
-.shape:first-child{
+.background .shape:first-child{
     background: linear-gradient(
         #1845ad,
         #000000
@@ -29,7 +29,7 @@ body{
     left: -80px;
     top: -80px;
 }
-.shape:last-child{
+.background .shape:last-child{
     background: linear-gradient(
         to right,
         #000000,
@@ -38,7 +38,7 @@ body{
     right: -30px;
     bottom: -80px;
 }
-form{
+.background form{
     height: 520px;
     width: 400px;
     background-color: rgba(255,255,255,0.13);
@@ -52,27 +52,27 @@ form{
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     padding: 50px 35px;
 }
-form *{
+.background form *{
     font-family: 'Poppins',sans-serif;
     color: #ffffff;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
 }
-form h3{
+.background form h3{
     font-size: 32px;
     font-weight: 500;
     line-height: 42px;
     text-align: center;
 }
 
-label{
+.background label{
     display: block;
     margin-top: 30px;
     font-size: 16px;
     font-weight: 500;
 }
-input{
+.background input{
     display: block;
     height: 50px;
     width: 100%;
@@ -83,7 +83,7 @@ input{
     font-size: 14px;
     font-weight: 300;
 }
-::placeholder{
+.background ::placeholder{
     color: #e5e5e5;
 }
 .background button{
@@ -97,11 +97,11 @@ input{
     border-radius: 5px;
     cursor: pointer;
 }
-.social{
+.background .social{
   margin-top: 30px;
   display: flex;
 }
-.social div{
+.background .social div{
   background: red;
   width: 150px;
   border-radius: 3px;
@@ -110,12 +110,12 @@ input{
   color: #eaf0fb;
   text-align: center;
 }
-.social div:hover{
+.background .social div:hover{
   background-color: rgba(255,255,255,0.47);
 }
-.social .fb{
+.background .social .fb{
   margin-left: 25px;
 }
-.social i{
+.background .social i{
   margin-right: 4px;
 }

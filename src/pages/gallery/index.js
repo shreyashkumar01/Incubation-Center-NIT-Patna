@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Gallery = () => {
   return (
     <>
-    <div id="gallery">
+    <div id="gallery" className='gallery'>
       <p className='h11'> Gallery</p>
       <div className="gallery1">
         <div className='gallerydiv'>

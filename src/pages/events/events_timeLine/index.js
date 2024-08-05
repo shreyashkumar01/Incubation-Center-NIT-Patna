@@ -1,8 +1,10 @@
 import React from 'react'
 import './style.css' 
+import Footer from '../../footer'
 
 function Timeline() {
   return (
+    <div className='events_timeline'> 
     <div class="timeline">
       <div class="container left-container">
             <img src="nitplogo.png"/>
@@ -71,7 +73,8 @@ function Timeline() {
                 <span class="right-container-arrow"></span>
             </div>
         </div>
-
+    </div>
+    <Footer/>
     </div>
   )
 }

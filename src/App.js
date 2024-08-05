@@ -26,6 +26,7 @@ import Pag from './pages/incubations/page/card.js';
 import Team from './pages/team/team.js';
 import Gallery1 from './pages/gallery/Gallery.js';
 import React from 'react';
+ 
 
 
 
@@ -39,6 +40,7 @@ function App() {
   return (
     <div className="App"> 
     < Navbar/>
+ 
     <Routes>
           <Route  path="talks_LitsenMore/index.js" element={<Talks_LitsenMore/>}/> 
           <Route  path="/" element={<Homes />}/> 
