@@ -50,7 +50,7 @@ const Home = () => {
           {/* <h3>we <span class="multiple-text">{text} <Cursor cursorStyle = "|" /></span></h3> */}
           <p>
             Lorem ipsudm dolorw, sit amet consectetur adipisicing elit. Molestias
-            obcaecati repudiandae quod reprehenderit abm quam error aspernatur
+            obcaejcati repudiandae quod reprehenderit abm quam error aspernatur
           </p>
           {/* <!-- <div class="social-media">
               <a href=""><i class='bx bxl-facebook'></i></a>
