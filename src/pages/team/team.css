@@ -14,7 +14,7 @@
     font-size: 3rem;
 }
 
-.main {
+.team .main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

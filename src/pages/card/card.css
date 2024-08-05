@@ -1,4 +1,4 @@
-a {
+.card a {
     color: inherit;
 }
 
@@ -13,14 +13,14 @@ a {
     box-shadow: 0 10px 20px -10px rgba(0, 0, 0, .75);
 }
 
-.cover-photo {
+.card .cover-photo {
     background: url(https://images.unsplash.com/photo-1540228232483-1b64a7024923?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
     height: 160px;
     width: 100%;
     border-radius: 5px 5px 0 0;
 }
 
-.profile {
+.card .profile {
     height: 120px;
     width: 120px;
     border-radius: 50%;
@@ -30,22 +30,22 @@ a {
     background: #292343;
 }
 
-.profile-name {
+.card .profile-name {
     font-size: 25px;
     font-weight: bold;
     margin: 27px 0 0 120px;
 }
 
-.about {
+.card .about {
     margin-top: 35px;
     line-height: 21px;
 }
 
-button {
+.card button {
     margin: 10px 0 40px 0;
 }
 
-.follow-btn {
+.card .follow-btn {
     background: #03bfbc;
     border: 1px solid #03bfbc;
     padding: 10px 25px;
@@ -55,13 +55,13 @@ button {
     cursor: pointer;
 }
 
-.follow-btn {
+.card .follow-btn {
     margin-left: 10px;
     background: transparent;
     color: #02899c;
 }
 
-.follow-btn:hover {
+.card .follow-btn:hover {
     color: #231e39;
     background: #03bfbc;
     transition: .5s;
