@@ -1,8 +1,11 @@
 import React from 'react';
 import "./style.css";
+import {useNavigate } from "react-router-dom";
 // import "./style.scss";
 
 const Events = () => {
+  
+  const navigate = useNavigate();
   return (
     <div>
       <section class="events" id="events">
@@ -62,7 +65,8 @@ const Events = () => {
     </div>
 
     <div class="events_btn">
-      <a href="events timeline/index.html" class="btn">View More</a>
+    <button className='btn' onClick={ () =>  navigate('/timeline')}> 
+    Litsen More</button>
     </div>
 
   </section>
