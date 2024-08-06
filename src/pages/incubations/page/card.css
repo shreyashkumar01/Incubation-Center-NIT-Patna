@@ -1,6 +1,6 @@
  
 .heading{
-    margin-top: 10rem;
+    margin-top: 5rem;
 
     text-align: center;
     font-size: 3rem;
@@ -31,19 +31,19 @@
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  gap:5vw;
+  gap:3vw;
 }
 .flip-card {
     background-color: transparent;
-    width: 25%;
-    height: 20rem;
-    perspective: 1000px;
+    width:25% !important;
+    height: 15rem;
+    /* perspective: 1000px; */
     font-family: sans-serif;
     font-size: large !important;
   }
   
   .title {
-    font-size: 2.3rem !important;
+    font-size: 3rem !important;
     font-weight: 900;
     text-align: center;
     margin: .5rem;
@@ -108,15 +108,25 @@
        rgb(93, 92, 92) 40%, rgb(110, 109, 109) 78%);
     color: white;
     transform: rotateX(-180deg);
-    font-size: 1.7rem !important;
+    font-size: 2.5rem !important;
+  }
+  #found{
+    font-size: 2rem;
   }
 
   @media screen and (max-width:440px) {
     .flip-card {
-      width: 80%;
+      width: 30% !important;
+      height: 15rem !important;
     }
-    .image{
-      width: 57%;
+    #found{
+      font-size: 1rem;
+    }
+    .title {
+      font-size: 1.5rem !important;
+    }
+    .button{
+      font-size: 0.8rem;
     }
     
   }

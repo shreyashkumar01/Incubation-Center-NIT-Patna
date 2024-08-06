@@ -18,7 +18,7 @@ import Notice from './pages/Notice';
 // import Idea from './pages/idea';
 // import Faqs from './pages/faqs';
 import Footer from './pages/footer';
-import Talks_LitsenMore from './pages/talks_LitsenMore';
+// import Talks_LitsenMore from './pages/talks_LitsenMore';
 import Homes from './Homes.js';
 
 import Timeline from './pages/events/events_timeLine/index.js'
@@ -26,6 +26,7 @@ import Pag from './pages/incubations/page/card.js';
 import Team from './pages/team/team.js';
 import Gallery1 from './pages/gallery/Gallery.js';
 import React from 'react';
+import Talks_LitsenMore from './pages/talks_LitsenMore/index.js';
  
 
 
@@ -42,7 +43,7 @@ function App() {
     {/* < Navbar/> */}
  
     <Routes>
-          <Route  path="talks_LitsenMore/index.js" element={<Talks_LitsenMore/>}/> 
+          {/* <Route  path="talks_LitsenMore/index.js" element={<Talks_LitsenMore/>}/>  */}
           <Route  path="/" element={<Homes />}/> 
           <Route index element={<Homes />}/>
           <Route path="/pag" element={<Pag/>}/>
@@ -52,6 +53,7 @@ function App() {
           <Route  path="Notice" element={<Notice/>}/> 
           <Route path='/team' element={<Team />} />
           <Route path="/gallery" element={<Gallery1/>}/>
+          <Route path="/talksmore" element={<Talks_LitsenMore/>}/>
           
 
      < Route path="/register" element={<Register/>}/>
