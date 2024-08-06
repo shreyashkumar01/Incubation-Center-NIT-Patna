@@ -81,7 +81,7 @@ section {
     grid-template-rows: auto;
     justify-self: center;
     align-items: center;
-    height: calc(100vh - 100px);
+    height: calc(100vh);
     padding: 10rem 9% 2rem;
   }
 
