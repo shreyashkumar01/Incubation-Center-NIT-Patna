@@ -1,7 +1,7 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
 
-* {
+.home * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,7 +13,7 @@
   color: #fff;
 }
 
-:root {
+.home :root {
   --bg-color: #000000;
   --second-bg-color: rgb(36, 37, 37);
   --text-color: #fff;
@@ -22,7 +22,7 @@
   --third-main-color:#27496D;
   --fouth-main-color:#142850;
 } 
-body {
+.home body {
   background: var(--third-main-color);
   color: var(--text-color);
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
@@ -62,12 +62,12 @@ body {
   } */
 }
 
-html {
+.home html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
 
-section {
+.home section {
   height: auto;
   /* padding: 10rem 9% 2rem; */
 }
@@ -85,11 +85,11 @@ section {
     padding: 10rem 9% 2rem;
   }
 
-  .grid-2{
+  .home .grid-2{
     width: 100%;
   }
 
-  .notice { 
+  .home .notice { 
     /* height: 380px; */
     /* box-shadow: 3px 3px 15px black; */
     border-radius: 25px; 
@@ -104,13 +104,13 @@ section {
     /* animation: bringImage 2s ease-in-out 1 ; */
   }
 
-  .notice h1 {
+  .home .notice h1 {
     padding: 1rem;
     text-align: center;
     font-size: 3rem;
   }
 
-  .notice hr{
+  .home .notice hr{
     height:2px;
     border-width:0;
     color:gray;
@@ -120,7 +120,7 @@ section {
     margin-right: 10px;
   }
 
-  .notice-content{
+  .home .notice-content{
     font-size: 1.3rem; 
     display: flex; 
     flex-direction: column;
@@ -132,7 +132,7 @@ section {
     list-style: initial;
   } 
 
-  .notice:hover{
+  .home .notice:hover{
     animation-play-state: paused;
   }
 
@@ -253,28 +253,28 @@ section {
   /* home css */
 
   @media screen and (max-width: 1280px) {
-    .notice-content{ 
+    .home .notice-content{ 
     font-size: 1.3rem; 
     }
-    .notice {  
+    .home .notice {  
       height: 45vh; 
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .notice-content{ 
+    .home .notice-content{ 
     font-size: 1.3rem; 
     }
-    .notice {   
+    .home .notice {   
     }
   }
 
   @media screen and (max-width: 768px){
-    .home{ 
+    .home .home{ 
     grid-template-columns:   1fr;
     grid-template-rows: 1fr 1fr;
     }
-    .notice {   
+    .home .notice {   
       width: 50vw;
     }
   }

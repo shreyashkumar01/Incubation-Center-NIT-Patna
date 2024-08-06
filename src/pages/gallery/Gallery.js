@@ -1,6 +1,7 @@
 
 import './style.css';
 import img from "./sell_bg.png"
+import Footer from '../footer'
 
 function Gallery1() {
   return (
@@ -200,6 +201,7 @@ function Gallery1() {
       
     </div>
     </div>
+    <Footer/>
     </>
   );
 }

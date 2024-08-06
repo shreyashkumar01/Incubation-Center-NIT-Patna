@@ -1,5 +1,6 @@
 import React from 'react';
 import "./style.css"; 
+import Footer from '../footer'
 // import {  Routes, Route } from 'react-router-dom';
  
 
@@ -171,9 +172,7 @@ const Talks_LitsenMore = () =>  {
     </div>    
     
 </div>
-{/* <div class="footer">
-
-</div> */}
+ <Footer/>
      </div>
   )
 }
