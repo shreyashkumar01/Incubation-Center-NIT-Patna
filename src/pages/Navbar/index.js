@@ -37,9 +37,14 @@ const Navbar = () => {
     transition: 'all 0.3s ease',  // Optional: adds a smooth transition effect
   };
 
+  const headerStyle = {
+    top : scrolled ? '0px' : '30px',
+    transition: 'all 0.3s ease',
+  }
+
   return (
 
-    <div className='headerContainer'>
+    <div className='headerContainer' style={headerStyle}>
       {/* <!-- header  --> */}
 
       <header className="header" style={navbarStyle}>
