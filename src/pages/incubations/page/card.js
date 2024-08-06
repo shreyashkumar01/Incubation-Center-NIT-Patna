@@ -1,10 +1,14 @@
 import React from 'react'
 import './card.css'
 import Footer from '../../footer'
+import Header from '../../header'
+import Navbar from '../../Navbar';
 
 function Pag() {
   return (
     <div className='cards_pag'>
+      <Navbar/>
+      <Header/>
   <div className="heading">Incubation</div>
   <div className="main">
     <div className="row">

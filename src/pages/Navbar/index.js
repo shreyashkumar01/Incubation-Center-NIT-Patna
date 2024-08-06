@@ -33,6 +33,7 @@ const Navbar = () => {
 
   const navbarStyle = {
     padding: scrolled ? '0 10px' : '0 9%',  // Adjust these values as needed
+    background: scrolled ? 'rgba(0, 0, 0, 0.4)': 'transparent',
     transition: 'all 0.3s ease',  // Optional: adds a smooth transition effect
   };
 

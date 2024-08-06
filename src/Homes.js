@@ -3,7 +3,7 @@
 // import {  Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home'; 
-// import Navbar from './pages/Navbarse';
+import Navbar from './pages/Navbar';
 import Director from './pages/Directors';  
 import About from './pages/about';
 import Vision from './pages/Vision';
@@ -13,7 +13,7 @@ import Talks from './pages/talks';
 import Events from './pages/events';
 // import Gallery from './pages/gallery';
 import Idea from './pages/idea';
-// import Faqs from './pages/faqs';
+import Form from './pages/faqs';
 import Footer from './pages/footer';
 // import Talks_LitsenMore from './pages/talks_LitsenMore';
 import Gallery from './pages/gallery/index.js';
@@ -29,7 +29,7 @@ function Homes() {
   // }
   return (
     <div className="Homes"> 
-     
+        < Navbar/>
         <Home />
         <About/>
         <Vision/>
@@ -41,6 +41,7 @@ function Homes() {
         {/* <Talks_LitsenMore/> */}
         <Events/>
         <Gallery/>
+        <Form/> 
         <Idea/>
         {/* <Faqs/> */} 
         <Footer/>

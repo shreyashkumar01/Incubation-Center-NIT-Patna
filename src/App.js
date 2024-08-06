@@ -3,7 +3,7 @@
 import {  Routes, Route } from 'react-router-dom';
 import './App.css';
 // import Home from './pages/Home'; 
-import Navbar from './pages/Navbarse';
+import Navbar from './pages/Navbar';
 import Login from './pages/login/login.js'
 import Register from './pages/register/register.js'
 // import Director from './pages/Directors';  
@@ -39,7 +39,7 @@ function App() {
   // }
   return (
     <div className="App"> 
-    < Navbar/>
+    {/* < Navbar/> */}
  
     <Routes>
           <Route  path="talks_LitsenMore/index.js" element={<Talks_LitsenMore/>}/> 

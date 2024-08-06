@@ -67,11 +67,11 @@
 
 .talk_slider_track{
     display: flex;
-    width: calc(20vw * 14);
+    width: calc(350px * 14);
     animation: scroll 40s linear infinite;                                                                                                              
     gap: 30px;
-    overflow: hidden; 
-    height: 50vh;
+    /* overflow: hidden;  */
+    height: 400px;
 }
 
 .talk_slider_track:hover{
@@ -85,7 +85,7 @@
     }
 
     100%{
-        transform: translateX(calc(-20vw *7));
+        transform: translateX(calc(-350px *7));
     }
 }
 
