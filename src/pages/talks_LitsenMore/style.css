@@ -4,6 +4,12 @@
     height: 6rem;
     background-color: blanchedalmond;
 } */
+#Talks_viewMore{
+    background-color: #000000;
+  opacity: 0.9;
+  background-image: radial-gradient(#142850 0.8px, #000000 0.8px);
+  background-size: 16px 16px;
+ }
 .talks.heading{
     margin-top: 2rem;
 
