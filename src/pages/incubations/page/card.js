@@ -8,7 +8,7 @@ function Pag() {
   return (
     <div className='cards_pag'>
       <Navbar/>
-      <Header/>
+      {/* <Header/> */}
   <div className="heading">Incubation</div>
   <div className="main">
     <div className="row">
@@ -19,7 +19,7 @@ function Pag() {
           </div>
           <div className="flip-card-back">
             <p className="title">Startup Name</p>
-            <p>Founder</p>
+            <p id="found">Founder</p>
             <button className="button">Know More</button>
           </div>
         </div>
@@ -31,7 +31,7 @@ function Pag() {
           </div>
           <div className="flip-card-back">
             <p className="title">Startup Name</p>
-            <p>Founder</p>
+             <p id="found">Founder</p>
             <button className="button">Know More</button>
           </div>
         </div>
@@ -43,7 +43,7 @@ function Pag() {
           </div>
           <div className="flip-card-back">
             <p className="title">Startup Name</p>
-            <p>Founder</p>
+             <p id="found">Founder</p>
             <button className="button">Know More</button>
           </div>
         </div>
@@ -57,7 +57,7 @@ function Pag() {
           </div>
           <div className="flip-card-back">
             <p className="title">Startup Name</p>
-            <p>Founder</p>
+             <p id="found">Founder</p>
             <button className="button">Know More</button>
           </div>
         </div>
@@ -69,7 +69,7 @@ function Pag() {
           </div>
           <div className="flip-card-back">
             <p className="title">Startup Name</p>
-            <p>Founder</p>
+             <p id="found">Founder</p>
             <button className="button">Know More</button>
           </div>
         </div>
@@ -81,7 +81,7 @@ function Pag() {
           </div>
           <div className="flip-card-back">
             <p className="title">Startup Name</p>
-            <p>Founder</p>
+             <p id="found">Founder</p>
             <button className="button">Know More</button>
           </div>
         </div>
@@ -97,7 +97,7 @@ function Pag() {
           </div>
           <div className="flip-card-back">
             <p className="title">Startup Name</p>
-            <p>Founder</p>
+             <p id="found">Founder</p>
             <button className="button">Know More</button>
           </div>
         </div>
@@ -109,7 +109,7 @@ function Pag() {
           </div>
           <div className="flip-card-back">
             <p className="title">Startup Name</p>
-            <p>Founder</p>
+             <p id="found">Founder</p>
             <button className="button">Know More</button>
           </div>
         </div>
@@ -121,7 +121,7 @@ function Pag() {
           </div>
           <div className="flip-card-back">
             <p className="title">Startup Name</p>
-            <p>Founder</p>
+             <p id="found">Founder</p>
             <button className="button">Know More</button>
           </div>
         </div>
