@@ -51,17 +51,31 @@
 }
 @media screen and (max-width: 765px){
   .gallerydiv{
-    width: 35%;
+    width: 30%;
   }
+  /* .gallerydiv:last-child{
+    display: none;
+  } */
   .bttnn{
-    left:70%;
+    left:60%;
+    margin-bottom: 1rem;
   }
   #gallery{
     padding: 0rem;
+    margin-bottom: 7rem;
   }
   .gallery1{
     padding: 0rem;
     gap: 0.5rem;
+  }
+  
+}
+@media screen and (max-width:1025px) {
+  .gallerydiv:last-child{
+    display: none;
+  }
+  .gallerydiv{
+    width: 30%;
   }
   
 }
