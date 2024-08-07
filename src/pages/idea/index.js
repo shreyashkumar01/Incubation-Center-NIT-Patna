@@ -4,15 +4,16 @@ import IdeaJs from './idea.js';
 import Form from '../faqs/index.js'
 
 const Idea = () => {
-
-
+  // const handleSubmit = (e) => {
+  //   IdeaJs(e); // Call IdeaJs and pass the event
+  // };
 
   return (
     <div>
       <section class="idea" id="idea">
         <h1>Incubate u'r Idea</h1>
         <div className='form'>
-          <form action="#">
+          <form action="#" onSubmit={IdeaJs}>
 
             <div class="input-box">
               <div class="input-field field">
@@ -41,14 +42,15 @@ const Idea = () => {
               <div class="error-txt">Message can't be blank</div>
             </div>
 
-            <button type="submit" onClick={IdeaJs} >Submit</button>
+            <button type="submit"  >Submit</button>
           </form>
         </div>
         <Form/>
       </section>
-
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+     
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
+    
     </div>
   )
 }
