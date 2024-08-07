@@ -8,11 +8,6 @@
 .slidesMain{
     margin: 0px 0;
     color: white;
-    padding : 50px 20px;
-    background-color: #000000;
-opacity: 0.9;
-background-image: radial-gradient(#142850 0.8px, #000000 0.8px);
-background-size: 16px 16px;
 }
 
 .slidesMain .slideNames{
