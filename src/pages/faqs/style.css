@@ -10,6 +10,7 @@
 }
 
 .faqs .centerplease {
+  text-align: center;
   margin: 0 auto;
   max-width: 270px;
   font-size: 40px;
@@ -25,13 +26,14 @@
 /*Question*/
 .faqs .question {
   position: relative;
-  background: #f9f9f9;
+  background: #20252e;
   margin: 0;
   padding: 10px 10px 10px 50px;
   display: block;
   width:100%;
   cursor: pointer;
-  color: black;
+  color: white;
+
 }
 /*Answer*/
 .faqs .answers {
@@ -60,7 +62,7 @@
 /*FAQ Toggle*/
 .faqs .plus {
   position: absolute;
-  color: black;
+  color: white;
   margin-left: 10px;
   z-index: 5;
   font-size: 2em;
