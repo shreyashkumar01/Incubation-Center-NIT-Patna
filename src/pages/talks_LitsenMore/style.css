@@ -20,6 +20,34 @@
     color: rgb(81, 89, 90);
     margin-bottom: 2rem;
 }
+.container_header1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  } 
+  
+  .container_header1 {
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;  
+    background: linear-gradient(180deg, transparent, #000),
+      url(../../../public/img/image.jpg.jpg  );
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container_header1   h1{
+    align-items: center;
+    padding-top: 20px;
+    font-size: 100px;
+    color: bisque;
+    justify-items: center;
+  }
 .main11{
     display: flex;
     justify-content: center;
