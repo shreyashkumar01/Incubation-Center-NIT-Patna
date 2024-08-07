@@ -2,14 +2,13 @@ import React from 'react';
 import "./style.css"; 
 import Footer from '../footer'
 // import {  Routes, Route } from 'react-router-dom';
+import Navbar from '../Navbar';
  
 
 const Talks_LitsenMore = () =>  {
   return (
      <div id="Talks_viewMore">
-        {/* <div class="header">
-
-</div> */}
+        <Navbar/>
 <div class="heading">
     Entrepreneurship Talk
 </div>

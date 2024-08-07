@@ -1,6 +1,5 @@
 import {React ,useState} from 'react';
-// import Talks_LitsenMore from '../talks_LitsenMore';
-import {useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 import "./style.css";
 
 // function litsenMore(){
@@ -179,8 +178,7 @@ import "./style.css";
 //   );
 // }
 
-const Talks =  () => { 
-
+const Talks =  () => {
   const navigate = useNavigate();
 
   // const [  setShow] = useState(true);
@@ -229,7 +227,7 @@ const Talks =  () => {
           </div>
         </div>
 
-        <div class="talk_slide">
+        <div class="talk_slide"> 
           <div class="talk_slide_content">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, assumenda nesciunt! Harum sit quia
               quis perspiciatis corporis voluptates tempora dicta inventore atque, qui eligendi sint cum esse, a
@@ -436,7 +434,7 @@ const Talks =  () => {
     </div>
 
     <div class="talks_btn">
-      <button className='btn' onClick={ () =>  navigate('talks_LitsenMore/index.js ')}> 
+          <button className='btn' onClick={()=>navigate('/talksmore')}> 
       Litsen More</button>
     </div>
      </section>
