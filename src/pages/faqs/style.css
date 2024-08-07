@@ -1,11 +1,12 @@
 .faqs {
   background-color: transparent;
   color: black;
+  font-size: 1.7rem;
 }
 
 .faqs .content {
-  width: 80%;
-  padding: 0;
+  width: 60%;
+  padding:0;
   margin: 0 auto;
 }
 
@@ -13,18 +14,25 @@
   text-align: center;
   margin: 0 auto;
   max-width: 270px;
-  font-size: 40px;
+  font-size: 5rem;
   color: white;
   font-weight: bold; 
 }
 
 .faqs .outer{
+  transition: all 0.5s ease;
+  margin: 10px 0;
   display: flex;
   align-items: center;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 2px 1px white;
 }
+
 
 /*Question*/
 .faqs .question {
+  transition: all 0.5s ease;
   position: relative;
   background: #20252e;
   margin: 0;
@@ -35,6 +43,11 @@
   color: white;
 
 }
+
+.faqs .question:hover{
+  background-color: black;
+}
+
 /*Answer*/
 .faqs .answers {
   padding: 0px 15px;
