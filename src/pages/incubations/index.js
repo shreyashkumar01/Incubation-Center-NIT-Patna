@@ -1,8 +1,7 @@
  // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import {useNavigate } from "react-router-dom";
-import React from 'react';
-import Pag from './page/card.js';
+import React from 'react'; 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 

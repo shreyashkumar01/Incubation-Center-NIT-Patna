@@ -8,11 +8,12 @@ function Gallery1() {
   return (
     <>
     <Navbar/>
-    <div className='hhar'>
-      
-    <div className='text1'>
-      Gallery
+    <div class="container_header1">
+      <div>
+      <h1>Gallery</h1>
       </div>
+      </div>
+    <div className='hhar'> 
     <div className='text2'>
       Team Work :-
       </div>

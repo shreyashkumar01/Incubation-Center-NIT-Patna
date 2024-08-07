@@ -1,10 +1,17 @@
 import React from 'react'
 import './style.css' 
 import Footer from '../../footer'
+import Navbar from '../../Navbar';
 
 function Timeline() {
   return (
     <div className='events_timeline'> 
+      <Navbar/>
+    <div class="container_header">
+      <div>
+      <h1>Events Timeline</h1>
+      </div>
+      </div>
     <div class="timeline">
       <div class="container left-container">
             <img src="nitplogo.png"/>

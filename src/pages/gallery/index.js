@@ -9,7 +9,7 @@ const Gallery = () => {
   return (
     <>
     <div id="gallery" className='gallery'>
-      <p className='h11'> Gallery</p>
+      <h1 className='h11'> Gallery</h1>
       <div className="gallery1">
         <div className='gallerydiv'>
           <div className='imgdiv'>

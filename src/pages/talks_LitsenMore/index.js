@@ -9,9 +9,14 @@ const Talks_LitsenMore = () =>  {
   return (
      <div id="Talks_viewMore">
         <Navbar/>
-<div class="heading">
+        <div class="container_header1">
+      <div>
+      <h1>Entrepreneur's Talks</h1>
+      </div>
+      </div>
+{/* <div class="heading">
     Entrepreneurship Talk
-</div>
+</div> */}
 <div class="main11">
     <div class="row11">
         <div class="card11">

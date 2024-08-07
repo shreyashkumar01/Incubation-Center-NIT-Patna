@@ -22,7 +22,7 @@
   --third-main-color:#27496D;
   --fouth-main-color:#142850;
 } 
-.home body {
+.home {
   background: var(--third-main-color);
   color: var(--text-color);
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
@@ -81,7 +81,7 @@
     grid-template-rows: auto;
     justify-self: center;
     align-items: center;
-    height: calc(100vh - 100px);
+    height: 110vh;
     padding: 10rem 9% 2rem;
   }
 

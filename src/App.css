@@ -62,8 +62,9 @@
   --third-main-color:#27496D;
   --fouth-main-color:#142850;
 } 
-body {
-  background: var(--third-main-color);
+.App {
+  background-color: #000000;
+  /* background: var(--third-main-color);
   color: var(--text-color);
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
     url(img/background_img/IMG20230921194023.jpg);
@@ -72,7 +73,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   animation: change 40s ease-in-out infinite;
-  transition-duration: 2s;
+  transition-duration: 2s; */
 }
 
 @keyframes change {
