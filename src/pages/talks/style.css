@@ -90,7 +90,7 @@
 }
 
 .talk_slide{
-    width: 20vw;
+    width: 300px;
     height: auto;
     display: flex;
     flex-direction: column;
