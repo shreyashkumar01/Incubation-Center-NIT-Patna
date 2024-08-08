@@ -7,10 +7,6 @@
 }
 .events_timeline {
     background-color: #2e364a;
-    background-color: #000000;
-    opacity: 0.9;
-        background-image: radial-gradient(#142850 0.8px, #000000 0.8px);
-        background-size: 16px 16px;
 }
 .timeline{
     position: relative;
@@ -70,7 +66,7 @@
     border-radius: 50%;
     right: -20px;
     top: 32px;
-    z-index: 13;
+    z-index: 10;
 }
 .timeline .right-container img{
     left: -20px;
@@ -84,7 +80,7 @@
     top: 0;
     left: 50%;
     margin-left: -3px;
-    z-index: -1;
+    z-index: 0;
     animation: moveline 6s linear forwards;
 }
 @keyframes moveline {

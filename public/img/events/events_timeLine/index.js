@@ -14,7 +14,7 @@ function Timeline() {
       </div>
     <div class="timeline">
       <div class="container left-container">
-            <img src=" img/IC LOGO (1).png " alt='logo'/>
+            <img src="  " alt='logo'/>
             <div class="text-box">
                 <h2>Event name1</h2>
                 <small>timings1</small>
@@ -26,7 +26,7 @@ function Timeline() {
             <span class="left-container-arrow"></span>
         </div>
         <div class="container right-container">
-        <img src=" img/IC LOGO (1).png " alt='logo'/>
+            <img src="nitplogo.png"/>
             <div class="text-box">
                 <h2>Event name2</h2>
                 <small>timings2</small>
@@ -37,7 +37,7 @@ function Timeline() {
             </div>
         </div>
         <div class="container left-container">
-        <img src=" img/IC LOGO (1).png " alt='logo'/>
+            <img src="nitplogo.png"/>
             <div class="text-box">
                 <h2>Event name3</h2>
                 <small>timings3</small>
@@ -48,7 +48,7 @@ function Timeline() {
             </div>
         </div>
         <div class="container right-container">
-        <img src=" img/IC LOGO (1).png " alt='logo'/>
+            <img src="nitplogo.png"/>
             <div class="text-box">
                 <h2>Event name4</h2>
                 <small>timings4</small>
@@ -59,7 +59,7 @@ function Timeline() {
             </div>
         </div>
         <div class="container left-container">
-        <img src=" img/IC LOGO (1).png " alt='logo'/>
+            <img src="nitplogo.png"/>
             <div class="text-box">
                 <h2>Event name5</h2>
                 <small>timings5</small>
@@ -70,7 +70,7 @@ function Timeline() {
             </div>
         </div>
         <div class="container right-container">
-        <img src=" img/IC LOGO (1).png " alt='logo'/>
+            <img src="nitplogo.png"/>
             <div class="text-box">
                 <h2>Event name6</h2>
                 <small>timings6</small>
