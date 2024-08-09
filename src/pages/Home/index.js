@@ -3,6 +3,8 @@ import React from "react";
 import "./style.css";
 import Typewriter from "typewriter-effect";
 import { useState, useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 // import { Button } from 'primereact/button';
 
@@ -24,17 +26,30 @@ const Home = () => {
     }
   }, []); 
 
+
+  AOS.init({
+    duration: 1000
+  });
+
+// hljs.initHighlightingOnLoad();
+
+//   $('.hero__scroll').on('click', function(e) {
+//     $('html, body').animate({
+//       scrollTop: $(window).height()
+//     }, 1200);
+//   });
+
   // });
   return (
     <div>
       <section class="home" id="home">
         <div className="grid-1"> 
-        <div class="home-content">
+        <div class="home-content" data-aos="fade-right">
           {/* <Button label="Submit" /> */}
 
           <h3>Welcome to,</h3>
           <h1> <span>I</span>ncubation <span>C</span>enter</h1>
-         <div className="h3-2">
+         <div className="h3-2" >
         <h3>of NIT Patna.</h3>
         </div>
           <div className="typewriter">
@@ -65,7 +80,7 @@ const Home = () => {
         </div>
 
         <div className="grid-2">  
-          <div class="notice">
+          <div class="notice" data-aos="fade-up" data-aos-duration="1500">
             <div>
               <h1>NOTICE</h1>
               <hr></hr>

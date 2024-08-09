@@ -5,13 +5,13 @@ const Faqs = () => {
   return (
     <div className='faq'>
     <div className='faqs'>
-      <div className="centerplease">
+      <div className="centerplease" data-aos="fade-down">
         FAQS
       </div>
       <br />
 
       <div className="content">
-        <div className='contentDiv'>
+        <div className='contentDiv' data-aos="fade-up" >
           <input type="checkbox" id="question1" name="q" className="questions" />
           <div className='outer'>
             <div className="plus">+</div>
@@ -23,7 +23,7 @@ const Faqs = () => {
             This is the answer of the question.. keep it short.</div>
         </div>
 
-        <div className='contentDiv'>
+        <div className='contentDiv' data-aos="fade-up" >
           <input type="checkbox" id="question2" name="q" className="questions" />
           <div className='outer'>
             <div className="plus">+</div>
@@ -36,7 +36,7 @@ const Faqs = () => {
           </div>
         </div>
 
-        <div className='contentDiv'>
+        <div className='contentDiv' data-aos="fade-up" >
           <input type="checkbox" id="question3" name="q" className="questions" />
           <div className='outer'>
             <div className="plus">+</div>

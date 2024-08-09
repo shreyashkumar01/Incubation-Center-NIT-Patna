@@ -10,14 +10,14 @@ const Events = () => {
     <div>
       <section className="events" id="events">
         <div className="event_header">
-          <h1>Events</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam ex accusamus sint natus voluptatem fuga aperiam
+          <h1 data-aos="fade-down">Events</h1>
+          <p data-aos="fade">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam ex accusamus sint natus voluptatem fuga aperiam
             perspiciatis modi vero quam atque quisquam laboriosam, optio id. Totam inventore corrupti quod obcaecati. Lorem
             ipsum, dolor sit amet consectetur adipisicing elit. Ullam ex accusamus sint natus voluptatem fuga aperiam
             perspiciatis modi vero quam atque quisquam laboriosam, optio id. Totam inventore corrupti quod obcaecati. </p>
         </div>
-        <div className="events_box">
-          <div className="flip-card">
+        <div className="events_box"  >
+          <div className="flip-card"data-aos="flip-left">
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img src="img/stock_grow.jpg" alt="event"/>
@@ -31,7 +31,7 @@ const Events = () => {
             </div>
           </div>
 
-          <div className="flip-card">
+          <div className="flip-card"data-aos="flip-left">
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img src="img/stock_grow.jpg" alt="event"/>
@@ -45,7 +45,7 @@ const Events = () => {
             </div>
           </div>
 
-          <div className="flip-card">
+          <div className="flip-card"data-aos="flip-left">
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img src="img/stock_grow.jpg" alt="event"/>
@@ -60,7 +60,7 @@ const Events = () => {
           </div>
         </div>
 
-        <div className="events_btn">
+        <div className="events_btn" data-aos="fade-left">
           <a href="events timeline/index.html" className="btn">View More</a>
         </div>
       </section>
