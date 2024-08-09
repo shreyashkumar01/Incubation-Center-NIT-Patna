@@ -11,8 +11,8 @@ const Idea = () => {
   return (
     <div>
       <section class="idea" id="idea">
-        <h1>Incubate u'r Idea</h1>
-        <div className='form'>
+        <h1 data-aos="fade-down">Incubate u'r Idea</h1>
+        <div className='form' data-aos="fade-up">
           <form action="#" onSubmit={IdeaJs}>
 
             <div class="input-box">

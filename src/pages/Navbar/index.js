@@ -1,9 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import "./style.css";
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 // import Scroll from './scroll.js';
 
 const Navbar = () => {
+
+  AOS.init({
+    duration: 1000
+  });
+
   const [scrolled,setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false)
   // window.addEventListener("scroll", function () {
@@ -45,7 +52,7 @@ const Navbar = () => {
 
   return (
 
-    <div className='headerContainer' style={headerStyle}>
+    <div className='headerContainer' style={headerStyle} data-aos="fade-down">
       {/* <!-- header  --> */}
 
       <header className="header" style={navbarStyle}>
