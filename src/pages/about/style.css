@@ -6,9 +6,9 @@
         /* background-color: var(--fouth-main-color); */
         /* opacity: 1;   */
     
-        background-color: #000000;
-        opacity: 0.9;
-        background-image: radial-gradient(#142850 0.8px, #000000 0.8px);
+        background-color: #0000004a;
+        opacity: 1;
+        background-image: radial-gradient(#142850 1px, #000000 1px);
         background-size: 16px 16px;
     position: relative;  
     padding: 5rem 9% 4rem;
@@ -23,7 +23,7 @@
   }
   
   .building-img{   
-
+  
     width: 200%;
     margin: 0 10%;
     display: flex;
@@ -73,6 +73,7 @@
    
    }
    .building-img{
+  
     width:80%;
    }
    .about-content{
@@ -80,11 +81,34 @@
    }
    .about-content h1{
     text-align: center;
-    width:250px;
+    width:fit-content;
     margin: auto;
    }
    .heading{
     
    }
+  }
+  @media screen and (max-width:558px){
+    .building-img{
+      display:none;
+    }
+    div.heading{
+     margin-top: -80px;
+       
+    }
+
+    div.heading h1{
+      font-size: 3rem;
+      width:fit-content;
+    
+     text-align: center;
+    }
+    .about-content p{
+      font-size: 1rem;
+    }
+    .about-content ul li{
+      font-size: 1rem;
+    }
+
   }
   /* about css */

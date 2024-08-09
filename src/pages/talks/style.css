@@ -16,6 +16,7 @@
     width: 100vw; 
     margin-bottom: 4rem;
     height: auto;
+    text-align: center;
 }
 
 .talks_content h1{
@@ -71,11 +72,11 @@
 
 .talk_slider_track{
     display: flex;
-    width: calc(20vw * 14);
+    width: calc(350px * 14);
     animation: scroll 40s linear infinite;                                                                                                              
     gap: 30px;
-    overflow: hidden; 
-    height: 50vh;
+    /* overflow: hidden;  */
+    height: 400px;
 }
 
 .talk_slider_track:hover{
@@ -89,7 +90,7 @@
     }
 
     100%{
-        transform: translateX(calc(-20vw *7));
+        transform: translateX(calc(-350px *7));
     }
 }
 
@@ -214,6 +215,17 @@
         height:auto;
      }
 }
+@media screen and (max-width:558px){
+      .talks_content h1{
+            font-size: 3rem;
+      }
+      .talks_content p{
+        font-size: 1rem;
+  }
+  .talk_slide_content p{
+     font-size: 1rem;
+  }
+}
 @media screen and (max-width:400px){
      .talk_slider{
         margin-top: -10px;
@@ -221,6 +233,8 @@
      }
      .talks_content h1{
         margin-top: -10px;
-        font-size:4rem;
+     }
+     .talks_btn .btn{
+        font-size: 1rem;
      }
 }

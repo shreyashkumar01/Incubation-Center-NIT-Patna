@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style.css";
 import IdeaJs from './idea.js';
-import Form from '../faqs/index.js'
+
 
 const Idea = () => {
   // const handleSubmit = (e) => {
@@ -45,7 +45,7 @@ const Idea = () => {
             <button type="submit"  >Submit</button>
           </form>
         </div>
-        <Form/>
+        
       </section>
       <script src="https://smtpjs.com/v3/smtp.js"></script>
      

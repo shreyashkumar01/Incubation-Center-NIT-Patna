@@ -2,25 +2,25 @@
   /* footer css */
   
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-  body{
+  .footer body{
       line-height: 1.5;
       font-family: 'Poppins', sans-serif;
   }
-  *{
+  .footer *{
       margin:0;
       padding:0;
       box-sizing: border-box;
   }
-  .container{
+  .footer .container{
       max-width: 1170px;
       margin:auto;
       margin-bottom: 1rem;
   }
-  .row{
+  .footer .row{
       display: flex;
       flex-wrap: wrap;
   }
-  ul{
+  .footer ul{
       list-style: none;
   }
   .footer{

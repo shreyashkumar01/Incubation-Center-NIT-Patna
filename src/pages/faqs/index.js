@@ -4,6 +4,7 @@ import "./style.css";
 const Faqs = () => {
   return (
     <div className='faq'>
+    <div className='faqs'>
       <div className="centerplease">
         FAQS
       </div>
@@ -48,6 +49,7 @@ const Faqs = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

@@ -1,14 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
     
+} */
+.hhar{
+  /* padding: 50px; */
+  padding-top: 60px;
+  opacity: 0.9;
+  /* background-image: radial-gradient(#142850 0.8px, #000000 0.8px); */
+  background-size: 16px 16px;
 }
-
 .text1{
   color: rgb(233, 228, 228);
   font-size: 4rem;
@@ -27,17 +33,18 @@
   margin-top: 0;
 
 }
-.slider{
+.harshr{
   /* background-color: rgb(255, 255, 255); */
-  height: 50vh;
+  height: 45vh;
   margin: 0 auto;
   position: relative;
-  width: 98vw;
+  width: 95vw;
   display: grid;
   place-items: center;
   overflow: hidden;
+  
 }
-.slider-track{
+.harshr-track{
   display: flex;
   width:calc(400px*18);
   animation: scroll 30s linear infinite;
@@ -45,7 +52,7 @@
 
 
 }
-.slider-track:hover{
+.harshr-track:hover{
   animation-play-state: paused;
 }
 @keyframes scroll{
@@ -57,7 +64,7 @@
   }
 
 }
-.slide{
+.harsh{
   height: 100%;
   width: 500px;
   display: flex;
@@ -66,7 +73,7 @@
   perspective: 100px;
 
 }
-img{
+.harsh img{
   width: 100%;
   height: 100%;
   transition: transform 1.5s;
@@ -77,8 +84,8 @@ img:hover{
   transform: translateZ(25px);
   /* scale: 1.5; */
 }
-.slider::before,
-.slider::after{
+.harshr::before,
+.harshr::after{
   content: '';
   position: absolute;
   height: 100%;
@@ -86,18 +93,18 @@ img:hover{
   background: linear-gradient(to right rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
   z-index: 2;
 }
-.slider::before{
+.harshr::before{
   left: 0;
   top: 0;
 }
-.slider::after{
+.harshr::after{
   right: 0;
   top: 0;
   transform: rotateZ(180deg);
 }
 @media screen and (max-width: 768px){
-  .slider{
-    height: 35vh;
+  .harshr{
+    height: 30vh;
   }
   .text1{
     font-size: 2rem;
@@ -105,10 +112,10 @@ img:hover{
   .text2{
     font-size: 1.5rem;
   }
-  .slider-track{
+  .harshr-track{
     width:calc(300px*18);
   }
-  .slide{
+  .harsh{
     width: 400px;
   }
   

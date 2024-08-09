@@ -41,11 +41,11 @@
     justify-content: space-between;
 }
 
-.input-box .input-field{
+.idea .input-box .input-field{
     width: 48.5%;
 }
 
-.field .item{
+.idea .field .item{
     width: 100%;
     padding: 18px;
     background: transparent;
@@ -57,15 +57,15 @@
     margin: 12px 0;
 }
 
-.field.error .item{ 
+.idea .field.error .item{ 
     border-color: #d93025;
 }
 
-.field.item::placeholder{
+.idea .field.item::placeholder{
     color: rgba(255,255,255,.3);
 }
 
-.field .error-txt{
+.idea .field .error-txt{
     font-size: 14.5px;
     color: #d93025;
     text-align: left;
@@ -73,11 +73,11 @@
     display: none;
 }
 
-.field.error .error-txt{
+.idea .field.error .error-txt{
     display: block;
 }
 
-.idea form .textarea-field .item{
+.idea .idea form .textarea-field .item{
     resize: none;
 }
  
@@ -100,7 +100,7 @@
     transition: .5s;
 }
 
-form button:hover{
+.idea form button:hover{
     box-shadow: none;
 }
 @media  screen and (max-width:619px) {
@@ -109,11 +109,14 @@ form button:hover{
         width:380px;
       }
 }
+@media  screen and (max-width:558px) {
+    .idea h1{
+        font-size: 3rem;
+    }
+}
 @media  screen and (max-width:429px) {
     .idea form{
       width:300px;
     }
-    .idea h1{
-        font-size: 3rem;
-    }
+   
 }
