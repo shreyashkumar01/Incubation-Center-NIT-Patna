@@ -30,10 +30,10 @@ const GoogleSlider = () => {
   return (
     <div className='slidesMain'>
         <div className="slideNames">
-            <div onClick={() => setSlide(0)} className={slide == 0 ? 'active' : ''}>Programs</div>
-            <div onClick={() => setSlide(1)} className={slide == 1 ? 'active' : ''}>Products</div>
-            <div onClick={() => setSlide(2)} className={slide == 2 ? 'active' : ''}>People</div>
-            <div onClick={() => setSlide(3)} className={slide == 3 ? 'active' : ''}>Spaces</div>
+            <div onClick={() => setSlide(0)} className={slide == 0 ? 'active' : ''}><h2>Programs</h2></div>
+            <div onClick={() => setSlide(1)} className={slide == 1 ? 'active' : ''}><h2>Products</h2></div>
+            <div onClick={() => setSlide(2)} className={slide == 2 ? 'active' : ''}><h2>People</h2></div>
+            <div onClick={() => setSlide(3)} className={slide == 3 ? 'active' : ''}><h2>Spaces</h2></div>
         </div>
         <div className='infoSection'>
             <div className='dataSection'>
@@ -45,6 +45,7 @@ const GoogleSlider = () => {
             </div>
             <div className='imgSection'>
                 <img src={images[slide]} alt="img" />
+              
             </div>
         </div>
     </div>
