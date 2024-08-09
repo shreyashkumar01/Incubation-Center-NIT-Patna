@@ -25,6 +25,11 @@
     background-color: white;
     border-radius: 5px;
     color: black;
+    font-size:10px ;
+}
+.slidesMain .slideNames div h2{
+    color:black;
+ 
 }
 
 .slidesMain .active{
@@ -73,4 +78,59 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+@media screen and (max-width:740px){
+   .slideNames{
+    margin: auto;
+             width:80%;
+             gap: 20px;
+    }
+    .slideNames div{
+        width:20%;
+       
+    }
+ .slideNames h2{
+    width:100%;
+    font-size: 10px;
+    }
+}
+@media screen and (max-width:679px){
+    .slideNames h2{
+      
+       display: inline-block;
+       width:50px;
+        
+    }
+    .slideNames div{
+       height:30px;
+       display:flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .infoSection{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .dataSection{
+        padding-top: 20px;
+    }
+    .imgSection{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:400px){
+    .slidesMain .slideNames {
+        display:flex;
+        gap:10px;
+    }
+    
+}
+@media screen and (max-width:558px){
+    .dataSection .wrapper p{
+        font-size: 1rem;
+    }
+    .dataSection .wrapper button{
+        font-size: 1rem;
+    }
 }
