@@ -99,6 +99,9 @@ margin-top: 300px;
 
 margin: auto;
 }
+.events_btn .btn{
+  margin-left: 55px;
+}
 
 /* events css */
 @media screen and (max-width:1144px){
@@ -115,10 +118,47 @@ margin: auto;
   }
 }
 @media screen and (max-width:558px){
+  .flip-card{
+    border-radius: 20px;
+    height:200px;
+    width:200px
+  }
+  .flip-card-front img{
+    border-radius: 10px;
+  }
   .event_header h1{
          font-size: 3rem;
   }
   .event_header p{
         font-size: 1rem;
   }
+  .events_btn{
+   
+    margin-top: 0px;
+    margin: auto;
+    width:100px;
+   
+  }
+  .events_btn .btn{
+ font-size: 1rem;
+ margin: auto;
+ height: 28px;
+ padding: 6px;
+  }
+  .events_box{
+    padding-bottom: 0px;
+  }
+  .flip-card-back h1{
+     font-size: 2rem;
+  }
+  .flip-card-back {
+   
+  padding-top: 10px;
+ }
+ .flip-card-back .btn{
+  width: 100px;
+  height: 28px;
+  font-size: 1rem;
+  padding-top: 5px;
+ }
 }

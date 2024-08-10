@@ -90,5 +90,15 @@
   
 }
 
+@media screen and (max-width:558px){
+  .centerplease{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  }
+  .faqs .centerplease{
+    font-size: 3rem;
+  }
+}
 
