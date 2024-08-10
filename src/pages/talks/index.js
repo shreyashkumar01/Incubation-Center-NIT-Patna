@@ -186,9 +186,11 @@ const Talks =  () => {
   return (
     <div>
       <section class="talks" id="talks">
+    <div>
     <div class="talks_content" data-aos="fade-right">
       <h1>Our Enterpreneur's Talk</h1>
     <p  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla temporibus, sint laborum natus deleniti? Perspiciatis, eveniet commodi. Quo harum iusto quasi. Blanditiis cum amet ullam repellendus optio quasi fugit!</p>
+    </div>
     </div>
     
     <div class="talk_slider" data-aos="fade-left">

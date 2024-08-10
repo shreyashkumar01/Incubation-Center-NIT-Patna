@@ -2,12 +2,17 @@
   background-color: transparent;
   color: black;
   font-size: 1.7rem;
+  padding: 10rem 9% 4rem;
 }
 
 .faqs .content {
-  width: 60%;
+  width: 80%;
   padding:0;
   margin: 0 auto;
+}
+
+.faqs .contentDiv{
+  margin: 2rem;
 }
 
 .faqs .centerplease {

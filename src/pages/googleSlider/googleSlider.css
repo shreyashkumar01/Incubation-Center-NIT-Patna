@@ -1,3 +1,22 @@
+.howMain{ 
+    flex-direction: column;
+    display: flex;
+    padding: 10rem 9% 5rem;
+    opacity: 0.9;
+background-image: radial-gradient(#142850 0.8px, #000000 0.8px);
+background-size: 16px 16px;
+color:white;
+}
+
+.how_header{
+  display: flex;
+  flex-direction: column;
+  justify-content:  start; 
+  align-items: center;
+  padding-bottom: 2.6rem; 
+  font-size: 2.6rem;  
+}
+
 .slidesMain.slides{
     display: flex;
     flex-direction: column;
@@ -5,8 +24,7 @@
     background-color: white;
 }
 
-.slidesMain{
-    margin: 0px 0;
+.slidesMain{ 
     color: white;
 }
 

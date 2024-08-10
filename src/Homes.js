@@ -40,9 +40,9 @@ function Homes() {
         <Talks  />
         {/* <Talks_LitsenMore/> */}
         <Events/>
-        <Gallery/>
-        <Form/> 
+        <Gallery/> 
         <Idea/>
+        <Form/>
         {/* <Faqs/> */} 
         <Footer/>
     </div>
