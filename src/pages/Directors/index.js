@@ -4,10 +4,10 @@ import "./style.css";
 const Director = () => {
 	return (
 		<section class="dark">
-			<div class="container py-4">
-				<h1 class="h1 text-center" id="pageHeaderTitle">Director Desk</h1>
+			<div class="container py-4"> 
+				<h1 class="h1 text-center" id="pageHeaderTitle" data-aos="fade-down">Director Desk</h1>
 
-				<article class="postcard dark blue">
+				<article class="postcard dark blue" data-aos="fade-right"> 
 					<a class="postcard__img_link" href="#">
 						<img class="postcard__img" src="img/team/director.jpg" alt="Image Title" />
 					</a>
@@ -28,8 +28,8 @@ const Director = () => {
 							</li>
 						</ul>
 					</div>
-				</article>
-				<article class="postcard dark red">
+				</article> 
+				<article class="postcard dark red" data-aos="fade-left"> 
 					<a class="postcard__img_link" href="#">
 						<img class="postcard__img" src="img/team/bharatgupta.jpg" alt="Image Title" />
 					</a>

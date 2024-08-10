@@ -183,8 +183,7 @@
      }
      .talk_slider_track{
         height:400px;
-     }
-  
+     } 
   
 }
 @media screen and (max-width:1220px){
@@ -222,7 +221,7 @@
   }
   .talk_slide_content p{
      font-size: 1rem;
-  }
+  } 
   .talk_slide{
      height:200px;
      width:200px;
@@ -261,7 +260,7 @@
  }
  .talks{
     padding-top: 2rem;
- }
+ } 
 }
 @media screen and (max-width:400px){
      .talk_slider{
@@ -272,8 +271,8 @@
         margin-top: -10px;
      }
      .talks_btn .btn{
-        font-size: 1rem;
+        font-size: 1rem; 
        
      }
-   
+    
 }

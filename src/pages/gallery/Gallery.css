@@ -72,6 +72,11 @@
   }
   
 }
+@media screen and (max-width: 558px){
+      .h11{
+        font-size: 3rem;
+      }
+}
 @media screen and (max-width:1025px) {
   .gallerydiv:last-child{
     display: none;

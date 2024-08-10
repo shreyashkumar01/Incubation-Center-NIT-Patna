@@ -9,9 +9,9 @@ const Gallery = () => {
   return (
     <>
     <div id="gallery" className='gallery'>
-      <h1 className='h11'> Gallery</h1>
+      <h1 className='h11' data-aos="fade-down"> Gallery</h1>
       <div className="gallery1">
-        <div className='gallerydiv'>
+        <div className='gallerydiv' data-aos="fade-up">
           <div className='imgdiv'>
           <img src={img} alt="img" className='imgg'/>
           </div>
@@ -23,7 +23,7 @@ const Gallery = () => {
           </div>
           
         </div>
-        <div className='gallerydiv'>
+        <div className='gallerydiv'data-aos="fade-up" data-aos-duration="1500">
           <div className='imgdiv'>
           <img src={img} alt="img" className='imgg'/>
           </div>
@@ -36,7 +36,7 @@ const Gallery = () => {
 
           
         </div>
-        <div className='gallerydiv'>
+        <div className='gallerydiv'data-aos="fade-up" data-aos-duration="1500">
           <div className='imgdiv'>
           <img src={img} alt="img" className='imgg'/>
           </div>
@@ -49,7 +49,7 @@ const Gallery = () => {
 
           
         </div>
-        <div className='gallerydiv'>
+        <div className='gallerydiv' data-aos="fade-up">
           <div className='imgdiv'>
           <img src={img} alt="img" className='imgg'/>
           </div>
@@ -66,7 +66,7 @@ const Gallery = () => {
 
       </div>
     
-  <Link to="/gallery" className="bttnn">View More</Link>
+  <Link to="/gallery" className="bttnn" data-aos="fade-left">View More</Link>
   </div>
   </>
   );

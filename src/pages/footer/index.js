@@ -10,7 +10,7 @@ const Footer = () => {
   var year = currentTime.getFullYear();
   return (
     <div>
-       <footer class="footer" id="footer">
+       <footer class="footer" id="footer" >
     <div class="container">
       <div class="row">
         <div class="footer-col">

@@ -113,14 +113,14 @@
 @media  screen and (max-width:558px) {
     .idea h1{
         font-size: 3rem;
-    }
+    } 
     .idea button{
         height:28px;
         border-radius: 20px;
         padding: 0px;
         width:100px;
         font-size: 1rem;
-    }
+    } 
 }
 @media  screen and (max-width:429px) {
     .idea form{

@@ -251,7 +251,8 @@ a {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-       border-radius: 20px;
+ 
+       border-radius: 20px; 
     }
 
     .card__img{
@@ -261,15 +262,16 @@ a {
 
 }
 @media screen and (max-width:558px) {
-  
+ 
   .incubations_header h1{
     font-size: 3rem;
   }
   .incubations_header p{
     font-size: 1rem;
   }
+ 
   .card__incubationarticle {
 border-radius: 20px;
  
-}
+} 
 }

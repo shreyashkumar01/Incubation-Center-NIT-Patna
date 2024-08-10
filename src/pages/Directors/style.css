@@ -6,12 +6,13 @@
 /* main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default; */
 
 /* This pen */
-.dark body {
+.dark  {
 	font-family: "Baloo 2", cursive;
 	font-size: 16px;
 	color: #ffffff;
 	text-rendering: optimizeLegibility;
 	font-weight: initial;
+  padding: 10rem 9% 2rem;
 }
 
 .dark {
