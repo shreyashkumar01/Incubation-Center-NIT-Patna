@@ -183,10 +183,7 @@
      }
      .talk_slider_track{
         height:400px;
-     }
-     .talk_slide_profile_content p{
-         
-     }
+     } 
   
 }
 @media screen and (max-width:1220px){
@@ -224,7 +221,46 @@
   }
   .talk_slide_content p{
      font-size: 1rem;
+  } 
+  .talk_slide{
+     height:200px;
+     width:200px;
+     /* display: flex;
+     justify-content: flex-end; */
   }
+  .talk_slide_profile{
+    height: 50px;
+    width:200px;
+    margin-top:-30px
+  }
+  .talk_slide_profile_content{
+    font-size: 0.6rem;
+  }
+  .talk_slide_profile_photo{
+      height:30px;
+      width:30px
+  }
+  .talks_btn{
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    align-items: center;
+  }
+  .talks_btn .btn{
+  
+    height:28px;
+    /* padding-top: 2%; */
+    padding: 0px;
+    font-size: 1rem;
+    /* margin: auto; */
+    width:100px;
+  }
+  .talk_slider{
+   margin-bottom: 0px;
+ }
+ .talks{
+    padding-top: 2rem;
+ } 
 }
 @media screen and (max-width:400px){
      .talk_slider{
@@ -235,6 +271,8 @@
         margin-top: -10px;
      }
      .talks_btn .btn{
-        font-size: 1rem;
+        font-size: 1rem; 
+       
      }
+    
 }

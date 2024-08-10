@@ -28,8 +28,9 @@ const GoogleSlider = () => {
         'https://kstatic.googleusercontent.com/files/acd18ca25e2b117831e384bb00d5a16b7a560253f99c51fd4299074656d2317c27693ba5837b95151143a3cf3d940a7cddec4593b6942ae3f67954a97383f0e5'
     ]
   return (
-    <div className='slidesMain'>
+    <div className='slidesMain'> 
         <div className="slideNames" data-aos="fade-up">
+ 
             <div onClick={() => setSlide(0)} className={slide == 0 ? 'active' : ''}><h2>Programs</h2></div>
             <div onClick={() => setSlide(1)} className={slide == 1 ? 'active' : ''}><h2>Products</h2></div>
             <div onClick={() => setSlide(2)} className={slide == 2 ? 'active' : ''}><h2>People</h2></div>

@@ -1,5 +1,9 @@
 import React from 'react';
 import "./styles.css";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { RiLinkedinBoxFill } from "react-icons/ri";
+import { FaTwitter } from "react-icons/fa";
 import Login from '../login/login';
 const Footer = () => {
   var currentTime = new Date();
@@ -41,10 +45,10 @@ const Footer = () => {
         <div class="footer-col">
           <h4>follow us</h4>
           <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-facebook-f">< FaFacebook /></i></a>
+            <a href="#"><i class="fab fa-twitter"><FaTwitter /></i></a>
+            <a href="#"><i class="fab fa-instagram">< FaInstagram/></i></a>
+            <a href="#"><i class="fab fa-linkedin-in">< RiLinkedinBoxFill/></i></a>
           </div>
         </div>
       </div>
