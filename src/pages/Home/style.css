@@ -1,7 +1,7 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
 
-.home * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,7 +13,7 @@
   color: #fff;
 }
 
-.home :root {
+:root {
   --bg-color: #000000;
   --second-bg-color: rgb(36, 37, 37);
   --text-color: #fff;
@@ -67,9 +67,10 @@
   overflow-x: hidden;
 }
 
-.home section {
-  height: auto;
+section {
+  height: 600px;
   /* padding: 10rem 9% 2rem; */
+  
 }
 
 
@@ -88,8 +89,8 @@
   .home .grid-2{
     width: 100%;
   }
-
-  .home .notice { 
+ 
+  .notice { 
     /* height: 380px; */
     /* box-shadow: 3px 3px 15px black; */
     border-radius: 25px; 
@@ -102,15 +103,19 @@
     /* animation-delay: 4s ; */
     font-size: 10px;
     /* animation: bringImage 2s ease-in-out 1 ; */
+    backdrop-filter:blur(13px);
+    color:white;
   }
 
-  .home .notice h1 {
+  .notice h1 {
     padding: 1rem;
     text-align: center;
     font-size: 3rem;
+    color:white;
+
   }
 
-  .home .notice hr{
+  .notice hr{
     height:2px;
     border-width:0;
     color:gray;
@@ -120,8 +125,8 @@
     margin-right: 10px;
   }
 
-  .home .notice-content{
-    font-size: 1.3rem; 
+  .notice-content{
+    font-size: 1.8rem; 
     display: flex; 
     flex-direction: column;
     justify-content: center;
@@ -130,9 +135,13 @@
     margin-right: 5%;
     margin-bottom: 5%;
     list-style: initial;
+      color:white;
   } 
+  .notice-content li{
+    color:white;
+  }
 
-  .home .notice:hover{
+  .notice:hover{
     animation-play-state: paused;
   }
 
@@ -170,8 +179,9 @@
   }
 
   .home-content h3 {
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 1.9rem;
+    font-weight: 500;
+    color:white;
   } 
 
   .h3-2 h3{
@@ -182,15 +192,17 @@
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1;
+    color:white;
   }
 
   .home-content p {
     font-size: 1.3rem; 
     width: 35%; 
+    color:white;
   }
  
   .Typewriter{
-    width: 100% ;
+    width: 300px;
   }
 
   .Typewriter__wrapper{
@@ -231,7 +243,7 @@
     font-size: large;
   }
 
-  .btn {
+ .btn {
     display: inline-block;
     padding: 1rem 1.5rem;
     background: var(--main-color);
@@ -253,38 +265,158 @@
   /* home css */
 
   @media screen and (max-width: 1280px) {
-    .home .notice-content{ 
+    .notice-content{ 
     font-size: 1.3rem; 
     }
-    .home .notice {  
+    .notice {  
       height: 45vh; 
     }
+    .grid-1{
+      margin-top:70px;
+    }
   }
-
+  @media screen and (max-width: 1179px) {
+       a.btn{
+         margin-top: 10px;
+       }
+       .grid-2{
+        height:300px;
+        width:80%;
+      }
+      .notice{
+        width:100%;
+        height:100%;
+      }
+  }
   @media screen and (max-width: 1024px) {
-    .home .notice-content{ 
+    .notice-content{ 
     font-size: 1.3rem; 
     }
-    .home .notice {   
+    .notice h1{   
+    font-size: 2.2rem;
+    }
+    .grid-2{
+      width:230px;
     }
   }
 
   @media screen and (max-width: 768px){
-    .home .home{ 
+    .home{ 
     grid-template-columns:   1fr;
     grid-template-rows: 1fr 1fr;
+    margin-top: 20px;
+    height:auto;
+   
     }
-    .home .notice {   
+    
+    .notice {   
       width: 50vw;
+      margin: auto;
+  
+    }
+    .home-content{
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      text-align: center;
+    }
+   .btn{
+         width:20%;
+      text-align: center;
+    }
+    a.btn{
+      margin-top:20px;
+      margin-bottom: 20px;
+    }
+    .grid-1{
+      margin-top:200px;
+    }
+    .grid-2{
+      margin-top: 28px;
+      width:80%;
+      margin: auto;
+    }
+    .typewritter{
+      display: flex;
+      align-items: center;
+      /* margin-left: -12px; */
+    }
+     
+    .Typewriter{
+      margin-left: -30px;
+    }
+    p{
+  margin: auto;
+  text-align: center;
+  
+    }
+    .home-content h1{
+      font-size: 4.5rem;
     }
   }
 
-  @media screen and (max-width: 480px){
-    
+  @media screen and (max-width: 600px){
+      .home-content a.btn{
+        padding:5px;
+        font-size: small;
+        margin-top: 10px;
+       }
+       /* .grid-1{
+        margin:auto;
+       } */
+       .home{
+        margin-top: 20px;
+       }
+       .home-content p{
+        width:auto;
+       }
+       .grid-2{
+        margin-top: 185px;
+        width:80%;
+      }
+      .notice{
+        width:100%;
+      }
+      .Typewriter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .home-content h1{
+        font-size:3.5rem;
+      }
+      .Typewriter__wrapper{
+         font-size: 3rem;
+      }
   }
 
-  @media screen and (max-width: 320px){
-    
+  @media screen and (max-width: 433px){
+    .Typewriter{
+      margin-left:-23px;
+      width:220px;
+     margin:auto;
+     display: flex;
+     align-items: center;
+  
+    }
+    .grid-2{
+      margin-top: 185px;
+      width:80%;
+    }
+    .notice{
+      width:100%;
+    }
+    .home-content p{
+      width:80%;
+    }
+    a.btn{
+      margin-top: 20px;
+    }
+    .Typewriter__wrapper{
+      font-size: 2.5rem;
+      margin-left: -28px;
+   }
   }
 
   
