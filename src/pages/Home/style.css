@@ -243,7 +243,7 @@ section {
     font-size: large;
   }
 
-  .btn {
+ .btn {
     display: inline-block;
     padding: 1rem 1.5rem;
     background: var(--main-color);
@@ -356,9 +356,11 @@ section {
     }
   }
 
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 600px){ 
+      .home-content a.btn{
+        padding:5px; 
        a.btn{
-        padding:4px;
+        padding:4px; 
         font-size: small;
         margin-top: 10px;
        }

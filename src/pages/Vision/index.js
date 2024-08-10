@@ -21,8 +21,7 @@ const Vision = () => {
       <div class="vision_cards"  data-aos="fade-up">
         <div class="vision_content">
           <h3>vision 1</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. </p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit,</p>
         </div>
       </div>
 

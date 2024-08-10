@@ -26,6 +26,8 @@
 #gallery{
   margin: 0 auto;
   padding: 5rem;
+  box-sizing: border-box;
+  height: auto;
 }
 .gallery1{
   display:flex;

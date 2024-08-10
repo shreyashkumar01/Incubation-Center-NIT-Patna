@@ -18,14 +18,16 @@ const Incubations = () => {
   return (
     <div>
       <section className='incubations' id='incubations'>
-        <div class="incubations_header">
+        <div class="incubations_header"> 
           <h1 data-aos="fade-down">Incubations</h1>
           <p  data-aos="fade-right"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sed, nemo soluta nulla molestias expedita
+ 
             unde quibusdam obcaecati animi veniam voluptatem maiores eligendi corporis dolore autem, voluptatum temporibus
             nobis iusto!</p>
         </div>
-
+ 
         <div className="incubations_swiper" data-aos="zoom-in-up">
+ 
           <Swiper class="card__incubations swiper"
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -306,9 +308,10 @@ const Incubations = () => {
       </div> */}
 
         {/* <!-- Pagination --> */}
-       
+        
         <div class="swiper-pagination" data-aos="zoom-in-up"></div>
           <div className="events_btn" data-aos="fade-left">
+ 
           <button className='btn' onClick={() => navigate('/Pag')}>
             Litsen More</button>
         </div>
