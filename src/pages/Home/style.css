@@ -1,7 +1,7 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
 
-* {
+.home {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -82,8 +82,8 @@ section {
     grid-template-rows: auto;
     justify-self: center;
     align-items: center;
-    height: 110vh;
-    padding: 10rem 9% 2rem;
+    height: 800px;
+    padding: 10rem 9% 4rem;
   }
 
   .home .grid-2{
@@ -96,7 +96,7 @@ section {
     border-radius: 25px; 
     background: transparent;
     border: dashed 5px var(--main-color);  
-    height: 47vh;
+    height: 350px;
     overflow: hidden;
     width: 22vw;  
     animation: floatImage 4s ease-in-out infinite; 
@@ -391,6 +391,7 @@ section {
       .Typewriter__wrapper{
          font-size: 3rem;
       }
+  }
   }
 
   @media screen and (max-width: 433px){

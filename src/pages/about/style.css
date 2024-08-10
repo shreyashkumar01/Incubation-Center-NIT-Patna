@@ -11,28 +11,26 @@
         background-image: radial-gradient(#142850 1px, #000000 1px);
         background-size: 16px 16px;
     position: relative;  
-    padding: 5rem 9% 4rem;
+    padding: 10rem 9% 4rem;
     height: auto;
     /* margin-top: -30px; */
   }
   
-  .aboutdiv{
-    display: flex;
-    flex-wrap: nowrap;
-    margin-top: 6vh;
+  .aboutdiv{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   
   .building-img{   
-  
-    width: 200%;
-    margin: 0 10%;
+    height: 100%; 
+    width: 100%;
     display: flex;
     justify-content: center;  
     align-items: center;
   }
   
   .building-img img{
-    width: 300px; 
+    width: 360px; 
     height:auto;
   }
   

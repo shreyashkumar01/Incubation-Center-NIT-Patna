@@ -12,10 +12,7 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   position:absolute;
-  left: 82%;
-
-
-
+  left: 82%; 
 }
 .h11{
   font-size: 4.5rem;
@@ -24,8 +21,8 @@
   text-align: center;
 }
 #gallery{
-  margin: 0 auto;
-  padding: 5rem;
+  margin: 0 auto;  
+  padding: 10rem 8% 4rem;
   box-sizing: border-box;
   height: auto;
 }
@@ -38,12 +35,12 @@
 
 }
 .gallerydiv{
-  width: 300px;
+  width: 250px;
   /* padding: 1rem; */
 }
 .imgdiv{
   overflow: hidden;
- margin: 1rem;
+ margin: 1rem 0.5rem;
 }
 .imgdiv img{
   width: 100%;

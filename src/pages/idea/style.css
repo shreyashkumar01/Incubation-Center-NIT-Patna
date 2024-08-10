@@ -1,6 +1,4 @@
-#idea{
-    margin: 0;
-    padding: 0;
+#idea{ 
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
     display: flex;
@@ -10,14 +8,13 @@
     /* min-height: 100vh; */
     background:  #1f242d;
     height: auto;
+    padding: 10rem 9% 4rem;
 }
 
 .idea h1{
-    font-size: 40px;
+    font-size: 5rem;
     color: #fff;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 50px;
+    text-align: center; 
 }
  .form{
    box-sizing: border-box;

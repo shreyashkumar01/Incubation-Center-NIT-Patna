@@ -48,7 +48,11 @@ const Navbar = () => {
   const headerStyle = {
     top : scrolled ? '0px' : '30px',
     transition: 'all 0.3s ease',
-  }
+  };
+
+  const logoStyle = {
+    width : scrolled ? '60px' : '50px'
+  };
 
   return (
 
@@ -56,7 +60,7 @@ const Navbar = () => {
       {/* <!-- header  --> */}
 
       <header className="header" style={navbarStyle}>
-        <a href="https://www.nitp.ac.in/" className="logo1"><img src="  img/download-removebg-preview.png " alt="NITP_logo" /></a>
+        <a href="https://www.nitp.ac.in/" className="logo1" style={logoStyle}><img src="  img/download-removebg-preview.png " alt="NITP_logo" /></a>
         <nav className="navbar">
           <a className='link' href="http://localhost:3000/">Home</a>
           <div className='link'>
@@ -98,7 +102,7 @@ const Navbar = () => {
             </div>
           )
         }
-        <a className="logo2" href="#home"><img src="img/IC LOGO (1).png" alt="Incubation Centre logo" />
+        <a className="logo2" href="#home" style={logoStyle}><img src="img/IC LOGO (1).png" alt="Incubation Centre logo" />
         </a>
       </header>
 

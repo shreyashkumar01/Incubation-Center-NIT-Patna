@@ -12,12 +12,21 @@
 	color: #ffffff;
 	text-rendering: optimizeLegibility;
 	font-weight: initial;
-  padding: 10rem 9% 2rem;
+  padding: 10rem 2% 2rem;
 }
 
 .dark {
 	background: #040D12;
   height:auto;
+}
+
+.director_header{
+  display: flex;
+  flex-direction: column;
+  justify-content:  start; 
+  align-items: center;
+  padding-bottom: 2.6rem; 
+  font-size: 2.6rem;  
 }
 
 
@@ -40,8 +49,7 @@
 /* Cards */
 .postcard {
   flex-wrap: wrap;
-  display: flex;
-  
+  display: flex; 
   box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
   border-radius: 10px;
   margin: 0 0 2rem 0;

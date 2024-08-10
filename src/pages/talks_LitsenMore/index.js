@@ -5,7 +5,7 @@ import Footer from '../footer'
 import Navbar from '../Navbar';
  
 
-const Talks_LitsenMore = () =>  {
+const TalksLitsenMore = () =>  {
   return (
      <div id="Talks_viewMore">
         <Navbar/>
@@ -184,4 +184,4 @@ const Talks_LitsenMore = () =>  {
 
  
 
-export  default Talks_LitsenMore
+export  default TalksLitsenMore

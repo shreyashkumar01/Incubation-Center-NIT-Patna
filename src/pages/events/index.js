@@ -49,18 +49,21 @@ const Events = () => {
           </div>
  
  
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src="img/stock_grow.jpg" alt="event"/>
-              </div>
-              <div className="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-                <a href="events timeline/index.html" className="btn">View More</a>
-              </div>
-            </div>
+          <div className="flip-card"data-aos="flip-left">
+ 
+ <div className="flip-card-inner">
+   <div className="flip-card-front">
+     <img src="img/stock_grow.jpg" alt="event"/>
+   </div>
+   <div className="flip-card-back">
+     <h1>John Doe</h1>
+     <p>Architect & Engineer</p>
+     <p>We love that guy</p>
+     <a href="events timeline/index.html" className="btn">View More</a>
+   </div>
+ </div>
           </div>
+        
         </div>
  
         <div className="events_btn" data-aos="fade-left">
