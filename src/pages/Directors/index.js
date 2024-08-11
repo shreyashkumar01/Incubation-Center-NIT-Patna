@@ -3,7 +3,7 @@ import "./style.css";
 
 const Director = () => {
 	return (
-		 	
+		<div className='directors_desk'>	
 		<section class="dark">
 			<div class="container py-4">  
 			<div class="director_header">
@@ -53,9 +53,11 @@ const Director = () => {
 						</ul>
 					</div>
 				</article>
+				
 
 			</div>
 		</section> 
+		</div> 
 	)
 }
 

@@ -18,8 +18,7 @@ const Events = () => {
             perspiciatis modi vero quam atque quisquam laboriosam, optio id. Totam inventore corrupti quod obcaecati. </p>
         </div> 
         <div className="events_box"  >
-          <div className="flip-card"data-aos="flip-left">
- 
+          <div className="flip-card" data-aos="flip-left"> 
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img src="img/stock_grow.jpg" alt="event"/>
@@ -68,7 +67,7 @@ const Events = () => {
  
         <div className="events_btn" data-aos="fade-left">
  
-          <a href="events timeline/index.html" className="btn">View More</a>
+          <a href="/timeline" className="btn">View More</a>
         </div>
       </section>
     </div>

@@ -102,7 +102,7 @@ const Navbar = () => {
             </div>
           )
         }
-        <a className="logo2" href="#home" style={logoStyle}><img src="img/IC LOGO (1).png" alt="Incubation Centre logo" />
+        <a className="logo2" href="/" style={logoStyle}><img src="img/IC LOGO (1).png" alt="Incubation Centre logo" />
         </a>
       </header>
 

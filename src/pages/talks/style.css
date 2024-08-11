@@ -36,18 +36,22 @@
     margin-bottom: 2rem;
 }
 
-.talks_btn{  
-    justify-items: end;
+.talks_btn{   
+    /* margin: 0 9%; */
+    /* margin-left: 70%; */
+    width: 91%;
+    display: flex;
+    justify-content: end;
+    /* margin-right: 9%; */
 }
-.talks_btn.btn{
-    width: 80%;
+.talks_btn.btn{  
 }
 
 .talk_slider{
     height: 500px;
     margin: auto;
     position: relative;
-    width: 100%;
+    width: 100vw;
     display: grid;
     place-items: center;
     margin-bottom: 4rem;

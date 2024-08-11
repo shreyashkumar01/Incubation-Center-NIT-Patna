@@ -38,8 +38,8 @@
     width: 55px;
   }
   
-  .headerContainer a.logo2 {
-    width: 6%;
+  .headerContainer .logo2 {
+    width: 100%;
   }
   
   .headerContainer nav.navbar {
@@ -47,7 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 3%;
+    margin-right: 2%;
   }
   
   .headerContainer .navbar .link {
@@ -126,6 +126,14 @@
     .headerContainer .menu {
       display: block;
     }
+
+    .headerContainer .logo1 img{
+      width: 50px;
+    }
+
+    .headerContainer .logo2 img{
+      width: 50px;
+    }
   
     .headerContainer .mobileMenuContainer{
       top: 0;
@@ -154,6 +162,6 @@
   }
   @media screen and (max-width: 747px){
          a.logo2{
-          margin-right: 30px;
+          /* margin-right: 30px; */
          }
   }

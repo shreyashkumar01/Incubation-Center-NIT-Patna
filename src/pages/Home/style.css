@@ -304,7 +304,7 @@ section {
     .home{ 
     grid-template-columns:   1fr;
     grid-template-rows: 1fr 1fr;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     height:auto;
    
     }
