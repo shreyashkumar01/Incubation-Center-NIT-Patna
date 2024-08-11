@@ -35,7 +35,7 @@ width: 100%;
 }
 
 .flip-card {
-background-color: transparent;
+/* background-color: transparent; */
 width: 300px;
 height: 300px;
 perspective: 1000px;  
@@ -93,14 +93,11 @@ font-size: 1rem;
 }
 
 .events_btn{
-width: 240px;
-display: flex ;
-margin-top: 300px;
-
-margin: auto; 
+width:100%;   
+margin: 2rem 0;
 }
-.events_btn .btn{
-  margin-left: 55px; 
+.events_btn .btn{  
+  margin-left: 89%;
 }
 
 /* events css */

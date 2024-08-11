@@ -30,13 +30,17 @@ const About = () => {
       fugit omnis. Quasi culpa non, facere quidem quia, blanditiis ex dicta ea adipisci quod consectetur? Lorem
       ipsum dolor sit amet consectetur adipisicing elit. Similique facere, minima blanditiis quo voluptatibus quod
       ullam nulla commodi, quidem sunt, pariatur quisquam dolores corporis exercitationem enim sapiente. Hic,
-      libero! Molestiae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quidem fuga adipisci omnis
-      molestias earum dicta ipsa blanditiis vero quia odit ipsum fugit, minima enim sint! Eaque reiciendis corrupti
-      ipsam.
+      libero! Molestiae? Lorem ipsum dolor sit amet consectetur adipisicing elit.  
     </p>
     <ul> 
       <li data-aos="fade-up">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo provident eos repellat vitae, harum autem
-        eius in fugit doloremque, architecto assumenda ipsam sequi quos doloribus unde tempora cumque illum ullam.
+        eius in fugit doloremque.
+      </li>
+      <li data-aos="fade-up">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo provident eos repellat vitae, harum autem
+        eius in fugit doloremque.
+      </li>
+      <li data-aos="fade-up">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo provident eos repellat vitae, harum autem
+        eius in fugit doloremque.
       </li>  
     </ul>
   </div>

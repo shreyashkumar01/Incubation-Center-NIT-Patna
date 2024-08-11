@@ -94,6 +94,9 @@
      margin-top: -80px;
        
     }
+    .aboutdiv{ 
+    grid-template-columns: 1fr 0fr;
+    }
 
     div.heading h1{
       font-size: 3rem;

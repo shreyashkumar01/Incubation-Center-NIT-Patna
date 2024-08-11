@@ -19,6 +19,7 @@
   .footer .row{
       display: flex;
       flex-wrap: wrap;
+      padding: 0 0 1rem 0;
   }
   .footer ul{
       list-style: none;
