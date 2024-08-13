@@ -20,10 +20,7 @@ const Incubations = () => {
       <section className='incubations' id='incubations'>
         <div class="incubations_header"> 
           <h1 data-aos="fade-down">Incubations</h1>
-          <p  data-aos="fade-right"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sed, nemo soluta nulla molestias expedita
- 
-            unde quibusdam obcaecati animi veniam voluptatem maiores eligendi corporis dolore autem, voluptatum temporibus
-            nobis iusto!</p>
+          <p  data-aos="fade-right"> NIT Patna's Incubation Center fosters a statewide startup ecosystem, offering essential infrastructure like office spaces, meeting rooms, networking platforms, and management support for aspiring entrepreneurs.</p>
         </div>
  
         <div className="incubations_swiper" data-aos="zoom-in-up">
@@ -66,15 +63,14 @@ const Incubations = () => {
             <SwiperSlide>
               <article class="card__incubationarticle swiper-slide">
                 <div class="card__image">
-                  <img src="img/image.jpg.jpg " alt="image" class="card__img" />
+                  <img src="img/incubations/onibus.png" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
                 </div>
 
                 <div class="card__incubationdata">
-                  <h3 class="card__name">Kell Dawx</h3>
+                  <h3 class="card__name">Onibus</h3>
                   <p class="card__description">
-                    Passionate about development and design,
-                    I carry out projects at the request of users.
+                  Onibus offers a service-oriented app and web platform facilitating efficient communication between schools and parents about students' activities.
                   </p>
 
                   <a href="#" class="card__button">View More</a>
@@ -85,15 +81,14 @@ const Incubations = () => {
             <SwiperSlide>
               <article class="card__incubationarticle swiper-slide">
                 <div class="card__image">
-                  <img src="img/image.jpg.jpg " alt="image" class="card__img" />
+                  <img src="img/incubations/busymech.png" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
                 </div>
 
                 <div class="card__incubationdata">
-                  <h3 class="card__name">Kell Dawx</h3>
+                  <h3 class="card__name">Busy Mechanic</h3>
                   <p class="card__description">
-                    Passionate about development and design,
-                    I carry out projects at the request of users.
+                  Expert mobile mechanics providing reliable vehicle care and service at competitive prices, conveniently at your home or office.
                   </p>
 
                   <a href="#" class="card__button">View More</a>
@@ -104,15 +99,14 @@ const Incubations = () => {
             <SwiperSlide>
               <article class="card__incubationarticle swiper-slide">
                 <div class="card__image">
-                  <img src="img/image.jpg.jpg " alt="image" class="card__img" />
+                  <img src="img/incubations/shekhartele.png " alt="image" class="card__img" />
                   <div class="card__shadow"></div>
                 </div>
 
                 <div class="card__incubationdata">
-                  <h3 class="card__name">Kell Dawx</h3>
+                  <h3 class="card__name">Shekhar Telesystems</h3>
                   <p class="card__description">
-                    Passionate about development and design,
-                    I carry out projects at the request of users.
+                  Shekhar Telesystems revolutionizes water management with advanced solutions for hassle-free living and upgraded surroundings. 
                   </p>
 
                   <a href="#" class="card__button">View More</a>

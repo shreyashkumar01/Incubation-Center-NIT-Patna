@@ -64,8 +64,7 @@ const Home = () => {
           
           {/* <h3>we <span class="multiple-text">{text} <Cursor cursorStyle = "|" /></span></h3> */}
           <p>
-            Lorem ipsudm dolorw, sit amet consectetur adipisicing elit. Molestias
-            obcaejcati repudiandae quod reprehenderit abm quam error aspernatur
+          Empowering startups and entrepreneurs with mentorship, workspace, and funding to foster innovation and accelerate growth. Join us to turn your ideas into successful ventures.
           </p>
           {/* <!-- <div class="social-media">
               <a href=""><i class='bx bxl-facebook'></i></a>

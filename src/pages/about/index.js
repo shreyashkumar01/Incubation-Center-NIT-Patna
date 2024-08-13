@@ -25,22 +25,24 @@ const About = () => {
     <div className='heading'><h1 data-aos="fade-down">About Us</h1></div>
     
     <h3  data-aos="fade-right" >What we do ?</h3>
-    <p data-aos="fade-up" > Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum mollitia quae, voluptatibus eligendi libero et
- 
-      fugit omnis. Quasi culpa non, facere quidem quia, blanditiis ex dicta ea adipisci quod consectetur? Lorem
-      ipsum dolor sit amet consectetur adipisicing elit. Similique facere, minima blanditiis quo voluptatibus quod
-      ullam nulla commodi, quidem sunt, pariatur quisquam dolores corporis exercitationem enim sapiente. Hic,
-      libero! Molestiae? Lorem ipsum dolor sit amet consectetur adipisicing elit.  
+    <p data-aos="fade-up" > The Incubation Centre at the National Institute of Technology 
+Patna is a vital hub for nurturing startups from inception to 
+success. Equipped with tailored resources like office spaces, 
+mentorship programs, and networking opportunities, we 
+foster an environment conducive to growth and innovation. Our 
+primary aim is to support early-stage startups by providing 
+essential resources and guidance to accelerate their growth 
+trajectory and minimize failure rates. We actively promote 
+economic development, entrepreneurship, and the 
+commercialization of research and innovation within the region 
+by facilitating access to funding, mentorship, and networks.
     </p>
     <ul> 
-      <li data-aos="fade-up">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo provident eos repellat vitae, harum autem
-        eius in fugit doloremque.
+      <li data-aos="fade-up">Provide aspiring entrepreneurs with essential resources and networking opportunities through initiatives like mentorship programs, funding avenues, and networking events to help startups overcome challenges and thrive.
       </li>
-      <li data-aos="fade-up">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo provident eos repellat vitae, harum autem
-        eius in fugit doloremque.
+      <li data-aos="fade-up">Highlight notable successes like Shekhar Telesystems, Busy Mechanic, and Vendospot, demonstrating our support's effectiveness and inspiring future generations of entrepreneurs.
       </li>
-      <li data-aos="fade-up">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo provident eos repellat vitae, harum autem
-        eius in fugit doloremque.
+      <li data-aos="fade-up">Foster innovation and resilience within the NIT Patna community, creating a supportive ecosystem where startups can flourish and significantly contribute to society and the economy.
       </li>  
     </ul>
   </div>
