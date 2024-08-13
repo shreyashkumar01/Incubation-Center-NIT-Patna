@@ -14,15 +14,14 @@
   --body-color: hsl(212, 42%, 15%);
   --container-color: hsl(212, 42%, 20%);
 
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
+
   --body-font: "Bai Jamjuree", sans-serif;
   --h2-font-size: 1.25rem;
   --normal-font-size: 1rem;
 }
 
 /*=============== BASE ===============*/
-* {
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -34,7 +33,7 @@ body {
   background-color: var(--body-color);
   color: var(--white-color);
   line-height: normal;
-}
+} */
 
 a {
   text-decoration: none;
