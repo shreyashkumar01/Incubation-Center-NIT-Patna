@@ -12,19 +12,19 @@ const Director = () => {
 						<img class="postcard__img" src="img/team/director.jpg" alt="Image Title" />
 					</a>
 					<div class="postcard__text">
-						<h1 class="postcard__title blue"><a href="#">Director</a></h1>
+						<h1 class="postcard__title blue"><a href="#">Director, NIT Patna</a></h1>
 						{/* <div class="postcard__subtitle small">
 					<time datetime="2020-05-25 12:00:00">
 						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
 					</time>
 				</div> */}
 						<div class="postcard__bar"></div>
-						<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+						<div class="postcard__preview-txt">Prof. Pradip K. Jain, Director of NIT Patna, renowned for high-power microwave research, with extensive contributions, publications, and international collaborations in his career.</div>
 						<ul class="postcard__tagbox">
 							{/* <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
 					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li> */}
 							<li class="tag__item play blue">
-								<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+								<a href="#"><i class="fas fa-play mr-2"></i>Return To Home</a>
 							</li>
 						</ul>
 					</div>
@@ -34,19 +34,20 @@ const Director = () => {
 						<img class="postcard__img" src="img/team/bharatgupta.jpg" alt="Image Title" />
 					</a>
 					<div class="postcard__text">
-						<h1 class="postcard__title red"><a href="#">Director</a></h1>
+						<h1 class="postcard__title red"><a href="#">Prof IN-CHARGE
+            INCUBATION CENTER</a></h1>
 						<div class="postcard__subtitle small">
 							<time datetime="2020-05-25 12:00:00">
 								<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
 							</time>
 						</div>
 						<div class="postcard__bar"></div>
-						<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+						<div class="postcard__preview-txt">Dr. Bharat Gupta leads the Electronics and Communication Department, spearheading research and educational initiatives in cutting-edge technologies and applications.</div>
 						<ul class="postcard__tagbox">
 							<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
 							<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
 							<li class="tag__item play red">
-								<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+								<a href="#"><i class="fas fa-play mr-2"></i>Return To Home</a>
 							</li>
 						</ul>
 					</div>
