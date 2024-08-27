@@ -1,7 +1,7 @@
 
 
 /* header css */
-
+/* 
 .header {
     position: fixed;
     top: 0;
@@ -24,15 +24,15 @@
     opacity: 1;
     margin-top: 0%;
     transition: 0.3s; 
-    /* padding-top: 50px; */
-  }
+
+  } */
   /* 
   .header p {
     width: 10%;
     font-size: 1rem;
   } */
   
-  .logo1 img {
+  /* .logo1 img {
     width: 60px;
   }
   
@@ -80,7 +80,7 @@
   
   a.logo2 {
     width: 6rem;
-    margin-right:10px;
+    margin-right:12px;
   }
   
   nav.navbar {
@@ -121,8 +121,8 @@
   
   .navbar a:hover::before {
     width: 100%;
-  }
-  @media screen and (max-width:1309px){
+  } */
+  /* @media screen and (max-width:1309px){
     .navbar{
       margin-right: 20px;
     }
@@ -140,16 +140,16 @@
 }
 @media screen and (max-width:429px){
   a.logo2{
-  margin-left:-200px
+  margin-left:-140px;
   }
   .menu{
    margin-right:-120px;
   }
 }
 
-  /* header css */
+
   @media screen and (max-width:725px){
     .header{
       width:100%;
     }
-}
+} */
