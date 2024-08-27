@@ -48,7 +48,7 @@ const GoogleSlider = () => {
                 <button>{btnInfo[slide]}</button>
                 </div>
             </div>
-            <div className='imgSection' data-aos="fade-up-left">
+            <div className='imgSection' >
                 <img src={images[slide]} alt="img" />
               
             </div>

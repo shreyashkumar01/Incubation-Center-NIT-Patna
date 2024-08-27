@@ -1,5 +1,6 @@
 import React from 'react';
 import "./styles.css";
+import { useNavigate } from 'react-router-dom';
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { RiLinkedinBoxFill } from "react-icons/ri";
@@ -8,6 +9,10 @@ import Login from '../login/login';
 const Footer = () => {
   var currentTime = new Date();
   var year = currentTime.getFullYear();
+  const navigate=useNavigate();
+  const handlelogin=()=>{
+    navigate('/login')
+  }
   return (
     <div>
        <footer class="footer" id="footer"  data-aos="fade"  data-aos-duration="300">
@@ -20,7 +25,7 @@ const Footer = () => {
             <li><a href="#">our services</a></li>
             <li><a href="#">privacy policy</a></li>
             <li><a href="#">affiliate program</a></li>
-            <li><a href="http://localhost:3000/login">Admin Notice</a></li>
+            <li onClick={handlelogin}><a href="#">Admin Notice</a></li>
           </ul>
         </div>
         <div class="footer-col">

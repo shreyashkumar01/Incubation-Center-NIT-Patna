@@ -14,28 +14,29 @@
   --body-color: hsl(212, 42%, 15%);
   --container-color: hsl(212, 42%, 20%);
 
-
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Bai Jamjuree", sans-serif;
   --h2-font-size: 1.25rem;
   --normal-font-size: 1rem;
 }
 
 /*=============== BASE ===============*/
-/* * {
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-.incubations body {
+body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--white-color);
   line-height: normal;
-} */
+}
 
-.incubations a {
+a {
   text-decoration: none;
 }
 
@@ -65,7 +66,7 @@
   display: flex;
   flex-direction: column;
   justify-content:  start; 
-  /* align-items: center; */
+  align-items: center;
   padding-bottom: 5rem;
 }
 
@@ -89,7 +90,7 @@
 .card__incubations {
   padding-block: 5rem;
   padding-bottom: 5rem;
-  height: auto;
+  height: 60vh;
 }
 
 .incubations_swiper{
@@ -171,7 +172,7 @@
 
 .swiper{ 
   width: 80%;
-  height: auto;
+  height: 45vh;
 }
 
 .swiper-slide{
@@ -250,8 +251,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
- 
-       border-radius: 20px; 
+       border-radius: 20px;
     }
 
     .card__img{
@@ -261,16 +261,15 @@
 
 }
 @media screen and (max-width:558px) {
- 
+  
   .incubations_header h1{
     font-size: 3rem;
   }
   .incubations_header p{
     font-size: 1rem;
   }
- 
   .card__incubationarticle {
 border-radius: 20px;
  
-} 
+}
 }

@@ -1,7 +1,4 @@
 
-html{
-    background-color: rgba(7, 16, 88, 0.919);
-}
 .background{
     width: 430px;
     height: 520px;
@@ -12,8 +9,9 @@ html{
     padding: 30px;
  
 }
-
-
+.App{
+  background-color: black;
+}
 form h3{
     font-size: 32px;
     font-weight: 500;
