@@ -1,22 +1,3 @@
-.howMain{ 
-    flex-direction: column;
-    display: flex;
-    padding: 10rem 9% 5rem;
-    opacity: 0.9;
-background-image: radial-gradient(#142850 0.8px, #000000 0.8px);
-background-size: 16px 16px;
-color:white;
-}
-
-.how_header{
-  display: flex;
-  flex-direction: column;
-  justify-content:  start; 
-  align-items: center;
-  padding-bottom: 2.6rem; 
-  font-size: 2.6rem;  
-}
-
 .slidesMain.slides{
     display: flex;
     flex-direction: column;
@@ -24,8 +5,14 @@ color:white;
     background-color: white;
 }
 
-.slidesMain{ 
+.slidesMain{
+    margin: 0px 0;
     color: white;
+    padding : 50px 20px;
+    background-color: #000000;
+opacity: 0.9;
+background-image: radial-gradient(#142850 0.8px, #000000 0.8px);
+background-size: 16px 16px;
 }
 
 .slidesMain .slideNames{
@@ -52,6 +39,10 @@ color:white;
 
 .slidesMain .active{
    outline: 5px solid rgb(49, 94, 255);
+}
+.how_header{
+    text-align: center;
+    background-color: black;
 }
 
 .slidesMain .infoSection{
@@ -100,7 +91,7 @@ color:white;
 @media screen and (max-width:740px){
    .slideNames{
     margin: auto;
-             width:80%;
+        
              gap: 20px;
     }
     .slideNames div{
@@ -119,6 +110,10 @@ color:white;
        width:50px;
         
     }
+    .slidesMain .slideNames {
+        display:flex;
+        gap:18px;
+    }
     .slideNames div{
        height:30px;
        display:flex;
@@ -126,10 +121,8 @@ color:white;
        justify-content: center;
     }
     .infoSection{
-        display: flex; 
+        display: flex;
         flex-direction:column-reverse;
-  
- 
         margin-top: 10px;
     }
     .dataSection{
@@ -149,7 +142,7 @@ color:white;
 @media screen and (max-width:558px){
     .dataSection .wrapper p{
         font-size: 1rem;
-    } 
+    }
     .dataSection .wrapper h1{
        font-size: 1.3rem;
     }
@@ -159,5 +152,4 @@ color:white;
     .slidesMain{
      padding-top: 0px;
     }
- 
 }

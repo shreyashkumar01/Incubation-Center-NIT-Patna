@@ -6,30 +6,23 @@
 /* main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default; */
 
 /* This pen */
-
-.directors_desk{
-  padding: 10rem 9% 2rem;
-	background: #040D12;
-  height:auto;      
-}
-
-.dark  {
-	/* font-family: "Baloo 2", cursive; */
+.dark body {
+	font-family: "Baloo 2", cursive;
 	font-size: 16px;
-  height:auto;  
 	color: #ffffff;
 	text-rendering: optimizeLegibility;
 	font-weight: initial;
-  /* padding: 10rem 0% 2rem; */
 }
 
-.dark .director_header{ 
-  font-size: 2.6rem; 
-  padding-bottom: 2.5rem; 
-  display: flex;
-  justify-content: center;
+.dark {
+	background: #040D12;
+  height:auto;
 }
- 
+
+
+.light {
+	background: #f3f5f7;
+}
 
 .dark a, a:hover {
 	text-decoration: none;
@@ -46,7 +39,8 @@
 /* Cards */
 .postcard {
   flex-wrap: wrap;
-  display: flex; 
+  display: flex;
+  
   box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
   border-radius: 10px;
   margin: 0 0 2rem 0;
@@ -57,7 +51,10 @@
 	&.dark {
 		background-color: #18151f;
 	}
- 
+	&.light {
+		background-color: #e1e5ea;
+	}
+	
 	.t-dark {
 		color: #18151f;
 	}
@@ -122,7 +119,7 @@
 		padding: 0;
     justify-content: center;
 
-  .tag__item {
+    .tag__item {
       display: inline-block;
       background: rgba(83, 83, 83, 0.4);
       border-radius: 3px;
@@ -316,7 +313,15 @@
 		transparent 50%
 	);
 } */
-
+@media screen and (max-width:769px){
+      .postcard{
+        width:90%;
+        margin:auto;
+      }
+      .postcard.dark{
+        margin-bottom: 10px;
+      }
+}
 @media screen and (min-width: 769px) {
 	/* .green::before {
 		background-image: linear-gradient(

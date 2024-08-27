@@ -44,6 +44,7 @@
   background-image: radial-gradient(#142850 0.8px, #000000 0.8px);
   background-size: 16px 16px;
 }
+
 .cards_pag  .main{
     display: flex;
     justify-content: center;
@@ -143,11 +144,18 @@
   .cards_pag #found{
     font-size: 2rem;
   }
-
+  @media screen and (max-width:638px) {
+    .cards_pag h1{
+      font-size: 60px;
+    }
+  }
   @media screen and (max-width:440px) {
     .cards_pag .flip-card {
       width: 30% !important;
       height: 15rem !important;
+    }
+    .cards_pag h1{
+      font-size: 50px;
     }
     .cards_pag #found{
       font-size: 1rem;

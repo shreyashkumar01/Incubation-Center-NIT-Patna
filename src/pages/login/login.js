@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import './style.css'
+import './login.css'
 import { useNavigate } from 'react-router-dom';
-import { FaGoogle, FaFacebook } from 'react-icons/fa';
+import Navbar from '../Navbar';
 const Login=()=>{
    const navigate= useNavigate();
     const [input,setinput]=useState({
@@ -40,8 +40,10 @@ const Login=()=>{
        }
     }
     return (
-       <>
+     
+            
           <div className="background">
+            <Navbar/>
           <form onSubmit={handleLogin}>
                 <h3>Login Here</h3>
 
@@ -61,7 +63,7 @@ const Login=()=>{
             </form>
             </div>
            
-       </>
+     
       
     )
 }

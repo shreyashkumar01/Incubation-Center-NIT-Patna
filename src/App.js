@@ -56,7 +56,7 @@ function App() {
           <Route path="/talksmore" element={<Talks_LitsenMore/>}/>
           
 
-     < Route path="/register" element={<Register/>}/>
+    
         </Routes>
         {/* <Gallery/> */}
         {/* <Footer/> */}

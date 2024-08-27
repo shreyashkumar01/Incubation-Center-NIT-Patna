@@ -19,12 +19,14 @@ const Vision = () => {
 
       <div class="vision_cards"  data-aos="fade-up">
         <div class="vision_content">
+
           <h3>Creating an Ecosystem</h3>
           <p>Creating an ecosystem in which people can get out of their comfort zone and work on new ideas, technology to solve existing problems.</p>
+
         </div>
       </div>
 
-      <div class="vision_cards"  data-aos="fade-left">
+      <div class="vision_cards" >
         <div class="vision_content">
           <h3>Help Bihar</h3>
           <p>Make Bihar a hub of entrepreneurship and entrepreneurs. </p>

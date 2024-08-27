@@ -1,5 +1,6 @@
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+
 import { useNavigate } from "react-router-dom";
 import React from 'react';
 import Pag from './page/card.js';
@@ -18,13 +19,13 @@ const Incubations = () => {
   return (
     <div>
       <section className='incubations' id='incubations'>
+
         <div class="incubations_header"> 
           <h1 data-aos="fade-down">Incubations</h1>
           <p  data-aos="fade-right"> NIT Patna's Incubation Center fosters a statewide startup ecosystem, offering essential infrastructure like office spaces, meeting rooms, networking platforms, and management support for aspiring entrepreneurs.</p>
         </div>
- 
-        <div className="incubations_swiper" data-aos="zoom-in-up">
- 
+
+        <div className="incubations_swiper">
           <Swiper class="card__incubations swiper"
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -302,10 +303,9 @@ const Incubations = () => {
       </div> */}
 
         {/* <!-- Pagination --> */}
-        
-        <div class="swiper-pagination" data-aos="zoom-in-up"></div>
-          <div className="events_btn" data-aos="fade-left">
- 
+       
+        <div class="swiper-pagination"></div>
+          <div className="events_btn">
           <button className='btn' onClick={() => navigate('/Pag')}>
             Litsen More</button>
         </div>

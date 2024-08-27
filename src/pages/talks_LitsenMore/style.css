@@ -121,6 +121,10 @@ margin-left: 2rem;
         width: 20%;
         height: 60%;
     }
+    .container_header1 h1{
+        font-size: 60px;
+        text-align: center;
+    }
     
 }
 @media screen and (max-width: 440px){
@@ -137,7 +141,10 @@ margin-left: 2rem;
         flex-direction: column;
         height: 11rem;
     }
-  
+    .container_header1 h1{
+        font-size: 50px;
+        text-align: center;
+    }
     
     
 }

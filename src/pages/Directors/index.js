@@ -3,13 +3,11 @@ import "./style.css";
 
 const Director = () => {
 	return (
-		<div className='directors_desk'>	
 		<section class="dark">
-			<div class="container py-4">  
-			<div class="director_header">
-      <h1  data-aos="fade-down">Director Desk</h1>
-    </div>
-				<article class="postcard dark blue" data-aos="fade-right"> 
+			<div class="container py-4">
+				<h1 class="h1 text-center" id="pageHeaderTitle">Director Desk</h1>
+
+				<article class="postcard dark blue">
 					<a class="postcard__img_link" href="#">
 						<img class="postcard__img" src="img/team/director.jpg" alt="Image Title" />
 					</a>
@@ -30,8 +28,8 @@ const Director = () => {
 							</li>
 						</ul>
 					</div>
-				</article> 
-				<article class="postcard dark red" data-aos="fade-left"> 
+				</article>
+				<article class="postcard dark red">
 					<a class="postcard__img_link" href="#">
 						<img class="postcard__img" src="img/team/bharatgupta.jpg" alt="Image Title" />
 					</a>
@@ -54,11 +52,10 @@ const Director = () => {
 						</ul>
 					</div>
 				</article>
-				
 
 			</div>
-		</section> 
-		</div> 
+		</section>
+
 	)
 }
 
