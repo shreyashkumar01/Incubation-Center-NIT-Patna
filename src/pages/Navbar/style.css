@@ -149,7 +149,7 @@
       }
   }
   @media screen and (max-width: 747px){
-         a.logo2{
-          margin-right: 30px;
+         .menu{
+          margin-left: 140px;
          }
   }

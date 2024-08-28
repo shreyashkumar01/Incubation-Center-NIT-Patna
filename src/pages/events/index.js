@@ -64,7 +64,7 @@ const Events = () => {
         </div>
 
         <div className="events_btn">
-          <a href="events timeline/index.html" className="btn">View More</a>
+          <a href="/timeline" className="btn">View More</a>
         </div>
       </section>
     </div>

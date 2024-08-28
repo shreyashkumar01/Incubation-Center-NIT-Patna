@@ -25,6 +25,10 @@
   padding: 10rem 8% 4rem;
   box-sizing: border-box;
   height: auto;
+  background-color: #0000004a;
+        opacity: 1;
+        background-image: radial-gradient(#142850 1px, #000000 1px);
+        background-size: 16px 16px;
 }
 .gallery1{
   display:flex;

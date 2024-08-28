@@ -5,8 +5,8 @@
 .events{
   height: auto  ;
   padding: 10rem 9% 5rem; 
-  display: block; 
-  background:var(--second-main-color);
+  display: block;  
+  background: var(--dark-color);
 }
 
 .event_header{

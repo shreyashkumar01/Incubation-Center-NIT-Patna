@@ -118,15 +118,14 @@ const Incubations = () => {
             <SwiperSlide>
               <article class="card__incubationarticle swiper-slide">
                 <div class="card__image">
-                  <img src="img/image.jpg.jpg " alt="image" class="card__img" />
+                  <img src="img/incubations/onibus.png" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
                 </div>
 
                 <div class="card__incubationdata">
-                  <h3 class="card__name">Kell Dawx</h3>
+                  <h3 class="card__name">Onibus</h3>
                   <p class="card__description">
-                    Passionate about development and design,
-                    I carry out projects at the request of users.
+                  Onibus offers a service-oriented app and web platform facilitating efficient communication between schools and parents about students' activities.
                   </p>
 
                   <a href="#" class="card__button">View More</a>
@@ -137,15 +136,14 @@ const Incubations = () => {
             <SwiperSlide>
               <article class="card__incubationarticle swiper-slide">
                 <div class="card__image">
-                  <img src="img/image.jpg.jpg " alt="image" class="card__img" />
+                  <img src="img/incubations/busymech.png" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
                 </div>
 
                 <div class="card__incubationdata">
-                  <h3 class="card__name">Kell Dawx</h3>
+                  <h3 class="card__name">Busy Mechanic</h3>
                   <p class="card__description">
-                    Passionate about development and design,
-                    I carry out projects at the request of users.
+                  Expert mobile mechanics providing reliable vehicle care and service at competitive prices, conveniently at your home or office.
                   </p>
 
                   <a href="#" class="card__button">View More</a>
@@ -156,15 +154,14 @@ const Incubations = () => {
             <SwiperSlide>
               <article class="card__incubationarticle swiper-slide">
                 <div class="card__image">
-                  <img src="img/image.jpg.jpg " alt="image" class="card__img" />
+                  <img src="img/incubations/shekhartele.png " alt="image" class="card__img" />
                   <div class="card__shadow"></div>
                 </div>
 
                 <div class="card__incubationdata">
-                  <h3 class="card__name">Kell Dawx</h3>
+                  <h3 class="card__name">Shekhar Telesystems</h3>
                   <p class="card__description">
-                    Passionate about development and design,
-                    I carry out projects at the request of users.
+                  Shekhar Telesystems revolutionizes water management with advanced solutions for hassle-free living and upgraded surroundings. 
                   </p>
 
                   <a href="#" class="card__button">View More</a>
@@ -172,119 +169,7 @@ const Incubations = () => {
               </article>
             </SwiperSlide>
 
-            <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
-                <div class="card__image">
-                  <img src="img/image.jpg.jpg " alt="image" class="card__img" />
-                  <div class="card__shadow"></div>
-                </div>
-
-                <div class="card__incubationdata">
-                  <h3 class="card__name">Kell Dawx</h3>
-                  <p class="card__description">
-                    Passionate about development and design,
-                    I carry out projects at the request of users.
-                  </p>
-
-                  <a href="#" class="card__button">View More</a>
-                </div>
-              </article>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
-                <div class="card__image">
-                  <img src="img/image.jpg.jpg " alt="image" class="card__img" />
-                  <div class="card__shadow"></div>
-                </div>
-
-                <div class="card__incubationdata">
-                  <h3 class="card__name">Kell Dawx</h3>
-                  <p class="card__description">
-                    Passionate about development and design,
-                    I carry out projects at the request of users.
-                  </p>
-
-                  <a href="#" class="card__button">View More</a>
-                </div>
-              </article>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
-                <div class="card__image">
-                  <img src="img/image.jpg.jpg " alt="image" class="card__img" />
-                  <div class="card__shadow"></div>
-                </div>
-
-                <div class="card__incubationdata">
-                  <h3 class="card__name">Kell Dawx</h3>
-                  <p class="card__description">
-                    Passionate about development and design,
-                    I carry out projects at the request of users.
-                  </p>
-
-                  <a href="#" class="card__button">View More</a>
-                </div>
-              </article>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
-                <div class="card__image">
-                  <img src="img/image.jpg.jpg " alt="image" class="card__img" />
-                  <div class="card__shadow"></div>
-                </div>
-
-                <div class="card__incubationdata">
-                  <h3 class="card__name">Kell Dawx</h3>
-                  <p class="card__description">
-                    Passionate about development and design,
-                    I carry out projects at the request of users.
-                  </p>
-
-                  <a href="#" class="card__button">View More</a>
-                </div>
-              </article>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
-                <div class="card__image">
-                  <img src="img/image.jpg.jpg " alt="image" class="card__img" />
-                  <div class="card__shadow"></div>
-                </div>
-
-                <div class="card__incubationdata">
-                  <h3 class="card__name">Kell Dawx</h3>
-                  <p class="card__description">
-                    Passionate about development and design,
-                    I carry out projects at the request of users.
-                  </p>
-
-                  <a href="#" class="card__button">View More</a>
-                </div>
-              </article>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
-                <div class="card__image">
-                  <img src="img/image.jpg.jpg " alt="image" class="card__img" />
-                  <div class="card__shadow"></div>
-                </div>
-
-                <div class="card__incubationdata">
-                  <h3 class="card__name">Kell Dawx</h3>
-                  <p class="card__description">
-                    Passionate about development and design,
-                    I carry out projects at the request of users.
-                  </p>
-
-                  <a href="#" class="card__button">View More</a>
-                </div>
-              </article>
-            </SwiperSlide>
+             
 
 
 

@@ -3,6 +3,10 @@
   color: black;
   font-size: 1.7rem;
   padding: 10rem 9% 4rem;
+  background-color: #0000004a;
+        opacity: 1;
+        background-image: radial-gradient(#142850 1px, #000000 1px);
+        background-size: 16px 16px;
 }
 
 .faqs .content {
