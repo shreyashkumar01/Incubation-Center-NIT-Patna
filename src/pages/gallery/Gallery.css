@@ -17,7 +17,7 @@
 .h11{
   font-size: 4.5rem;
   font-weight: 700;
-  margin: 1rem;
+  /* margin: 1rem; */
   text-align: center;
 }
 #gallery{
@@ -65,7 +65,7 @@
   }
   #gallery{
     padding: 0rem;
-    margin-bottom: 7rem;
+    /* margin-bottom: 7rem; */
   }
   .gallery1{
     padding: 0rem;
