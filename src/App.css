@@ -46,7 +46,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  border: none;
+  border: none; 
   outline: none;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif; 
@@ -66,7 +66,7 @@
 } 
 .App {
   background-color: #000000;
-  background: var(--third-main-color);
+  /* background: var(--third-main-color);
   color: var(--text-color);
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
     url(img/background_img/IMG20230921194023.jpg);
@@ -75,7 +75,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   animation: change 40s ease-in-out infinite;
-  transition-duration: 2s;
+  transition-duration: 2s; */
 }
 
 @keyframes change {
@@ -83,7 +83,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(img/background_img/IMG20230921194023.jpg);
   }
-  20% {
+  /* 20% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(img/background_img/bicycle-1280x720.jpg);
   }
@@ -102,10 +102,12 @@
   100% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(img/background_img/6895209.webp);
-  }
+  } */
 }
 
 html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
+
+ 

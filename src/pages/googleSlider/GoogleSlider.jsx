@@ -28,7 +28,7 @@ const GoogleSlider = () => {
         'https://kstatic.googleusercontent.com/files/acd18ca25e2b117831e384bb00d5a16b7a560253f99c51fd4299074656d2317c27693ba5837b95151143a3cf3d940a7cddec4593b6942ae3f67954a97383f0e5'
     ]
   return (
-    <div className='howMain'>
+    <div className='howMain' id='support'>
     <div class="how_header">
       <h1  data-aos="fade-down">How? we Support.</h1>
     </div>
@@ -48,7 +48,7 @@ const GoogleSlider = () => {
                 <button>{btnInfo[slide]}</button>
                 </div>
             </div>
-            <div className='imgSection' >
+            <div className='imgSection' data-aos="zoom-in">
                 <img src={images[slide]} alt="img" />
               
             </div>

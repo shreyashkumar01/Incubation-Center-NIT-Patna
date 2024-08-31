@@ -66,15 +66,15 @@ const Navbar = () => {
           <div className='link'>
             <a href="#about">About</a>
             <div className="tabInner">
-              <a href="#">Vision</a>
-              <a href="#">How ?</a>
+              <a href="#vision">Our Vision</a>
+              <a href="#support">Our Support</a>
             </div>
           </div>
           <div className='link'>
             <a href="#incubations">Incubations</a>
             <div className="tabInner">
-              <a href="#">Directors</a>
-              <a href="#">Talk to us</a>
+              <a href="#darki">Directors</a>
+              <a href="#talks">Talks about us!</a>
             </div>
           </div>
           <a href="#events" className='link'>Events</a>
@@ -94,6 +94,7 @@ const Navbar = () => {
                 <a href="#incubations">Incubations</a>
                 <a href="#events" className='link'>Events</a>
                 <a href="#gallery" className='link'>Gallery</a>
+                <a href="#team" className='link'>Team</a>
                 <a href="#footer" className='link'>Contact</a>
               </div>
               <div onClick={() => setIsOpen(false)} className="crossBtn">

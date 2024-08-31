@@ -3,7 +3,7 @@ import "./style.css";
 
 const Director = () => {
 	return (
-		<section class="dark">
+		<section class="dark" id='darki'>
 			<div class="container py-4">
 				<h1 class="h1 text-center" id="pageHeaderTitle">Director Desk</h1>
 
@@ -44,8 +44,8 @@ const Director = () => {
 						<div class="postcard__bar"></div>
 						<div class="postcard__preview-txt">Dr. Bharat Gupta leads the Electronics and Communication Department, spearheading research and educational initiatives in cutting-edge technologies and applications.</div>
 						<ul class="postcard__tagbox">
-							<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-							<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+							{/* <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+							<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li> */}
 							<li class="tag__item play red">
 								<a href="#"><i class="fas fa-play mr-2"></i>Return To Home</a>
 							</li>

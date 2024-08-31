@@ -26,7 +26,7 @@ const Vision = () => {
         </div>
       </div>
 
-      <div class="vision_cards" >
+      <div class="vision_cards" data-aos="fade-down">
         <div class="vision_content">
           <h3>Help Bihar</h3>
           <p>Make Bihar a hub of entrepreneurship and entrepreneurs. </p>
