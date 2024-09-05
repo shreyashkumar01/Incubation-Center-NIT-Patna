@@ -4,16 +4,16 @@ import './googleSlider.css'
 const GoogleSlider = () => {
     const [slide,setSlide] = useState(0);
     const titles = [
-        "Apply to our programs",
-        "Get Google technology",
-        "Meet the right people",
-        "Discover Campus"
+        "Guiding your vision to reality.",
+        "Fueling your dreams with capital.",
+        "Connecting you to endless possibilities.",
+        "Empowering growth with the perfect space."
     ];
     const descs = [
-        "Google for Startups offers a wide variety of programs to help startups grow and scale. Selected startups get bespoke Google support and guidance to help achieve their specific goals.",
-        "Reach more customers, build better products, and run more efficiently by using innovative Google tools and products.",
-        "Connect with like-minded founders, get expert guidance from Google mentors, network with industry leaders, and maybe even find your next investor at the Campus Cafe.",
-        "Google for Startups Campuses offer physical spaces around the world where tech-based startups enjoy the best of Google with free trainings, mentoring, and a diverse community of problem solvers."
+        "Provides expert advice and guidance to entrepreneurs, helping them refine their business models and strategies.",
+        "Offers access to financial resources such as investments, grants, and venture capital to support the startup's growth.",
+        "Facilitates connections with industry professionals, potential clients, partners, and investors, expanding business opportunities.",
+        "Provides physical office space, equipment, and infrastructure at reduced costs, allowing startups to operate efficiently."
     ];
     const btnInfo = [
         "Explore",
@@ -35,10 +35,10 @@ const GoogleSlider = () => {
     <div className='slidesMain'> 
         <div className="slideNames" data-aos="fade-up">
  
-            <div onClick={() => setSlide(0)} className={slide == 0 ? 'active' : ''}><h2>Programs</h2></div>
-            <div onClick={() => setSlide(1)} className={slide == 1 ? 'active' : ''}><h2>Products</h2></div>
-            <div onClick={() => setSlide(2)} className={slide == 2 ? 'active' : ''}><h2>People</h2></div>
-            <div onClick={() => setSlide(3)} className={slide == 3 ? 'active' : ''}><h2>Spaces</h2></div>
+            <div onClick={() => setSlide(0)} className={slide == 0 ? 'active' : ''}><h2>Mentorship</h2></div>
+            <div onClick={() => setSlide(1)} className={slide == 1 ? 'active' : ''}><h2>Funding</h2></div>
+            <div onClick={() => setSlide(2)} className={slide == 2 ? 'active' : ''}><h2>Networking</h2></div>
+            <div onClick={() => setSlide(3)} className={slide == 3 ? 'active' : ''}><h2>Workspace</h2></div>
         </div>
         <div className='infoSection'>
             <div className='dataSection' data-aos="fade-up-right">

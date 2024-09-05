@@ -39,7 +39,7 @@ const Events = () => {
             <h1>PitchTember 2023</h1>
             <p>Date: 24/11/2023 to 18/12/2023</p>
             <p>Venue: CV Raman Hall</p>
-                <a href="events timeline/index.html" className="btn">View More</a>
+                <a href="https://www.pitchtember.tech/" className="btn">View More</a>
               </div>
             </div>
           </div>

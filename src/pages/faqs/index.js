@@ -16,11 +16,11 @@ const Faqs = () => {
           <div className='outer'>
             <div className="plus">+</div>
             <label htmlFor="question1" className="question">
-              This is the question that will be asked?
+            What is the Incubation Center at NIT Patna?
             </label>
           </div>
           <div className="answers">
-            This is the answer of the question.. keep it short.</div>
+          A facility supporting startups with resources like mentorship, workspace, and funding.</div>
         </div>
 
         <div className='contentDiv' data-aos="fade-up" >
@@ -28,11 +28,11 @@ const Faqs = () => {
           <div className='outer'>
             <div className="plus">+</div>
             <label htmlFor="question2" className="question">
-              Short?
+            Who can apply?
             </label>
           </div>
           <div className="answers">
-            short!
+          Students, alumni, faculty, and early-stage entrepreneurs.
           </div>
         </div>
 
@@ -41,11 +41,11 @@ const Faqs = () => {
           <div className='outer'>
             <div className="plus">+</div>
             <label htmlFor="question3" className="question">
-              Keep answers short. But in case of...If the question is long, the text wraps.
+            What services are offered?
             </label>
           </div>
           <div className="answers">
-            This is the answer!
+          Office space, mentorship, business support, and networking opportunities.
           </div>
         </div>
 
@@ -54,11 +54,11 @@ const Faqs = () => {
           <div className='outer'>
             <div className="plus">+</div>
             <label htmlFor="question1" className="question">
-              This is the question that will be asked?
+            How long is the incubation period?
             </label>
           </div>
           <div className="answers">
-            This is the answer of the question.. keep it short.</div>
+          Typically 6 months to 2 years.</div>
         </div>
 
         <div className='contentDiv' data-aos="fade-up" >
@@ -66,11 +66,11 @@ const Faqs = () => {
           <div className='outer'>
             <div className="plus">+</div>
             <label htmlFor="question2" className="question">
-              Short?
+            Does the center provide funding?
             </label>
           </div>
           <div className="answers">
-            short!
+          Yes, seed funding or connections to investors may be available.
           </div>
         </div>
 
@@ -79,11 +79,11 @@ const Faqs = () => {
           <div className='outer'>
             <div className="plus">+</div>
             <label htmlFor="question3" className="question">
-              Keep answers short. But in case of...If the question is long, the text wraps.
+            How to apply?
             </label>
           </div>
           <div className="answers">
-            This is the answer!
+          Submit an application via the center’s website.
           </div>
         </div>
 
@@ -92,11 +92,11 @@ const Faqs = () => {
           <div className='outer'>
             <div className="plus">+</div>
             <label htmlFor="question3" className="question">
-              Keep answers short. But in case of...If the question is long, the text wraps.
+            What are the selection criteria?
             </label>
           </div>
           <div className="answers">
-            This is the answer!
+          Innovation, feasibility, market potential, and team strength.
           </div>
         </div>
       </div>

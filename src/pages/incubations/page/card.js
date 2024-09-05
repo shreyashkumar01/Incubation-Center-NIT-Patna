@@ -20,7 +20,7 @@ function Pag() {
             <div className="image"></div>
           </div>
           <div className="flip-card-back">
-            <p className="title">Startup Name</p>
+            <p className="title">Onibus</p>
             <p id="found">Founder</p>
             <button className="button">Know More</button>
           </div>
@@ -32,7 +32,7 @@ function Pag() {
             <div className="image"></div>
           </div>
           <div className="flip-card-back">
-            <p className="title">Startup Name</p>
+            <p className="title">Busy Mechanic</p>
              <p id="found">Founder</p>
             <button className="button">Know More</button>
           </div>
@@ -44,7 +44,7 @@ function Pag() {
             <div className="image"></div>
           </div>
           <div className="flip-card-back">
-            <p className="title">Startup Name</p>
+            <p className="title">Shekhar Telesystems</p>
              <p id="found">Founder</p>
             <button className="button">Know More</button>
           </div>
@@ -58,8 +58,8 @@ function Pag() {
             <div className="image"></div>
           </div>
           <div className="flip-card-back">
-            <p className="title">Startup Name</p>
-             <p id="found">Founder</p>
+            <p className="title">Astomverse Innovations</p>
+             <p id="found">Naveen Prabhat</p>
             <button className="button">Know More</button>
           </div>
         </div>
@@ -70,8 +70,8 @@ function Pag() {
             <div className="image"></div>
           </div>
           <div className="flip-card-back">
-            <p className="title">Startup Name</p>
-             <p id="found">Founder</p>
+            <p className="title">Schooglink</p>
+             <p id="found">Himanshu Agrawal</p>
             <button className="button">Know More</button>
           </div>
         </div>
