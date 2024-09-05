@@ -19,12 +19,12 @@ const Director = () => {
 					</time>
 				</div> */}
 						<div class="postcard__bar"></div>
-						<div class="postcard__preview-txt">Prof. Pradip K. Jain, Director of NIT Patna, renowned for high-power microwave research, with extensive contributions, publications, and international collaborations in his career.</div>
+						<div class="postcard__preview-txt">Prof. Pradip K. Jain, Director of NIT Patna, renowned for high-power microwave research, with extensive contributions, publications, and international collaborations in his career.He has made significant contribution in the areas of analysis, modeling and development of high power microwave tubes and gyrotron devices.He has so far guided 20 doctoral theses, published more than 100 research papers in SCI journals and 200 in the conference proceedings beside a patent and authoring six book/monograph chapters. Dr. Jain is a senior member of IEEE, fellow of Institution of Electronics and Telecommunications Engineers of India, Fellow of Institution of Engineers of India and also a fellow of Vacuum Electron Devices and Application Society.</div>
 						<ul class="postcard__tagbox">
 							{/* <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
 					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li> */}
 							<li class="tag__item play blue">
-								<a href="#"><i class="fas fa-play mr-2"></i>Return To Home</a>
+								<a href="https://www.nitp.ac.in/director/"><i class="fas fa-play mr-2"></i>Know More</a>
 							</li>
 						</ul>
 					</div>
@@ -47,7 +47,7 @@ const Director = () => {
 							{/* <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
 							<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li> */}
 							<li class="tag__item play red">
-								<a href="#"><i class="fas fa-play mr-2"></i>Return To Home</a>
+								<a href="https://www.linkedin.com/in/sgbharat/?originalSubdomain=in"><i class="fas fa-play mr-2"></i>Know More</a>
 							</li>
 						</ul>
 					</div>
