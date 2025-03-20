@@ -80,6 +80,7 @@ const Navbar = () => {
           <a href="#events" className='link'>Events</a>
           <a href="#gallery" className='link'>Gallery</a>
           <a href="#footer" className='link'>Contact</a>
+          <a href="src/img/background_img/Rulebook.pdf" className='link' download="Tinkering Lab">Tinkering lab</a>
           {/* <Link className='link' to="/team">Team</Link> */}
 
         </nav>
@@ -94,7 +95,8 @@ const Navbar = () => {
                 <a href="#incubations">Incubations</a>
                 <a href="#events" className='link'>Events</a>
                 <a href="#gallery" className='link'>Gallery</a>
-                <a href="#team" className='link'>Team</a>
+                <a href="src/img/background_img/Rulebook.pdf" className='link' download="Tinkering Lab">Tinkering lab</a>
+                {/* <a href="#team" className='link'>Team</a> */}
                 <a href="#footer" className='link'>Contact</a>
               </div>
               <div onClick={() => setIsOpen(false)} className="crossBtn">
