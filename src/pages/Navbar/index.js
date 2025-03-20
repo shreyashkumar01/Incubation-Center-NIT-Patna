@@ -62,7 +62,7 @@ const Navbar = () => {
       <header className="header" style={navbarStyle}>
         <a href="https://www.nitp.ac.in/" className="logo1" style={logoStyle}><img src="  img/download-removebg-preview.png " alt="NITP_logo" /></a>
         <nav className="navbar">
-          <a className='link' href="http://localhost:3000/">Home</a>
+          <a className='link' href="#home">Home</a>
           <div className='link'>
             <a href="#about">About</a>
             <div className="tabInner">
@@ -80,7 +80,7 @@ const Navbar = () => {
           <a href="#events" className='link'>Events</a>
           <a href="#gallery" className='link'>Gallery</a>
           <a href="#footer" className='link'>Contact</a>
-          <Link className='link' to="/team">Team</Link>
+          {/* <Link className='link' to="/team">Team</Link> */}
 
         </nav>
 

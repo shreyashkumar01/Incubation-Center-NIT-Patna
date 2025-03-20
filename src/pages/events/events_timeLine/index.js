@@ -57,7 +57,7 @@ achieving success.
                 <span class="left-container-arrow"></span>
             </div>
         </div>
-        <div class="container right-container">
+        {/* <div class="container right-container">
         <img src=" img/IC LOGO (1).png " alt='logo'/>
             <div class="text-box">
                 <h2>Event name4</h2>
@@ -89,7 +89,7 @@ achieving success.
                 </p>
                 <span class="right-container-arrow"></span>
             </div>
-        </div>
+        </div> */}
     </div>
     <Footer/>
     </div>

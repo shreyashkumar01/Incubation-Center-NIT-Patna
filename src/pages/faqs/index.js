@@ -49,8 +49,8 @@ const Faqs = () => {
           </div>
         </div>
 
-        <div className='contentDiv' data-aos="fade-up" >
-          <input type="checkbox" id="question1" name="q" className="questions" />
+        {/* <div className='contentDiv' data-aos="fade-up" >
+          <input type="checkbox" id="question4" name="q" className="questions" />
           <div className='outer'>
             <div className="plus">+</div>
             <label htmlFor="question1" className="question">
@@ -62,7 +62,7 @@ const Faqs = () => {
         </div>
 
         <div className='contentDiv' data-aos="fade-up" >
-          <input type="checkbox" id="question2" name="q" className="questions" />
+          <input type="checkbox" id="question5" name="q" className="questions" />
           <div className='outer'>
             <div className="plus">+</div>
             <label htmlFor="question2" className="question">
@@ -75,7 +75,7 @@ const Faqs = () => {
         </div>
 
         <div className='contentDiv' data-aos="fade-up" >
-          <input type="checkbox" id="question3" name="q" className="questions" />
+          <input type="checkbox" id="question6" name="q" className="questions" />
           <div className='outer'>
             <div className="plus">+</div>
             <label htmlFor="question3" className="question">
@@ -88,7 +88,7 @@ const Faqs = () => {
         </div>
 
         <div className='contentDiv' data-aos="fade-up" >
-          <input type="checkbox" id="question3" name="q" className="questions" />
+          <input type="checkbox" id="question7" name="q" className="questions" />
           <div className='outer'>
             <div className="plus">+</div>
             <label htmlFor="question3" className="question">
@@ -98,7 +98,7 @@ const Faqs = () => {
           <div className="answers">
           Innovation, feasibility, market potential, and team strength.
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
     </div>

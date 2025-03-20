@@ -378,10 +378,10 @@ const Talks =  () => {
         
       </div>
     </div>
-    <div class="talks_btn" data-aos="fade-up">
+    {/* <div class="talks_btn" data-aos="fade-up">
           <button className='btn' onClick={()=>navigate('/talksmore')}> 
       Litsen More</button>
-    </div>
+    </div> */}
      </section>
     </div>
   )

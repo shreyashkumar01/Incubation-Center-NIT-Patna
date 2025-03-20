@@ -72,7 +72,7 @@ const Home = () => {
               <a href=""><i class='bx bxl-linkedin'></i></a>
               <a href=""><i class='bx bxs-message-rounded-dots'></i></a>
           </div> --> */}
-          <a href="#" class="btn">
+          <a href="#idea" class="btn">
             Incubate
           </a>
         </div>
