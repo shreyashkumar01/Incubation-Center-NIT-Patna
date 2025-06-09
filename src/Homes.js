@@ -40,7 +40,7 @@ function Homes() {
         <Talks  />
         {/* <Talks_LitsenMore/> */}
         <Events/>
-        {/* <Gallery/>  */}
+        <Gallery/>  
         <Idea/>
         <Form/>
         {/* <Faqs/> */} 
