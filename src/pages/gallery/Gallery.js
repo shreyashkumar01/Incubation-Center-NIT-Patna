@@ -5,6 +5,16 @@ import Footer from '../footer'
 import Navbar from '../Navbar';
 
 function Gallery1() {
+    const galleryImages = [
+      "img1.jpg",
+      "img2.jpg",
+      "img3.jpg",
+      "img4.jpg",
+      "img5.jpg",
+      "img6.jpg",
+      "img7.jpg",
+      "img8.jpg"
+    ]
   return (
     <>
     <Navbar/>
@@ -15,195 +25,45 @@ function Gallery1() {
       </div>
     <div className='hhar'> 
     <div className='text2'>
-      Team Work :-
+      Startups :-
       </div>
-    <div className="harshr">
-      <div className="harshr-track">
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        {/* // Add more harshs here */}
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
+
+   
+            {/* {professors.map((info)=>(
+              <CardGallery name={info.name} post={info.post} role={info.about} image={info.image} linkedin={info.linkedin}/>
+            ))}
+     */}
+
+      <div className="harshr">
+        <div className="harshr-track">
+          {galleryImages.map((filename, idx) => (
+            <div className='harsh' key={idx}>
+              <img src={`/gallery-images/ic_startups_gallery/${filename}`} alt={`gallery_${idx}`} />
+            </div>
+          ))}
         </div>
       </div>
-      
-    </div>
-    <div className='text2'>
-      Startup  Work :-
-      </div>
-    <div className="harshr">
-      <div className="harshr-track">
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        {/* // Add more harshs here */}
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
+      <div style={{ height: "60px" }}></div>
+      <div className="harshr">
+        <div className="harshr-track">
+          {galleryImages.map((filename, idx) => (
+            <div className='harsh' key={idx}>
+              <img src={`/gallery-images/ic_startups_gallery/${filename}`} alt={`gallery_${idx}`} />
+            </div>
+          ))}
         </div>
       </div>
-      
-      
-    </div>
-    <div className='text2'>
-      Event Work :-
-      </div>
-    <div className="harshr">
-      <div className="harshr-track">
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        {/* // Add more harshs here */}
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
-        </div>
-        <div className='harsh'>
-          <img src={img} alt="sell_bg" />
+      <div style={{ height: "60px" }}></div>
+      <div className="harshr">
+        <div className="harshr-track">
+          {galleryImages.map((filename, idx) => (
+            <div className='harsh' key={idx}>
+              <img src={`/gallery-images/ic_startups_gallery/${filename}`} alt={`gallery_${idx}`} />
+            </div>
+          ))}
         </div>
       </div>
-      
-    </div>
+      <div style={{ height: "60px" }}></div>
     </div>
     <Footer/>
     </>
