@@ -23,7 +23,7 @@ const Footer = () => {
           <h4>IC NITP</h4>
           <ul>
             <li>
-              <Link to="/team">About Us</Link>
+              <Link to="/team">Our Team</Link>
             </li>
             <li><a href="#">Our Programs</a></li>
             <li><a href="#">privacy policy</a></li>
