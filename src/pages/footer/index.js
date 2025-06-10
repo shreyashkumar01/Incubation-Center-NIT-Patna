@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { RiLinkedinBoxFill } from "react-icons/ri";
 import { FaTwitter } from "react-icons/fa";
 import Login from '../login/login';
+import { Link } from 'react-router-dom';
 const Footer = () => {
   var currentTime = new Date();
   var year = currentTime.getFullYear();
@@ -21,7 +22,9 @@ const Footer = () => {
         <div class="footer-col">
           <h4>IC NITP</h4>
           <ul>
-            <li><a href="/team">Our Team</a></li>
+            <li>
+              <Link to="/team">Our Team</Link>
+            </li>
             <li><a href="#">Our Programs</a></li>
             <li><a href="#">privacy policy</a></li>
             <li><a href="#">Partnership Opportunities</a></li>

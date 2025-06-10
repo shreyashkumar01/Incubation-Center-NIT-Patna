@@ -62,23 +62,25 @@ const Navbar = () => {
       <header className="header" style={navbarStyle}>
         <a href="https://www.nitp.ac.in/" className="logo1" style={logoStyle}><img src="  img/download-removebg-preview.png " alt="NITP_logo" /></a>
         <nav className="navbar">
-          <a className='link' href="#home">Home</a>
+          <div className="link">
+            <Link to="/#home">Home</Link>
+          </div>
           <div className='link'>
-            <a href="#about">About</a>
+            <Link to="/#about">About Us</Link>
             <div className="tabInner">
-              <a href="#vision">Our Vision</a>
-              <a href="#support">Our Support</a>
+              <Link to="/#vision">Our Vision</Link>
+              <Link to="/#support">Our Support</Link>
             </div>
           </div>
           <div className='link'>
-            <a href="#incubations">Incubations</a>
+            <Link to="/#incubations">Incubations</Link>
             <div className="tabInner">
-              <a href="#darki">Directors</a>
-              <a href="#talks">Talks about us!</a>
+              <Link to="/#darki">Directors</Link>
+              <Link to="/#talks">Talks about us!</Link>
             </div>
           </div>
-          <a href="#events" className='link'>Events</a>
-          <a href="#gallery" className='link'>Gallery</a>
+          <Link to="/#events" className='link'>Events</Link>
+          <Link to="/#gallery" className='link'>Gallery</Link>
           {/* <a href="#footer" className='link'>Contact</a>*/}
   
           <Link className='link' to="/team">Team</Link> 

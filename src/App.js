@@ -27,21 +27,40 @@ import Team from './pages/team/team.js';
 import Gallery1 from './pages/gallery/Gallery.js';
 import React from 'react';
 import Talks_LitsenMore from './pages/talks_LitsenMore/index.js';
- 
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+
 
 
 
 function App() {
-
   // const fun = () => {
   //   return(
   //      <Talks_viewMore/>
   //   );
   // }
+
+
+function ScrollToHash() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace('#', '');
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
+
+  return null;
+}
+
   return (
     <div className="App"> 
     {/* < Navbar/> */}
- 
+    <ScrollToHash />
     <Routes>
           {/* <Route  path="talks_LitsenMore/index.js" element={<Talks_LitsenMore/>}/>  */}
           <Route  path="/" element={<Homes />}/> 
