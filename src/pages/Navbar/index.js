@@ -83,7 +83,14 @@ const Navbar = () => {
           <Link to="/#gallery" className='link'>Gallery</Link>
           {/* <a href="#footer" className='link'>Contact</a>*/}
   
-          <Link className='link' to="/team">Team</Link> 
+          {/* <Link className='link' to="/team">Team</Link> */}
+          <div className='link'>
+            <Link to="/professor">Team</Link>
+            <div className="tabInner">
+              <Link to="/professor">Professors</Link>
+              <Link to="/student">Students</Link>
+            </div>
+          </div> 
           <a href="src/img/background_img/Rulebook.pdf" className='link' download="Tinkering Lab">Tinkering lab</a>
 
         </nav>

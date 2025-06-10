@@ -16,10 +16,10 @@ const Footer = () => {
   }
   return (
     <div>
-       <footer class="footer" id="footer"  data-aos="fade"  data-aos-duration="300">
-    <div class="container">
-      <div class="row">
-        <div class="footer-col">
+       <footer className="footer" id="footer"  data-aos="fade"  data-aos-duration="300">
+    <div className="container">
+      <div className="row">
+        <div className="footer-col">
           <h4>IC NITP</h4>
           <ul>
             <li>
@@ -31,7 +31,7 @@ const Footer = () => {
             <li onClick={handlelogin}><a href="#">Admin Notice</a></li>
           </ul>
         </div>
-        <div class="footer-col">
+        <div className="footer-col">
           <h4>get help</h4>
           <ul>
             <li><a href="#">FAQ</a></li>
@@ -41,7 +41,7 @@ const Footer = () => {
             <li><a href="#">Startup Resources</a></li>
           </ul>
         </div>
-        <div class="footer-col">
+        <div className="footer-col">
           <h4>Know More</h4>
           <ul>
             <li><a href="#">Alumni Network</a></li>
@@ -50,26 +50,26 @@ const Footer = () => {
             <li><a href="#">dress</a></li> */}
           </ul>
         </div>
-        <div class="footer-col">
+        <div className="footer-col">
           <h4>follow us</h4>
-          <div class="social-links">
-            <a href="https://www.facebook.com/icnitp/"><i class="fab fa-facebook-f">< FaFacebook /></i></a>
-            <a href="#"><i class="fab fa-twitter">< FaTwitter /></i></a>
-            <a href="https://www.instagram.com/incubation_nitp/"><i class="fab fa-instagram">< FaInstagram/></i></a>
-            <a href="https://www.linkedin.com/company/incubation-centre-nit-patna/posts/?feedView=all"><i class="fab fa-linkedin-in">< RiLinkedinBoxFill/></i></a>
+          <div className="social-links">
+            <a href="https://www.facebook.com/icnitp/"><i className="fab fa-facebook-f">< FaFacebook /></i></a>
+            <a href="#"><i className="fab fa-twitter">< FaTwitter /></i></a>
+            <a href="https://www.instagram.com/incubation_nitp/"><i className="fab fa-instagram">< FaInstagram/></i></a>
+            <a href="https://www.linkedin.com/company/incubation-centre-nit-patna/posts/?feedView=all"><i className="fab fa-linkedin-in">< RiLinkedinBoxFill/></i></a>
           </div>
         </div>
       </div>
     </div>
-    <div class="footer_container2">
-      <div class="footer-text">
+    <div className="footer_container2">
+      <div className="footer-text">
         <p>Copyright &copy;
           {year} by IC NITP | All Rights Reserved.
         </p>
       </div>
 
-      <div class="footer-iconTop">
-        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+      <div className="footer-iconTop">
+        <a href="#home"><i className='bx bx-up-arrow-alt'></i></a>
       </div>
     </div>
   </footer>
