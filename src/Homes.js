@@ -43,7 +43,7 @@ function Homes() {
         <Gallery/> 
         <Idea/>
         <Form/>
-        {/* <Faqs/> */} 
+        {/* <Faqs/>  */}
         <Footer/>
     </div>
   );

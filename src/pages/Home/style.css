@@ -101,7 +101,7 @@ section {
     /* animation-delay: 4s ; */
     font-size: 10px;
     /* animation: bringImage 2s ease-in-out 1 ; */
-    backdrop-filter:blur(13px);
+    backdrop-filter:blur(1px);
     color:white;
   }
 

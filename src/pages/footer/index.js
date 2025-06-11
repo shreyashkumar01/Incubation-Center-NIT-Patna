@@ -23,7 +23,7 @@ const Footer = () => {
           <h4>IC NITP</h4>
           <ul>
             <li>
-              <Link to="/team">Our Team</Link>
+              <Link to="/professor">Our Team</Link>
             </li>
             <li><a href="#">Our Programs</a></li>
             <li><a href="#">privacy policy</a></li>
@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="footer-col">
           <h4>get help</h4>
           <ul>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="">FAQ</a></li>
             <li><a href="#">Success Stories</a></li>
             <li><a href="#">Application Process</a></li>
             <li><a href="#">Funding & Investment</a></li>

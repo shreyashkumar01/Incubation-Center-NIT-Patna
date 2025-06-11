@@ -75,7 +75,6 @@ function ScrollToHash() {
           <Route path='/student' element={<Student />}/>
           <Route path="/gallery" element={<Gallery1/>}/>
           <Route path="/talksmore" element={<Talks_LitsenMore/>}/>
-          
 
     
         </Routes>
