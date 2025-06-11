@@ -23,7 +23,8 @@ import Homes from './Homes.js';
 
 import Timeline from './pages/events/events_timeLine/index.js'
 import Pag from './pages/incubations/page/card.js';
-import Team from './pages/team/team.js';
+import Professor from './pages/team/professor.js';
+import Student from './pages/team/student.js';
 import Gallery1 from './pages/gallery/Gallery.js';
 import React from 'react';
 import Talks_LitsenMore from './pages/talks_LitsenMore/index.js';
@@ -70,7 +71,8 @@ function ScrollToHash() {
           <Route  path="Notice/index.js" element={<Notice/>}/> 
           <Route path="/login" element={<Login/>}/>
           <Route  path="Notice" element={<Notice/>}/> 
-          <Route path='/team' element={<Team />} />
+          <Route path='/professor' element={<Professor />} />
+          <Route path='/student' element={<Student />}/>
           <Route path="/gallery" element={<Gallery1/>}/>
           <Route path="/talksmore" element={<Talks_LitsenMore/>}/>
           
