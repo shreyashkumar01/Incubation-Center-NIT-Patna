@@ -63,7 +63,7 @@ const IdeaJs = async (e) => {
   ) {
     const formData = new FormData(form);
     formData.append("access_key", "da9045aa-c37f-471c-a85d-a94d37e076aa");
-
+    formData.append("from_name",fullName.value)
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
