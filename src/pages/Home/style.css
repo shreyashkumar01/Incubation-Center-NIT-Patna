@@ -37,15 +37,15 @@
 @keyframes change {
   0% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
-      url(img/background_img/IMG20230921194023.jpg);
+      url(img/background_img/home1.jpg);
   }
-  /* 50% {
+  50% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
-      url(img/background_img/bicycle-1280x720.jpg);
-  } */
+      url(img/background_img/home2.jpg);
+  }
   100% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
-      url(img/background_img/IMG20230921194023.jpg);
+      url(img/background_img/home3.jpg);
   }
   /* 60% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
