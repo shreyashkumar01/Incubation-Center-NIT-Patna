@@ -8,7 +8,10 @@ export default function Student() {
 
     //student-coordinators
     const studentCoordinator = [
-    { name: "Himanshu Bharti", about: "Leading from the front with clarity and confidence—turning vision into action, aligning every step with purpose, and ensuring that even the smallest detail reflects dedication, passion, and a deep sense of responsibility. It's not just about direction, but about inspiring momentum and making ideas come alive with intent and impact.", post:"Student Co-ordinator", linkedin:"#" , image:"/img/team_v2/ic_student/himanshu_bharti.jpg"},
+    { name: "Himanshu Bharti", about: "Leading from the front with clarity and confidence—turning vision into action, aligning every step with purpose, and ensuring that even the smallest detail reflects dedication, passion, and a deep sense of responsibility. It's not just about direction, but about inspiring momentum and making ideas come alive with intent and impact.", post:"Student Co-ordinator", linkedin:"#" , image:"/img/team_v2/ic_student/himanshu_bharti.jpg"}
+    ]
+    //student-co-coordinators
+    const studentCocoordinator = [
     { name: "Sameer Gupta", about: "Balancing leadership and teamwork with ease — orchestrating every move behind the scenes to keep the show running smoothly and the spirit alive.", post:"Student Co-ordinator", linkedin:"#" , image:"/img/team_v2/ic_student/sameer_gupta.jpg"},
     { name: "Arpita Dwivedi", about: "Blending grace with grit, handling every challenge with a smile — ensuring every plan unfolds perfectly, no matter what comes her way.", post:"Student Co-ordinator", linkedin:"#" , image:"/img/team_v2/ic_student/arpita_dwivedi.jpg"},
     ]
@@ -54,11 +57,22 @@ export default function Student() {
       <div className="container_header2"
       style={{marginTop: "45px"}}>
         <div>
-          <h1>Student Co-ordinators IC</h1>
+          <h1>Student Coordinators IC</h1>
         </div>
       </div>
       <div className="main">
         {studentCoordinator.map((info, index)=>(
+            <Card key={index} name={info.name} post={info.post} role={info.about} image={info.image} linkedin={info.linkedin}/>
+        ))}
+      </div>
+        <div className="container_header2"
+      style={{marginTop: "45px"}}>
+        <div>
+          <h1>Student Co-coordinators IC</h1>
+        </div>
+      </div>
+      <div className="main">
+        {studentCocoordinator.map((info, index)=>(
             <Card key={index} name={info.name} post={info.post} role={info.about} image={info.image} linkedin={info.linkedin}/>
         ))}
       </div>
