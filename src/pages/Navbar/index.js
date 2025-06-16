@@ -91,7 +91,7 @@ const Navbar = () => {
               <Link to="/student">Students</Link>
             </div>
           </div> 
-          <a href="src/img/background_img/Rulebook.pdf" className='link' download="Tinkering Lab">Tinkering lab</a>
+          <a href="https://tinkering-lab.onrender.com/" className='link' download="Tinkering Lab">Tinkering lab</a>
 
         </nav>
 
