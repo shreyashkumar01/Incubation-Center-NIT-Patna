@@ -39,7 +39,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(img/background_img/home1.jpg);
   }
-  50% {
+  67% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(img/background_img/home2.jpg);
   }
@@ -47,11 +47,11 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(img/background_img/home3.jpg);
   }
-  /* 60% {
+  33% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
-      url(img/background_img/517669.jpg);
+      url(img/background_img/home4.jpg);
   }
-  80% {
+/*   80% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(img/background_img/5487146.jpg);
   }
