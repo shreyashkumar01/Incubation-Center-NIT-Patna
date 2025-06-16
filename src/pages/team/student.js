@@ -31,10 +31,10 @@ export default function Student() {
     //leads
     const lead = [
     { name: "Shreyansh Singh", about: "Leading with passion and precision, transforming ideas into unforgettable events that run flawlessly and leave a lasting impact on everyone involved.", post:"Event Team Lead", linkedin:"#" , image:"/img/team_v2/ic_student/shreyansh_singh.jpg"},
-    { name: "Sonu Kumar", about: "Leading with vision, dedication, and unwavering focus — steering the team through every challenge to achieve excellence with unity and purpose.", post:"Core Team Lead", linkedin:"#" , image:"/img/team_v2/ic_student/sonu_kumar.jpg"},
     ]
     //co-leads
     const coLead = [
+    { name: "Sonu Kumar", about: "Leading with vision, dedication, and unwavering focus — steering the team through every challenge to achieve excellence with unity and purpose.", post:"Core Team Lead", linkedin:"#" , image:"/img/team_v2/ic_student/sonu_kumar.jpg"},
     { name: "Sakshi Kumari", about: "With calm precision and boundless dedication, turning chaos into celebration and crafting experiences that linger long after the applause fades.", post:"Event Team Co-Lead", linkedin:"#" , image:"/img/team_v2/ic_student/sakshi_kumari.jpg"},
     { name: "Abhishek Keshri", about: "Merging logic with creativity, building digital foundations that are as reliable as they are innovative — turning code into seamless user experiences.", post:"Web Team Co-Lead", linkedin:"#" , image:"/img/team_v2/ic_student/abhishek_keshri.jpg"},
     { name: "Udipta Katyayana", about: "Bringing energy and vision to every event, turning ideas into unforgettable moments that echo beyond the final spotlight.", post:"Event Team Co-Lead", linkedin:"#" , image:"/img/team_v2/ic_student/udipta_katyayana.jpg"},
