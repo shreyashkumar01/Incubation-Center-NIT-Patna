@@ -1,5 +1,5 @@
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, Autoplay, EffectCoverflow } from 'swiper/modules';
 
 import { useNavigate } from "react-router-dom";
 import React from 'react';
@@ -7,11 +7,13 @@ import Pag from './page/card.js';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import 'swiper/css/effect-coverflow';
 import "./style.css";
 
 const Incubations = () => {
@@ -26,18 +28,27 @@ const Incubations = () => {
         </div>
 
         <div className="incubations_swiper">
-          <Swiper class="card__incubations swiper"
+          <Swiper className="card__incubations swiper"
             // install Swiper modules
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={50}
-            slidesPerView={3}
-            navigation
-            grabCursor={{ grabCursor: true }}
-            loop={{ loop: true }}
-            pagination={{ clickable: true }}
-            // scrollbar={{ draggable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
+            modules={[Navigation, Pagination, Scrollbar, Autoplay, EffectCoverflow]}
+            effect={'coverflow'}
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={'auto'}
+            coverflowEffect={{
+              rotate: 0,
+              stretch: 0,
+              depth:300,
+              modifier: 1,
+              slideShadows: false,
+            }}
+            spaceBetween={30}
+            loop={true}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+
             breakpoints={{
               320: {
                 slidesPerView: 1,
@@ -62,7 +73,7 @@ const Incubations = () => {
             }}
           >
             <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="img/incubations/onibus.png" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -80,7 +91,7 @@ const Incubations = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="img/incubations/busymech.png" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -98,7 +109,7 @@ const Incubations = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="img/incubations/shekhartele.png " alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -116,7 +127,7 @@ const Incubations = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+             <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -135,7 +146,7 @@ const Incubations = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -154,7 +165,7 @@ const Incubations = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -174,7 +185,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -193,7 +204,7 @@ const Incubations = () => {
             </SwiperSlide>
              
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -204,10 +215,7 @@ const Incubations = () => {
                   <p class="card__description">
                   PRODUCT INNOVATION:- We have made pure 24 carat gold & silver jewellery by removing all impurities from gold and silver jewelry. 
                   SERVICE INNOVATION:- 72 hours targeted delivery time to around the world after receiving orders from customers.
-                  Buy across the world, return anywhere in the world with worldwide free shipping. Return & buy at the same rate of the day with 100% buyback guarantee.
-                  PROCESS INNOVATION:- A person who comes to our website, as soon as possible, will confirm the order. Within 3 hours his order will be made, packed, shipped with paper for delivery.
-                  One such software has to be developed, which will complete the custom procedure of the customer’s country and pay the taxable amount.
-                  All the procedures of Indian Customs will be completed in our factory itself so that the shipment can reach the customer uninterrupted and fast. 
+                  PROCESS INNOVATION:- A person who comes to our website, as soon as possible, will confirm the order.
                   There is no physical contribution of any person in all these processes.
                   </p>
                   <p className='card_contact_email'>Contact: <a href='mailto:sarrafkundan@gmail.com'>sarrafkundan@gmail.com</a></p>
@@ -217,7 +225,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -238,7 +246,7 @@ const Incubations = () => {
             </SwiperSlide>
 
          <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -257,7 +265,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -276,7 +284,7 @@ const Incubations = () => {
             </SwiperSlide>
           
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                  <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -295,7 +303,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -305,8 +313,8 @@ const Incubations = () => {
                   <h3 class="card__name">UNPARALLED LEARNING TECHNOLOGIES(OPC) PVT.LTD.</h3>
                   <p class="card__description">
                  Keeping in mind the growth of ed-tech today, we believe it is helpful in creating a connection between teachers and students through an online platform.
-                 Due to the less attention given to the monotonous and non-innovative nature of textbooks, we present the idea of transforming textbooks into a 4 step chapter-wise module consisting of Games, Animated stories, Virtual Experiments and mental health monitoring. 
-                 Through this, we believe in creating digital textbooks for students to learn not just by reading but by interacting. Furthermore, go hand in hand with advanced technology.
+                 Due to the less attention given to the monotonous and non-innovative nature of textbooks.
+                 Through this, we believe in creating digital textbooks for students to learn not just by reading but by interacting.
                   </p>
                   <p className='card_contact_email'>Contact: <a href='mailto:adityaamar.garva@gmail.com'>adityaamar.garva@gmail.com</a></p>
 
@@ -317,7 +325,7 @@ const Incubations = () => {
 
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -326,12 +334,10 @@ const Incubations = () => {
                 <div class="card__incubationdata">
                   <h3 class="card__name">INDIC ARENA PRIVATE LIMITED</h3>
                   <p class="card__description">
-                  The problem that our gaming software startup aims to solve is the lack of accessibility of software and digital games in rural areas , with our campaign [ Gaon Se Gaming ] .
-                  Many current gaming platforms and titles cater primarily to highly skilled or competitive players, leaving casual or less experienced players feeling left out .
+                  The problem that our gaming software startup aims to solve is the lack of accessibility of software and digital games [ Gaon Se Gaming ] .
+                  Many current gaming platforms and titles cater primarily to highly skilled or competitive players.
                   Our software aims to provide a comprehensive and inclusive gaming and software experience for all customers, regardless of their skill level or experience.
-                  This includes offering a wide variety of games, as well as providing tools and resources to help people to improve their skills and advance in the game.
-                  Additionally, we aim to create a welcoming and supportive community for people to connect and engage with one another. 
-                  Apart from this we are also focused on the expansion of digital footprint in the rural parts of the country and we believe gaming can be an extraordinary tool for this purpose .
+                  Apart from this we are also focused on the expansion of digital footprint in the rural parts.
                   </p>
                   <p className='card_contact_email'>Contact: <a href='contactindicstudios@gmail.com'>contactindicstudios@gmail.com</a></p>
 
@@ -341,7 +347,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -360,7 +366,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -371,9 +377,7 @@ const Incubations = () => {
                   <p class="card__description">
                   The aerospace research and development is not open for general people or students.
                   For academia and industry people, the reality and the perception of aerospace objects like drone, CubeSats is difficult.
-                  Also, it may increase the cost, time and can reduce its efficiency.
                   This leads to limited aerospace exploration by limited people and humans skill should be explore to more people.
-                  There is lots of potential and applications can be seen in modern drone area.
                   The drone can be utilized for many purposes in modern day such as Agriculture, E-commerce, and even for human transportation etc.
                   </p>
                   <p className='card_contact_email'>Contact: <a href='mailto:antariksha.rnd@gmail.com'>antariksha.rnd@gmail.com</a></p>
@@ -384,7 +388,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -403,7 +407,7 @@ const Incubations = () => {
             </SwiperSlide>
           
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -422,7 +426,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -441,7 +445,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -460,7 +464,7 @@ const Incubations = () => {
          </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -479,7 +483,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -498,7 +502,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -517,7 +521,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -536,7 +540,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -555,7 +559,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -564,12 +568,10 @@ const Incubations = () => {
                 <div class="card__incubationdata">
                   <h3 class="card__name">GROKCI INNOVATION PVT.LTD.</h3>
                   <p class="card__description">
-                  Inconvenience and Time Drain: The traditional grocery shopping experience involves leaving the house, navigating through crowded aisles, and waiting in long queues.
-                  👜 Heavy Lifting and Physical Strain: Hauling heavy grocery bags can be physically taxing, especially for individuals with mobility issues or health concerns.
-                  🌍 Environmental Impact: Traditional grocery shopping contributes to carbon emissions and wasteful practices, such as excessive packaging and food waste.
-                  We need sustainable solutions that align with our commitment to protecting the environment.
-                  🚗 Limited Access to Fresh Options: Many individuals, particularly those in remote areas, struggle with limited access to fresh and diverse food options.
-                  The lack of convenient access hinders their ability to make healthy choices for themselves and their families.
+                  Inconvenience and Time Drain: The traditional grocery shopping experience involves leaving the houses.
+                  👜 Heavy Lifting and Physical Strain: Hauling heavy grocery bags can be physically taxing.
+                  🌍 Environmental Impact: Traditional grocery shopping contributes to carbon emissions and wasteful practices.
+                  🚗 Limited Access to Fresh Options: Many individuals, particularly those in remote areas, struggle with limited access.
                   </p>
                   <p className='card_contact_email'>Contact: <a href='mailto:grokciecom@gmail.com'>grokciecom@gmail.com</a></p>
 
@@ -579,7 +581,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -598,7 +600,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -607,10 +609,10 @@ const Incubations = () => {
                 <div class="card__incubationdata">
                   <h3 class="card__name">NAVMARG RESEARCH & INNOVATION PVT.LTD.</h3>
                   <p class="card__description">
-                  The field of specific research is still understudied; there is still a need for convergence and bridging gaps; it requires concern to deliver comprehensive, proven research/technology for society.
-                  This innovative and comprehensive strategy /idea is to establish a start-up private research and development (R&D) entity that can provide opportunities /employment at a massive scale to the researchers.
-                  This idea is a way for job creation in the R&D Sector, aiming to raise funds from public & private ventures for research on large-scale environmental treatments, wastewater management, water testing, and certifications.
-                  Long-term plans for Atmanirbhar Bharat and Anusandhan (improving the nation's research facility) provide significant potential for development into more interdisciplinary study fields.
+                  The field of specific research is still understudied; there is still a need for convergence and bridging gaps.
+                  This innovative and comprehensive strategy /idea is to establish a start-up private research and development (R&D).
+                  This idea is a way for job creation in the R&D Sector, aiming to raise funds from public & private ventures for research on large-scale environmental treatments.
+                  Long-term plans for Atmanirbhar Bharat and Anusandhan (improving the nation's research facility) provide significant potential.
                   </p>
                   <p className='card_contact_email'>Contact: <a href='mailto:pariharakshat02@gmail.com'>pariharakshat02@gmail.com</a></p>
 
@@ -620,7 +622,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -631,8 +633,8 @@ const Incubations = () => {
                   <p class="card__description">
                   As a matrimonial site, Our startup is focused on addressing the problem area of helping individuals find compatible partners for marriage.
                   our site is working on providing a platform for individuals to create profiles, search for potential partners based on various criteria 
-                  such as age, religion, education, interests, and connect with them to explore compatibility. You are also providing additional features such as compatibility tests, horoscope matching, and personalized matchmaking services 
-                  to ensure that individuals find the right partner who shares their values and goals. Your startup is ultimately focused on making the process of finding a life partner easier and more efficient for individuals who are looking to get married.
+                  such as age, religion, education, interests
+                  to ensure that individuals find the right partner who shares their values and goals. Your startup is ultimately focused on making the process of finding a life partner easier.
                   </p>
                   <p className='card_contact_email'>Contact: <a href='mailto:sankalpmodi0101@gmail.com'>sankalpmodi0101@gmail.com</a></p>
 
@@ -642,7 +644,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -651,9 +653,8 @@ const Incubations = () => {
                 <div class="card__incubationdata">
                   <h3 class="card__name">CSDP Food Unit Pvt. Ltd.</h3>
                   <p class="card__description">
-                  CSDP Food Startup's "Farms to Mills" project is dedicated to tackling the multifaceted challenges that persist within the agricultural supply chain. 
-                  Our venture is acutely aware of the obstacles that arise during the journey of raw agricultural products from farms to processing mills, 
-                  and we are committed to revolutionizing this process for the betterment of all stakeholders involved.
+                  CSDP Food Startup's "Farms to Mills" project is dedicated to tackling the multifaceted challenges.
+                  Our venture is acutely aware of the obstacles that arise during the journey of raw agricultural products from farms to processing mills.
                   Furthermore, our startup is determined to mitigate the problem of food quality degradation during transportation. 
                   Through advanced monitoring technology, we track crucial parameters such as temperature and humidity to ensure that the quality of agricultural products.
                   </p>
@@ -665,7 +666,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -674,10 +675,10 @@ const Incubations = () => {
                 <div class="card__incubationdata">
                   <h3 class="card__name">Jansuvidhajanausdhi Ecom Pvt Ltd.</h3>
                   <p class="card__description">
-                   My start up is working on the problem of Lancet ‘s 30yrs of study in india from 1990 to 2020 found that East india has been found to have the highest healthcare diseases burden across 
+                   My startup is working on the problem of Lancet ‘s 30yrs of study in india from 1990 to 2020 found that East india.
                    East ,west ,north & south india Not only that presently 34% urban populations & 31% rural populations of East india / Bihar are suffering from two metabolic diseases are called HYPERTENSIONS 
-                   & Type2 diabetes associated with two end organs of human body are 1) Heart 2) Pancreas. As per the estimations report of the Lancet study in present conditions found that out of total 1.7 lakhs of urban patients of each district of Bihar 
-                   ,only 42% has been found in the compliance of regular treatment while these two diseases are required life long & continuous treatment. out of which only 25% of the urban patients have the controlled blood pressure of systolic & diastolic blood pressure.
+                   & Type2 diabetes associated with two end organs of human body are 1) Heart 2).
+                   Only 42% has been found in the compliance of regular treatment while these two diseases are required life long & continuous treatment.
                   </p>
                   <p className='card_contact_email'>Contact: <a href='mailto:tarun.double2016@gmail.com'>tarun.double2016@gmail.com</a></p>
 
@@ -687,7 +688,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -706,7 +707,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -715,10 +716,9 @@ const Incubations = () => {
                 <div class="card__incubationdata">
                   <h3 class="card__name">Biz Growth Elevator pvt.Ltd.</h3>
                   <p class="card__description">
-                  1. Economic Empowerment of Entrepreneurs: Growth Bridge focuses on stimulating economic growth by providing resources and tools for entrepreneurs, especially within the MSME(Micro, Small, and Medium-Sized Enterprises)sector.
-                  2. Access to Manufacturing Facilities: One of the challenges faced by new and small-scale brands and mills is the lack of access to modern manufacturing facilities. 
+                  1. Economic Empowerment of Entrepreneurs: Growth Bridge focuses on stimulating economic growth by providing resources for entrepreneurs, especially within the MSME.
+                  2. Access to Manufacturing Facilities: One of the challenges faced by new and small-scale brands.
                   3. Global Market Connectivity: Many Indian businesses find it challenging to connect with international markets and expand their reach.
-                  4. Technological Infrastructure: Recognizing the need for modern digital solutions in today's business environment, Growth Bridge has introduced a mobile app and website to streamline and enhance the connection and collaboration process between businesses, brands, and mills.
                   </p>
                   <p className='card_contact_email'>Contact: <a href='mailto:alisharanjan19@gmail.com'>alisharanjan19@gmail.com</a></p>
 
@@ -728,7 +728,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -749,7 +749,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -769,7 +769,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -779,7 +779,7 @@ const Incubations = () => {
                   <h3 class="card__name">BihariKart</h3>
                   <p class="card__description">
                   As we all know that biharis are present in different states and cities of India. 
-                  But at many places regional bihari products are not available which are very much liked by these people whether it is related to edible products, crafts and many more.
+                  But at many places regional bihari products are not available which are very much liked by these people.
                   Let’s take an example of a variety of mango(MALDAH) which is not available in southern part of India, but people of bihar loves it a lot, but they can't eat that mango sitting in Bangalore. 
                   To solve this problem we are coming up this concept of BihariKart(a place that will make available bihari products at the doorsteps of people leaving outside of Bihar at very reasonable price).
                   </p>
@@ -791,7 +791,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -812,7 +812,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -832,7 +832,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -842,7 +842,7 @@ const Incubations = () => {
                   <h3 class="card__name">Astomverse Innovations</h3>
                   <p class="card__description">
                   Our innovative EdTech product harnesses the power of Virtual Reality (VR) and Augmented Reality (AR) technologies to revolutionize traditional learning methods. 
-                  By immersing users in dynamic, interactive environments, we effectively address longstanding educational challenges. Our solution offers unparalleled engagement and fosters experiential learning, enhancing comprehension and retention. 
+                  By immersing users in dynamic, interactive environments, we effectively address longstanding educational challenges.
                   With our cutting-edge technology, we empower learners to explore concepts in ways previously unimaginable, paving the way for a new era of educational excellence. 
                   </p>
                   <p className='card_contact_email'>Contact: <a href='mailto:naveenbhu2019@gmail.com'>naveenbhu2019@gmail.com</a></p>
@@ -853,7 +853,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -863,7 +863,7 @@ const Incubations = () => {
                   <h3 class="card__name">INVIGO INFOTECH</h3>
                   <p class="card__description">
                   Our startup is dedicated to addressing the multifaceted challenges faced by students in navigating the realms of internships, placement guidance, market demand skills, Job Finding and freelancing opportunities. 
-                  Recognizing the evolving landscape of education and work, we have identified several key problem areas that our platform aims to solve. Here is the problem facing by Students,, where our Startup will help them. 
+                  Recognizing the evolving landscape of education and work, we have identified several key problem areas that our platform aims to solve. 
                   => Internship opportunity. => Market Demand Skills Courses. => Placement Guidance. => Finding Relevant Job. => Freelance Work Opportunity. => Mentor Facility. => Sponsorship
                   </p>
                   <p className='card_contact_email'>Contact: <a href='mailto:sahpriyanshu71@gmail.com'>sahpriyanshu71@gmail.com</a></p>
@@ -874,7 +874,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -883,9 +883,9 @@ const Incubations = () => {
                 <div class="card__incubationdata">
                   <h3 class="card__name">Avinav Adarsh</h3>
                   <p class="card__description">
-                  As you are well aware, approximately 10 million (1 crore) passengers depend on the Indian Railways daily, which is considered the primary mode of travel in the country. 
-                  However, some issues arise in this vital service such as theft and unauthorized occupancy of reserved seats, which disrupt the travel experience. This insecurity, inconvenience, and disputes can lead to creating a negative environment, and we need to address it. 
-                  Detailed Problem: To understand this issue, we have observed that it not only concerns the safety of passengers but also creates a social environment that can lead to disputes among passengers. The increasing incidents of unauthorized seat occupancy contribute to inconvenience, inequality, and often lead to arguments. 
+                  As you are well aware, approximately 10 million (1 crore) passengers depend on the Indian Railways daily.
+                  However, some issues arise in this vital service such as theft and unauthorized occupancy of reserved seats.
+                  Detailed Problem: To understand this issue, we have observed that it not only concerns the safety of passengers but also creates a social environment.
                   This not only signals insecurity for passengers but also makes it difficult for railway staff to work and creates inequality in the social environment.
                   </p>
                   <p className='card_contact_email'>Contact: <a href='mailto:adarshavinav123@gmail.com'>adarshavinav123@gmail.com</a></p>
@@ -896,7 +896,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -906,9 +906,9 @@ const Incubations = () => {
                   <h3 class="card__name">Priyanshu Kumar</h3>
                   <p class="card__description">
                   We are working on Crafted Sustainable future for fashion or can say Slow fashion, which will be a fusion of innovative traditions and sustainability. 
-                  The things we appreciate greatly are the environment, fashion and the Crafts. Supporting sustainable fashion is about more than positively impacting the environment.
-                  Sustainable fashion is not just a massive millennial trend but the future of the fashion industry Indian handicrafts and heritage craftsmanship face various challenges. 
-                  Each craft carries a story, reflecting the region's history, traditions, and values. Preserving and promoting these crafts is essential to maintain cultural diversity and safeguard India's rich artistic legacy.
+                  The things we appreciate greatly are the environment, fashion and the Crafts. 
+                  Sustainable fashion is not just a massive millennial trend but the future of the fashion industry. 
+                  Preserving and promoting these crafts is essential to maintain cultural diversity and safeguard India's rich artistic legacy.
                   </p>
                   <p className='card_contact_email'>Contact: <a href='mailto:priyanshu.khangar417@gmail.com'>priyanshu.khangar417@gmail.com</a></p>
 
@@ -918,7 +918,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -939,7 +939,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -959,7 +959,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -978,7 +978,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                  <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
@@ -987,10 +987,10 @@ const Incubations = () => {
                 <div class="card__incubationdata">
                   <h3 class="card__name">BHARDWAJ CONSTRUCTION</h3>
                   <p class="card__description">
-                  When we want to perform any Puja, Yagya or Anushthan, we do not know what material is required for it and we want to get all the material within our budget. 
-                  Because of this, while performing Puja, some material is left out and some is extra and we get troubled in getting the material.We also see in weddings that 
-                  we cannot get all the product information at once and we keep facing problems.For the people who do jobs or work, if they feel like doing Puja, Yagya or Anushthan, 
-                  then this becomes a problem for them. Make a list of all the things and find out the priest. Through our app, they can do all the work with just one click. 
+                  When we want to perform any Puja, Yagya or Anushthan, we do not know what material is required for it. 
+                  Because of this, while performing Puja, some material is left out and some is extra.
+                  we cannot get all the product information at once and we keep facing problems.
+                  Make a list of all the things and find out the priest. Through our app, they can do all the work with just one click. 
                   </p>
                   <p className='card_contact_email'>Contact: <a href='mailto:businesswithbhardwaj07@gmail.com'>businesswithbhardwaj07@gmail.com</a></p>
 
@@ -1000,7 +1000,7 @@ const Incubations = () => {
             </SwiperSlide>
 
           <SwiperSlide>
-              <article class="card__incubationarticle swiper-slide">
+              <article class="productions_card">
                 <div class="card__image">
                   <img src="" alt="image" class="card__img" />
                   <div class="card__shadow"></div>
