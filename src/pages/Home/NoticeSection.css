@@ -95,8 +95,8 @@
 @media (max-width: 768px) {
   /* Styles for tablets and smaller screens */
   .notice-container {
-  width: 300px;
-  height: 300px;
+  width: 270px;
+  height: 280px;
   padding: 1rem;
   background: rgba(255, 255, 255, 0.1);
   border: 4px dashed #00e5ff;
