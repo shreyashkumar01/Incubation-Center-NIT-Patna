@@ -173,7 +173,7 @@ export default function Card({ name, post, role, image, linkedin, email, isProfe
         }
         .role {
           background: rgba(255, 215, 0, 0.15);
-          color: #ffd700;
+          color:rgb(255, 255, 255);
           border: 1.5px solid #ffd70099;
         }
         .prof-badge {
